@@ -1,0 +1,173 @@
+{
+  "passages": [
+    {
+      "id": "reading-passage-001",
+      "skill": "reading",
+      "testType": "academic",
+      "title": "The Return of the Wolves to Yellowstone",
+      "paragraphs": [
+        { "label": "A", "text": "In 1926, the last wild wolf pack in Yellowstone National Park was hunted down and killed, bringing an end to a species that had roamed the region for thousands of years. For nearly seventy years afterwards, the park's ecosystem operated without one of its most significant predators. Elk populations, freed from the threat of wolf predation, grew rapidly, and their grazing habits began to reshape the landscape in ways that scientists would only fully understand decades later." },
+        { "label": "B", "text": "By the 1990s, ecologists had become increasingly concerned about the state of Yellowstone's willow and aspen groves, which had declined dramatically since the wolves' disappearance. Without predators to keep them moving, elk herds lingered in river valleys, browsing on young saplings before they had a chance to mature. This, in turn, affected beaver populations, which depend on willow for both food and dam-building material. Fewer beavers meant fewer dams, which meant less wetland habitat for a whole range of other species, from songbirds to amphibians." },
+        { "label": "C", "text": "In January 1995, after years of scientific debate and public controversy, wildlife officials reintroduced fourteen wolves captured in Canada into Yellowstone. A further seventeen were released the following year. The decision was fiercely opposed by many local ranchers, who feared for their livestock, but was strongly supported by conservationists, who argued that the park's ecological balance could not be restored without its apex predator." },
+        { "label": "D", "text": "The effects of the reintroduction, though not instantaneous, proved to be far-reaching. Elk began to avoid open river valleys and gorges where they were more vulnerable to attack, a behavioural shift that researchers termed the \"ecology of fear.\" Freed from constant grazing pressure, willow and aspen began to recover in these areas, and within a decade, beaver colonies had increased several-fold. Some scientists have even suggested that the wolves indirectly altered the course of rivers, as regrown vegetation stabilised riverbanks and reduced erosion — a phenomenon that has become one of the most cited examples of what ecologists call a \"trophic cascade.\"" },
+        { "label": "E", "text": "Not all researchers agree on the scale of the wolves' influence, however. Some argue that other factors, including a period of wetter weather and the culling of elk by hunters outside the park, played an equally important role in the vegetation's recovery. Nevertheless, few dispute that the wolves' return marked a turning point in how conservationists think about predators: rather than being viewed as pests to be controlled, top predators are now widely recognised as keystone species whose presence can shape entire ecosystems." },
+        { "label": "F", "text": "Today, Yellowstone is home to roughly ten wolf packs, and the park has become an important site for long-term ecological research. Visitors now travel from around the world hoping to catch a glimpse of a wild wolf, and the animals have become a symbol of the park's recovery — a reminder of how quickly, and how profoundly, an ecosystem can change when a single species is lost, or found again." }
+      ],
+      "questionGroups": [
+        {
+          "type": "true-false-not-given",
+          "instructions": "Do the following statements agree with the information given in the passage?",
+          "questions": [
+            { "number": 1, "statement": "The last wolves in Yellowstone died out in the early twentieth century.", "answer": "TRUE" },
+            { "number": 2, "statement": "Elk numbers decreased after wolves disappeared from the park.", "answer": "FALSE" },
+            { "number": 3, "statement": "Beaver populations were affected by the decline in willow trees.", "answer": "TRUE" },
+            { "number": 4, "statement": "All local ranchers supported the reintroduction of wolves.", "answer": "FALSE" },
+            { "number": 5, "statement": "The number of wolf packs in Yellowstone today is fewer than it was in 1996.", "answer": "NOT GIVEN" }
+          ]
+        },
+        {
+          "type": "matching-headings",
+          "instructions": "The passage has six paragraphs, A–F. Choose the correct heading for paragraphs B–E from the list of headings below.",
+          "headingOptions": [
+            "A controversial decision with divided opinion",
+            "The decline of Yellowstone's vegetation",
+            "A visible symbol of ecological renewal",
+            "An unexpected effect on rivers and waterways",
+            "Disagreement over the true cause of recovery",
+            "The disappearance of a key predator",
+            "Wolves change their prey's behaviour",
+            "A cascade of unforeseen ecological benefits"
+          ],
+          "questions": [
+            { "number": 6, "paragraphLabel": "B", "answer": 1 },
+            { "number": 7, "paragraphLabel": "C", "answer": 0 },
+            { "number": 8, "paragraphLabel": "D", "answer": 6 },
+            { "number": 9, "paragraphLabel": "E", "answer": 4 }
+          ]
+        },
+        {
+          "type": "short-answer",
+          "instructions": "Answer the questions below. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            { "number": 10, "prompt": "How many wolves were released into Yellowstone in the first reintroduction in 1995?", "answer": ["fourteen", "14"] },
+            { "number": 11, "prompt": "What term do researchers use to describe elk's changed behaviour around open valleys?", "answer": ["ecology of fear"] },
+            { "number": 12, "prompt": "What term is used to describe the wide-ranging ecological effect the wolves caused?", "answer": ["trophic cascade"] },
+            { "number": 13, "prompt": "What category of species are top predators like wolves now considered to be?", "answer": ["keystone species", "keystone"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-passage-002",
+      "skill": "reading",
+      "testType": "academic",
+      "title": "The Origins of Written Language",
+      "paragraphs": [
+        { "label": "A", "text": "For most of human history, information was passed from one generation to the next purely through speech. Knowledge of hunting techniques, tribal law, and religious belief relied entirely on memory and oral repetition, a system that, while remarkably effective, was also fragile: a single generation's failure to pass on its knowledge could mean its permanent loss. The invention of writing changed this dynamic fundamentally, allowing information to be recorded, stored, and transmitted across vast distances of time and space." },
+        { "label": "B", "text": "The earliest writing systems did not emerge as a way to record poetry or philosophy, as is sometimes assumed, but rather out of economic necessity. In ancient Sumer, in the region now known as southern Iraq, a system of clay tokens had been used since around 8000 BCE to represent goods such as grain, livestock, and oil, allowing merchants and officials to keep track of transactions. By around 3400 BCE, these tokens had evolved into pictographic symbols pressed into wet clay tablets, marking the beginnings of what would become cuneiform script — widely regarded as the earliest known writing system." },
+        { "label": "C", "text": "Cuneiform script developed gradually over several centuries. Early symbols were simple pictures representing physical objects, but scribes soon began combining and adapting these signs to represent sounds and abstract ideas as well as concrete objects. This shift from pictographic to phonetic representation was a crucial development, as it meant the script could, in principle, be used to write down anything expressible in spoken language, not merely lists of goods." },
+        { "label": "D", "text": "A separate writing tradition developed independently in ancient Egypt at roughly the same period. Egyptian hieroglyphics, first appearing around 3200 BCE, combined logographic elements, in which a single symbol represented a whole word, with phonetic elements representing individual sounds. Unlike cuneiform, which was pressed into clay with a wedge-shaped stylus, hieroglyphics were typically carved into stone or painted onto papyrus, a material made from the pith of a reed plant that grew abundantly along the Nile." },
+        { "label": "E", "text": "Writing systems also arose independently in other parts of the world. Chinese script, which first appears in the archaeological record around 1200 BCE on so-called oracle bones used for divination, developed along broadly similar lines to cuneiform and hieroglyphics, evolving from pictographic origins toward a more abstract system capable of representing spoken language in full. Remarkably, a version of this script remains in use in China today, making it one of the longest continuously used writing systems in human history. Mesoamerican civilisations, including the Maya, developed yet another independent writing tradition, combining logographic and syllabic elements in inscriptions that have only been fully deciphered in recent decades." },
+        { "label": "F", "text": "The invention of the alphabet marked the next major turning point in the history of writing. Unlike earlier systems, which required scribes to memorise hundreds or even thousands of individual symbols, an alphabet uses a small set of letters, each representing a single sound, that can be combined to spell any word in the language. The first alphabetic systems are thought to have developed among Semitic-speaking peoples in the eastern Mediterranean around 1700 BCE, likely influenced by Egyptian hieroglyphics. This innovation was later adapted by the Phoenicians, whose trading networks helped spread the alphabet across the Mediterranean world, eventually giving rise to the Greek and, later, Latin alphabets used across much of the world today." },
+        { "label": "G", "text": "The spread of alphabetic writing had a profound democratising effect on literacy. Because alphabets require memorising only a limited number of symbols, they could be learned far more quickly than logographic systems, which historically restricted literacy to a small class of professional scribes. Some historians argue that the relative simplicity of alphabetic writing contributed to the flourishing of literature, philosophy, and scientific enquiry in societies that adopted it, though this claim remains a subject of ongoing academic debate." }
+      ],
+      "questionGroups": [
+        {
+          "type": "multiple-choice",
+          "instructions": "Choose the correct letter, A, B, C, or D.",
+          "questions": [
+            { "number": 14, "statement": "What was the main original purpose of the earliest writing systems, according to the passage?", "options": ["Recording religious beliefs", "Preserving poetry and philosophy", "Keeping track of economic transactions", "Communicating over long distances"], "answer": 2 },
+            { "number": 15, "statement": "According to the passage, cuneiform script was written using", "options": ["ink on papyrus", "paint on stone", "a wedge-shaped stylus on clay", "carved wooden tablets"], "answer": 2 },
+            { "number": 16, "statement": "What made the shift from pictographic to phonetic symbols in cuneiform significant?", "options": ["It allowed scribes to write faster", "It meant the script could represent any spoken idea", "It reduced the number of symbols scribes needed", "It made the script easier to carve into stone"], "answer": 1 },
+            { "number": 17, "statement": "What is notable about Chinese script, according to the passage?", "options": ["It was the first writing system in the world", "It has never changed since 1200 BCE", "It remains in use after thousands of years", "It was borrowed from Egyptian hieroglyphics"], "answer": 2 }
+          ]
+        },
+        {
+          "type": "sentence-completion",
+          "instructions": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "wordLimit": 2,
+          "questions": [
+            { "number": 18, "prompt": "Before writing existed, knowledge was transmitted mainly through ___.", "answer": ["speech", "oral repetition"] },
+            { "number": 19, "prompt": "In ancient Sumer, clay tokens were originally used to represent goods such as grain and ___.", "answer": ["livestock", "oil"] },
+            { "number": 20, "prompt": "Egyptian hieroglyphics were often written on ___, a material made from a reed plant.", "answer": ["papyrus"] },
+            { "number": 21, "prompt": "Chinese writing first appears on objects known as ___.", "answer": ["oracle bones"] },
+            { "number": 22, "prompt": "The first alphabets are believed to have emerged among ___ peoples.", "answer": ["semitic-speaking", "semitic"] }
+          ]
+        },
+        {
+          "type": "summary-completion",
+          "instructions": "Complete the summary below. Choose ONE WORD ONLY from the box for each answer.",
+          "wordLimit": 1,
+          "wordBank": ["Phoenicians", "scribes", "alphabet", "literacy", "Greek"],
+          "summaryText": "Unlike earlier writing systems, which could take years for ___23___ to master, the ___24___ used a small number of symbols to represent sound. Early alphabetic writing was spread throughout the Mediterranean by the ___25___, whose trading contacts helped it evolve into the ___26___ alphabet and, eventually, systems used worldwide today. Because it was simpler to learn, the alphabet is thought by some historians to have widened ___27___ across society.",
+          "questions": [
+            { "number": 23, "answer": ["scribes"] },
+            { "number": 24, "answer": ["alphabet"] },
+            { "number": 25, "answer": ["phoenicians"] },
+            { "number": 26, "answer": ["greek"] },
+            { "number": 27, "answer": ["literacy"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-passage-003",
+      "skill": "reading",
+      "testType": "academic",
+      "title": "Urban Heat Islands",
+      "paragraphs": [
+        { "label": "A", "text": "Anyone who has walked through a city on a summer evening and then driven out into the surrounding countryside may have noticed a curious phenomenon: the city often feels distinctly warmer than the fields and forests beyond its boundaries, even after the sun has set. This effect, known as the urban heat island, has been documented by scientists since at least the early nineteenth century, when the British meteorologist Luke Howard observed that the centre of London was consistently warmer than its outskirts." },
+        { "label": "B", "text": "Urban heat islands arise from a combination of factors related to how cities are built and used. Concrete, asphalt, and other common building materials absorb solar radiation during the day and release it slowly as heat during the night, unlike vegetation and soil, which reflect more sunlight and cool more quickly after dark. Tall buildings can also trap heat by reducing airflow between them and creating what scientists call \"urban canyons,\" where heat becomes concentrated. Additional heat is generated directly by vehicles, air conditioning units, and industrial processes, all of which are far more concentrated in cities than in rural areas." },
+        { "label": "C", "text": "The scale of the effect varies considerably depending on a city's size, climate, and layout, but temperature differences of five to seven degrees Celsius between urban centres and surrounding rural areas are not unusual, particularly at night. In extreme cases, some cities have recorded differences of over ten degrees. The effect tends to be most pronounced on calm, clear nights, when there is little wind to disperse the accumulated heat and no cloud cover to trap outgoing radiation near the ground during the day." },
+        { "label": "D", "text": "The consequences of urban heat islands extend well beyond simple discomfort. Higher temperatures increase demand for air conditioning, which in turn raises energy consumption and greenhouse gas emissions, creating a feedback loop that can worsen the very problem it responds to. Elevated urban temperatures have also been linked to increased rates of heat-related illness and death, particularly among elderly residents and those without access to air conditioning. Furthermore, higher temperatures can worsen air quality, as heat accelerates the chemical reactions that produce ground-level ozone, a pollutant harmful to human health." },
+        { "label": "E", "text": "In response, many cities have begun experimenting with strategies to reduce the urban heat island effect. One widely adopted approach involves increasing urban green space: parks, street trees, and rooftop gardens all help cool cities by providing shade and releasing moisture into the air through a process called evapotranspiration. Singapore, often cited as a leader in this field, has integrated vertical gardens and rooftop greenery into much of its urban planning. Other cities have turned to \"cool roofs\" and \"cool pavements\" — surfaces coated with reflective materials designed to bounce sunlight back into the atmosphere rather than absorbing it." },
+        { "label": "F", "text": "Some researchers caution, however, that such measures, while helpful, are unlikely to fully offset the combined effects of continued urbanisation and global climate change. As cities continue to grow and temperatures rise worldwide, the urban heat island effect is expected to become an increasingly significant challenge for urban planners, particularly in rapidly developing regions where infrastructure is often built with little consideration for its thermal impact. Some architects now argue that reducing urban heat should be treated as seriously as reducing carbon emissions, given how directly it affects the daily lives of city residents." }
+      ],
+      "questionGroups": [
+        {
+          "type": "yes-no-not-given",
+          "instructions": "Do the following statements agree with the claims of the writer?",
+          "questions": [
+            { "number": 28, "statement": "Scientists have only recently discovered the urban heat island effect.", "answer": "NO" },
+            { "number": 29, "statement": "Tall buildings can increase heat by limiting the flow of air between them.", "answer": "YES" },
+            { "number": 30, "statement": "All cities experience urban heat islands to the same degree.", "answer": "NO" },
+            { "number": 31, "statement": "Increased use of air conditioning in cities can make the heat island effect worse.", "answer": "YES" },
+            { "number": 32, "statement": "Singapore has banned the construction of new buildings in its city centre.", "answer": "NOT GIVEN" }
+          ]
+        },
+        {
+          "type": "table-completion",
+          "instructions": "Complete the table below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "wordLimit": 2,
+          "table": {
+            "headers": ["Strategy", "Detail"],
+            "rows": [
+              ["Green space (parks, trees, rooftop gardens)", { "qnum": 33, "before": "Cools air through the process of " }],
+              ["\"Cool roofs\" and \"cool pavements\"", { "qnum": 34, "before": "Coated with ", "after": " materials" }],
+              ["Vertical gardens", { "qnum": 35, "before": "Integrated into ", "after": "'s urban planning" }],
+              [{ "qnum": 36, "before": "Some " }, "Argue urban heat should be treated as seriously as carbon emissions"]
+            ]
+          },
+          "questions": [
+            { "number": 33, "answer": ["evapotranspiration"] },
+            { "number": 34, "answer": ["reflective"] },
+            { "number": 35, "answer": ["singapore"] },
+            { "number": 36, "answer": ["architects"] }
+          ]
+        },
+        {
+          "type": "matching-information",
+          "instructions": "Which paragraph contains the following information? Write the correct letter, A–F.",
+          "matchOptions": ["A", "B", "C", "D", "E", "F"],
+          "questions": [
+            { "number": 37, "statement": "a comparison of temperature differences recorded in different cities", "answer": "C" },
+            { "number": 38, "statement": "a description of a historical observation of the phenomenon", "answer": "A" },
+            { "number": 39, "statement": "an example of a country recognised for its urban cooling design", "answer": "E" },
+            { "number": 40, "statement": "a warning that current solutions may not be enough on their own", "answer": "F" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1920,6 +1920,424 @@
           ]
         }
       ]
+    },
+    {
+      "id": "reading-passage-013",
+      "skill": "reading",
+      "testType": "general",
+      "testGroup": "5",
+      "title": "Community Notices and Local Services",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "RIVERSIDE FITNESS CLUB — WEEKEND RECEPTIONIST WANTED. We are looking for a friendly, organised person to work Saturdays and Sundays, 8am–4pm, on our front desk. Duties include greeting members, answering phone enquiries, and processing new membership sign-ups. Previous customer service experience is preferred but not essential — full training is provided. Pay is £11.50 per hour. To apply, please send a CV to jobs@riversidefitness.co.uk by the 20th of the month. Interviews will be held the following week."
+        },
+        {
+          "label": "B",
+          "text": "NOTICE TO ALL RESIDENTS — VISITOR PARKING CHANGES. From the 1st of next month, visitor parking permits must be requested online at least 24 hours in advance via the residents' portal, rather than obtained from the on-site office as previously. Each flat is entitled to a maximum of two visitor permits per week, free of charge. Permits requested with less than 24 hours' notice will not be guaranteed and may incur a £5 processing fee. Any questions should be directed to the building manager, Mr Wallace, at the site office between 9am and 5pm, Monday to Friday."
+        },
+        {
+          "label": "C",
+          "text": "GREENFIELD COMMUNITY CENTRE — NEW TERM CLASSES. Our new term begins on the 3rd of next month and runs for ten weeks. Classes on offer include: Beginners' Pottery (Mondays, 6–8pm, £45 for the term), Family Yoga (Wednesdays, 5–6pm, £30 for the term, suitable for ages 6 and up), and Conversational Spanish (Thursdays, 7–8.30pm, £55 for the term, all levels welcome). Places are limited to 12 per class and are allocated on a first-come, first-served basis. Booking opens two weeks before term starts and can be completed at the centre's reception desk or by calling 01632 960 482."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "true-false-not-given",
+          "instructions": "Do the following statements agree with the information given in the notices?",
+          "questions": [
+            {
+              "number": 1,
+              "statement": "The receptionist position requires previous customer service experience.",
+              "answer": "FALSE"
+            },
+            {
+              "number": 2,
+              "statement": "Visitor parking permits will still be available from the on-site office after the change.",
+              "answer": "FALSE"
+            },
+            {
+              "number": 3,
+              "statement": "Each flat can request an unlimited number of visitor permits per week.",
+              "answer": "FALSE"
+            },
+            {
+              "number": 4,
+              "statement": "The Family Yoga class is open to children from the age of six.",
+              "answer": "TRUE"
+            },
+            {
+              "number": 5,
+              "statement": "All three community centre classes cost the same amount for the term.",
+              "answer": "FALSE"
+            }
+          ]
+        },
+        {
+          "type": "matching-information",
+          "instructions": "Which notice contains the following information? Write the correct letter, A, B, or C.",
+          "matchOptions": [
+            "A",
+            "B",
+            "C"
+          ],
+          "questions": [
+            {
+              "number": 6,
+              "statement": "a specific pay rate offered for a role",
+              "answer": "A"
+            },
+            {
+              "number": 7,
+              "statement": "a fee that may apply if a request is made too late",
+              "answer": "B"
+            },
+            {
+              "number": 8,
+              "statement": "a maximum number of participants allowed in a class",
+              "answer": "C"
+            },
+            {
+              "number": 9,
+              "statement": "a specific email address for applications",
+              "answer": "A"
+            }
+          ]
+        },
+        {
+          "type": "short-answer",
+          "instructions": "Answer the questions below. Choose NO MORE THAN THREE WORDS from the notices for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 10,
+              "prompt": "By what date should job applications be submitted?",
+              "answer": [
+                "the 20th",
+                "20th",
+                "the 20th of the month"
+              ]
+            },
+            {
+              "number": 11,
+              "prompt": "How much notice is required to request a visitor parking permit online?",
+              "answer": [
+                "24 hours"
+              ]
+            },
+            {
+              "number": 12,
+              "prompt": "Who should residents contact with questions about parking?",
+              "answer": [
+                "Mr Wallace",
+                "the building manager"
+              ]
+            },
+            {
+              "number": 13,
+              "prompt": "How many weeks does the new community centre term run for?",
+              "answer": [
+                "10 weeks",
+                "ten weeks"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-passage-014",
+      "skill": "reading",
+      "testType": "general",
+      "testGroup": "5",
+      "title": "Employee Handbook: Annual Leave Policy",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "All full-time employees are entitled to twenty-five days of paid annual leave per calendar year, in addition to public holidays observed in the country of employment. Part-time employees receive a pro-rated entitlement based on their contracted hours. Annual leave accrues monthly, and unused days from the previous year may be carried over, up to a maximum of five days, provided they are used within the first three months of the new year."
+        },
+        {
+          "label": "B",
+          "text": "Leave requests must be submitted through the online HR portal at least two weeks in advance for periods of five days or fewer, and at least one month in advance for periods exceeding five consecutive days. Requests submitted with less notice may still be considered at the manager's discretion but are not guaranteed approval. No more than two employees within the same team may be on leave simultaneously, except during the designated end-of-year closure period."
+        },
+        {
+          "label": "C",
+          "text": "The company closes for a mandatory period of three working days between Christmas and New Year each year; these days are deducted from each employee's annual leave entitlement automatically and do not require an individual request. Employees who joined the company partway through the year will have this deduction adjusted proportionally."
+        },
+        {
+          "label": "D",
+          "text": "Employees who leave the company partway through the year will receive payment for any accrued but untaken leave as part of their final salary. Conversely, if an employee has taken more leave than they have accrued at the point of departure, the excess will be deducted from their final payment. Employees are strongly encouraged to check their current leave balance via the HR portal before submitting a resignation."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "true-false-not-given",
+          "instructions": "Do the following statements agree with the information given in the handbook?",
+          "questions": [
+            {
+              "number": 14,
+              "statement": "Part-time employees receive the same number of annual leave days as full-time employees.",
+              "answer": "FALSE"
+            },
+            {
+              "number": 15,
+              "statement": "Up to five unused leave days can be carried over into the following year.",
+              "answer": "TRUE"
+            },
+            {
+              "number": 16,
+              "statement": "Carried-over leave days can be used at any point during the new year.",
+              "answer": "FALSE"
+            },
+            {
+              "number": 17,
+              "statement": "Leave requests for six or more consecutive days require at least one month's notice.",
+              "answer": "TRUE"
+            },
+            {
+              "number": 18,
+              "statement": "More than two employees from the same team can take leave at the same time during the December closure period.",
+              "answer": "TRUE"
+            }
+          ]
+        },
+        {
+          "type": "sentence-completion",
+          "instructions": "Complete the sentences below. Choose NO MORE THAN THREE WORDS from the handbook for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 19,
+              "prompt": "Full-time employees are entitled to ___ days of paid annual leave per year.",
+              "answer": [
+                "25",
+                "twenty-five"
+              ]
+            },
+            {
+              "number": 20,
+              "prompt": "Leave requests of five days or fewer require at least ___ notice.",
+              "answer": [
+                "two weeks"
+              ]
+            },
+            {
+              "number": 21,
+              "prompt": "The mandatory end-of-year closure lasts ___ working days.",
+              "answer": [
+                "3",
+                "three"
+              ]
+            },
+            {
+              "number": 22,
+              "prompt": "New employees who join partway through the year have the closure deduction adjusted ___.",
+              "answer": [
+                "proportionally"
+              ]
+            },
+            {
+              "number": 23,
+              "prompt": "Employees should check their leave balance via the ___ before resigning.",
+              "answer": [
+                "HR portal",
+                "the HR portal"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "multiple-choice",
+          "instructions": "Choose the correct letter, A, B, C, or D.",
+          "questions": [
+            {
+              "number": 24,
+              "statement": "What happens to unused accrued leave if an employee leaves the company?",
+              "options": [
+                "It is forfeited automatically",
+                "It is paid as part of the final salary",
+                "It is transferred to a colleague",
+                "It is carried over to the next employer"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 25,
+              "statement": "What happens if an employee has taken more leave than accrued when they leave?",
+              "options": [
+                "Nothing, it is written off",
+                "They must return to work unpaid",
+                "The excess is deducted from their final payment",
+                "It is added to next year's entitlement"
+              ],
+              "answer": 2
+            },
+            {
+              "number": 26,
+              "statement": "How does annual leave accrue, according to the policy?",
+              "options": [
+                "All at once at the start of the year",
+                "Monthly",
+                "Weekly",
+                "It does not accrue, it is a fixed allowance"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 27,
+              "statement": "Under what circumstance might a short-notice leave request still be approved?",
+              "options": [
+                "Never, it is strictly forbidden",
+                "Only for medical emergencies",
+                "At the manager's discretion",
+                "Only during the December closure"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-passage-015",
+      "skill": "reading",
+      "testType": "general",
+      "testGroup": "5",
+      "title": "The Rise of Community Gardening",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "Once considered a niche hobby, community gardening — shared plots of land cultivated collectively by local residents — has seen a dramatic resurgence in cities worldwide over the past two decades, driven by a combination of rising food costs, growing interest in sustainability, and a widely reported desire for stronger neighbourhood connections."
+        },
+        {
+          "label": "B",
+          "text": "Community gardening in its modern form traces back to the allotment movement in nineteenth-century Britain, when small parcels of land were rented to working-class families to grow their own vegetables, partly to supplement limited wages, and partly out of concern among reformers that urban life was becoming disconnected from nature."
+        },
+        {
+          "label": "C",
+          "text": "Beyond fresh produce, participants frequently report significant benefits to mental wellbeing. Several studies have found regular gardening activity associated with reduced self-reported stress and anxiety, and some researchers cite exposure to certain soil bacteria as a possible, though not yet firmly established, additional contributing factor to these mood benefits."
+        },
+        {
+          "label": "D",
+          "text": "Community gardens frequently function as informal social hubs, particularly valuable for isolated elderly residents and newly arrived immigrant families, bringing together people who might not otherwise interact and, in several documented cases, playing a measurable role in gradually reducing local crime rates."
+        },
+        {
+          "label": "E",
+          "text": "Despite their popularity, community gardens face real logistical hurdles. Waiting lists for a plot commonly extend beyond two years in high-demand areas, land tenure is often insecure, since much community garden land is held only under short-term lease, and disputes between gardeners over plot boundaries or maintenance responsibilities are common enough that most established gardens now have detailed formal rules governing them."
+        },
+        {
+          "label": "F",
+          "text": "Some city governments have begun formally incorporating community gardens into urban planning policy, rather than treating them merely as a temporary or informal use of vacant land. Seoul, for example, has committed public funding to a significant long-term expansion of its community garden network as part of the city's broader food security strategy."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "matching-headings",
+          "instructions": "The passage has six paragraphs, A–F. Choose the correct heading for paragraphs B–E from the list of headings below.",
+          "headingOptions": [
+            "A network expanding with direct government support",
+            "Where the modern movement first began",
+            "Bringing together people who would otherwise remain strangers",
+            "The practical difficulties of running a shared plot",
+            "A possible biological explanation for improved mood",
+            "Falling participation among younger generations",
+            "How rising food prices changed public attitudes",
+            "A ban on gardening in certain cities"
+          ],
+          "questions": [
+            {
+              "number": 28,
+              "paragraphLabel": "B",
+              "answer": 1
+            },
+            {
+              "number": 29,
+              "paragraphLabel": "C",
+              "answer": 4
+            },
+            {
+              "number": 30,
+              "paragraphLabel": "D",
+              "answer": 2
+            },
+            {
+              "number": 31,
+              "paragraphLabel": "E",
+              "answer": 3
+            }
+          ]
+        },
+        {
+          "type": "yes-no-not-given",
+          "instructions": "Do the following statements agree with the claims of the writer?",
+          "questions": [
+            {
+              "number": 32,
+              "statement": "Community gardening is a completely new phenomenon with no historical precedent.",
+              "answer": "NO"
+            },
+            {
+              "number": 33,
+              "statement": "Some researchers believe soil bacteria may contribute to the mood benefits of gardening.",
+              "answer": "YES"
+            },
+            {
+              "number": 34,
+              "statement": "Community gardens have been shown in some cases to help reduce local crime rates.",
+              "answer": "YES"
+            },
+            {
+              "number": 35,
+              "statement": "Waiting lists for a community garden plot are rarely longer than six months.",
+              "answer": "NO"
+            },
+            {
+              "number": 36,
+              "statement": "Seoul has decided to stop funding its community garden programme.",
+              "answer": "NO"
+            }
+          ]
+        },
+        {
+          "type": "short-answer",
+          "instructions": "Answer the questions below. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 37,
+              "prompt": "What historical movement is identified as the origin of modern community gardening?",
+              "answer": [
+                "the allotment movement",
+                "allotment movement"
+              ]
+            },
+            {
+              "number": 38,
+              "prompt": "What kind of land tenure arrangement do many community gardens have?",
+              "answer": [
+                "short-term lease",
+                "insecure"
+              ]
+            },
+            {
+              "number": 39,
+              "prompt": "What do most established community gardens now have, due to frequent disputes?",
+              "answer": [
+                "formal rules",
+                "detailed formal rules"
+              ]
+            },
+            {
+              "number": 40,
+              "prompt": "What broader strategy is Seoul's garden expansion part of?",
+              "answer": [
+                "food security strategy",
+                "food security"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -32,6 +32,8 @@
     passage: "Текст",
     section: "Часть",
     testShort: "Тест",
+    moduleAcademic: "Academic",
+    moduleGeneral: "General Training",
     questions: "Вопросы",
     exitTest: "Выйти",
     flagQuestion: "Отметить",
@@ -93,6 +95,15 @@
     3.5,4,4,4.5,4.5,5,5,5.5,5.5,6,
     6,6.5,6.5,7,7,7,7.5,7.5,8,8,
     8,8.5,8.5,8.5,9,9,9,9,9,9,9,
+  ];
+  // General Training reading passages are considered less specialised than
+  // Academic ones, so the same band requires a higher raw score in the
+  // low-to-mid range; the two tables converge at the top end.
+  const READING_GENERAL_BAND_TABLE = [
+    1,1,1,1,2,2,2.5,2.5,2.5,3,
+    3,3,3.5,3.5,3.5,4,4,4,4,4.5,
+    4.5,4.5,4.5,5,5,5,5,5.5,5.5,5.5,
+    6,6,6.5,6.5,7,7,7.5,8,8,8.5,9,
   ];
   function rawToBand(raw, table) {
     const idx = Math.max(0, Math.min(table.length - 1, Math.round(raw)));
@@ -327,10 +338,12 @@
     const qCount = group.items.reduce((s, it) => s + (it.questionGroups || []).reduce((s2, g) => s2 + g.questions.length, 0), 0);
     const unitCount = group.items.length;
     const unitLabel = isReading ? `${unitCount} ${passagesWord(unitCount)}` : `${unitCount} ${sectionsWord(unitCount)}`;
+    const isGeneral = isReading && group.items[0]?.testType === "general";
+    const moduleTag = isReading ? ` <span class="module-tag">${isGeneral ? UI.moduleGeneral : UI.moduleAcademic}</span>` : "";
     return `
       <div class="content-row" data-testgroup="${group.id}">
         <span class="c-badge">${UI.testShort} ${idx + 1}</span>
-        <span class="c-title">${isReading ? "Полный тест по чтению" : "Полный тест по аудированию"} — ${unitLabel}, ${qCount} ${questionsWord(qCount)}</span>
+        <span class="c-title">${isReading ? "Полный тест по чтению" : "Полный тест по аудированию"} — ${unitLabel}, ${qCount} ${questionsWord(qCount)}${moduleTag}</span>
         <span class="c-status">⏱ ${isReading ? "60 мин" : "~30 мин"}</span>
       </div>`;
   }
@@ -341,10 +354,12 @@
     const badge = isReading
       ? `${UI.passage} · ${UI.testShort} ${tg}`
       : `${UI.section} ${item.sectionNumber || idx + 1} · ${UI.testShort} ${tg}`;
+    const moduleTag = isReading && item.testType === "general"
+      ? ` <span class="module-tag">${UI.moduleGeneral}</span>` : "";
     return `
       <div class="content-row" data-practice-idx="${idx}">
         <span class="c-badge">${badge}</span>
-        <span class="c-title">${item.title}</span>
+        <span class="c-title">${item.title}${moduleTag}</span>
         <span class="c-meta">${qCount} ${questionsWord(qCount)}</span>
       </div>`;
   }
@@ -846,7 +861,10 @@
     const total = session.allQuestions.length;
     let correct = 0;
     session.allQuestions.forEach(q => { if (gradeQuestion(q)) correct++; });
-    const table = session.skill === "reading" ? READING_ACADEMIC_BAND_TABLE : LISTENING_BAND_TABLE;
+    const isGeneralReading = session.skill === "reading" && session.content[0]?.testType === "general";
+    const table = session.skill === "reading"
+      ? (isGeneralReading ? READING_GENERAL_BAND_TABLE : READING_ACADEMIC_BAND_TABLE)
+      : LISTENING_BAND_TABLE;
     const band = rawToBand(correct, table);
     const elapsedMs = Date.now() - session.startedAt;
 

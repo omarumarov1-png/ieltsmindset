@@ -65,6 +65,18 @@
     return n === 1 ? "слова" : "слов";
   }
 
+  // Russian numeral agreement: pick the form for n (e.g. ruPlural(21,"вопрос","вопроса","вопросов")).
+  function ruPlural(n, one, few, many) {
+    const mod10 = n % 10, mod100 = n % 100;
+    if (mod10 === 1 && mod100 !== 11) return one;
+    if (mod10 >= 2 && mod10 <= 4 && (mod100 < 12 || mod100 > 14)) return few;
+    return many;
+  }
+  function questionsWord(n) { return ruPlural(n, "вопрос", "вопроса", "вопросов"); }
+  function passagesWord(n) { return ruPlural(n, "текст", "текста", "текстов"); }
+  function sectionsWord(n) { return ruPlural(n, "часть", "части", "частей"); }
+  function minutesWord(n) { return ruPlural(n, "минута", "минуты", "минут"); }
+
   // ======================================================================
   // Band conversion tables (approximate, publicly published IELTS tables)
   // ======================================================================
@@ -242,13 +254,9 @@
 
     screenEl.querySelectorAll("[data-go]").forEach(btn => {
       btn.addEventListener("click", () => {
-        const [skill, mode] = btn.dataset.go.split("-");
+        const [skill] = btn.dataset.go.split("-");
         setNav(skill);
-        if (mode === "test") {
-          startFullTest(skill);
-        } else {
-          renderHub(skill);
-        }
+        renderHub(skill);
       });
     });
   }
@@ -275,34 +283,26 @@
     screenEl.classList.remove("full-bleed");
     const isReading = skill === "reading";
     const items = isReading ? (readingIndex.passages || []) : (listeningIndex.tests || []);
+    const testGroups = groupByTestGroup(items);
 
     screenEl.innerHTML = `
       <div class="hub-header">
         <h1>${isReading ? UI.skillReading : UI.skillListening}</h1>
         <p>${isReading ? UI.skillReadingDesc : UI.skillListeningDesc}</p>
       </div>
-      <div class="mode-toggle">
-        <button class="mode-card" id="modeTestCard">
-          <span class="mode-icon">⏱</span>
-          <h4>${UI.testMode}</h4>
-          <p>${UI.testModeDesc}</p>
-        </button>
-        <button class="mode-card" id="modePracticeInfo">
-          <span class="mode-icon">🎯</span>
-          <h4>${UI.practiceMode}</h4>
-          <p>${UI.practiceModeDesc}</p>
-        </button>
+      <div class="section-title">${UI.testMode} <span class="count">(${testGroups.length})</span></div>
+      <div class="content-list" style="margin-bottom:28px;">
+        ${testGroups.length ? testGroups.map((g, i) => testGroupRowHtml(g, i, isReading)).join("")
+          : `<div class="empty-state">Полные тесты пока не собраны.</div>`}
       </div>
-      <div class="section-title">${isReading ? "Отдельные тексты" : "Отдельные записи"} <span class="count">(${items.length})</span></div>
+      <div class="section-title">${isReading ? "Отдельные тексты" : "Отдельные записи"} · ${UI.practiceMode} <span class="count">(${items.length})</span></div>
       <div class="content-list" id="contentList">
         ${items.length ? items.map((it, i) => contentRowHtml(it, i, isReading)).join("") : `<div class="empty-state">Материалы пока не добавлены.</div>`}
       </div>
     `;
 
-    document.getElementById("modeTestCard").addEventListener("click", () => startFullTest(skill));
-    document.getElementById("modePracticeInfo").addEventListener("click", () => {
-      const list = document.getElementById("contentList");
-      if (list) list.scrollIntoView({ behavior: "smooth", block: "start" });
+    screenEl.querySelectorAll("[data-testgroup]").forEach(row => {
+      row.addEventListener("click", () => startFullTest(skill, row.dataset.testgroup));
     });
     screenEl.querySelectorAll("[data-practice-idx]").forEach(row => {
       row.addEventListener("click", () => {
@@ -312,13 +312,35 @@
     });
   }
 
+  function groupByTestGroup(items) {
+    const map = new Map();
+    items.forEach(it => {
+      const g = it.testGroup || "1";
+      if (!map.has(g)) map.set(g, []);
+      map.get(g).push(it);
+    });
+    return Array.from(map.entries()).map(([id, list]) => ({ id, items: list }));
+  }
+
+  function testGroupRowHtml(group, idx, isReading) {
+    const qCount = group.items.reduce((s, it) => s + (it.questionGroups || []).reduce((s2, g) => s2 + g.questions.length, 0), 0);
+    const unitCount = group.items.length;
+    const unitLabel = isReading ? `${unitCount} ${passagesWord(unitCount)}` : `${unitCount} ${sectionsWord(unitCount)}`;
+    return `
+      <div class="content-row" data-testgroup="${group.id}">
+        <span class="c-badge">${UI.testMode.split(" ")[0]} ${idx + 1}</span>
+        <span class="c-title">${isReading ? "Полный тест по чтению" : "Полный тест по аудированию"} — ${unitLabel}, ${qCount} ${questionsWord(qCount)}</span>
+        <span class="c-status">⏱ ${isReading ? "60 мин" : "~30 мин"}</span>
+      </div>`;
+  }
+
   function contentRowHtml(item, idx, isReading) {
     const qCount = (item.questionGroups || []).reduce((s, g) => s + g.questions.length, 0);
     return `
       <div class="content-row" data-practice-idx="${idx}">
         <span class="c-badge">${isReading ? UI.passage : (UI.section + " " + (item.sectionNumber || idx + 1))}</span>
         <span class="c-title">${item.title}</span>
-        <span class="c-meta">${qCount} ${UI.questions.toLowerCase()}</span>
+        <span class="c-meta">${qCount} ${questionsWord(qCount)}</span>
       </div>`;
   }
 
@@ -331,17 +353,13 @@
     beginSession(skill, "practice", content);
   }
 
-  function startFullTest(skill) {
+  function startFullTest(skill, testGroupId) {
     setNav(skill);
-    if (skill === "reading") {
-      const content = (readingIndex.passages || []).slice(0, 3);
-      if (!content.length) { renderHub(skill); return; }
-      beginSession("reading", "test", content);
-    } else {
-      const content = (listeningIndex.tests || []).slice(0, 4);
-      if (!content.length) { renderHub(skill); return; }
-      beginSession("listening", "test", content);
-    }
+    const items = skill === "reading" ? (readingIndex.passages || []) : (listeningIndex.tests || []);
+    const groupId = testGroupId || (items[0] && (items[0].testGroup || "1"));
+    const content = items.filter(it => (it.testGroup || "1") === groupId);
+    if (!content.length) { renderHub(skill); return; }
+    beginSession(skill, "test", content);
   }
 
   function beginSession(skill, mode, content) {

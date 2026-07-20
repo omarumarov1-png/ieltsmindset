@@ -336,9 +336,13 @@
 
   function contentRowHtml(item, idx, isReading) {
     const qCount = (item.questionGroups || []).reduce((s, g) => s + g.questions.length, 0);
+    const tg = item.testGroup || "1";
+    const badge = isReading
+      ? `${UI.passage} · ${UI.testMode.split(" ")[0]} ${tg}`
+      : `${UI.section} ${item.sectionNumber || idx + 1} · ${UI.testMode.split(" ")[0]} ${tg}`;
     return `
       <div class="content-row" data-practice-idx="${idx}">
-        <span class="c-badge">${isReading ? UI.passage : (UI.section + " " + (item.sectionNumber || idx + 1))}</span>
+        <span class="c-badge">${badge}</span>
         <span class="c-title">${item.title}</span>
         <span class="c-meta">${qCount} ${questionsWord(qCount)}</span>
       </div>`;

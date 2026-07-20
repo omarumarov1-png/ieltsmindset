@@ -1271,6 +1271,677 @@
           ]
         }
       ]
+    },
+    {
+      "id": "listening-test-003-section-1",
+      "skill": "listening",
+      "sectionNumber": 1,
+      "testGroup": "3",
+      "title": "Registering with a Doctor's Surgery",
+      "audioFile": null,
+      "transcript": [
+        {
+          "speaker": "Receptionist",
+          "voiceId": "female-british",
+          "text": "Good morning, Fairview Medical Centre, how can I help?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "male-american",
+          "text": "Hi, I've just moved to the area and I'd like to register as a new patient, please."
+        },
+        {
+          "speaker": "Receptionist",
+          "voiceId": "female-british",
+          "text": "Of course. Could I take your full name?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "male-american",
+          "text": "Yes, it's Marcus Delgado."
+        },
+        {
+          "speaker": "Receptionist",
+          "voiceId": "female-british",
+          "text": "Thank you. And your date of birth?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "male-american",
+          "text": "The third of September, nineteen ninety-two."
+        },
+        {
+          "speaker": "Receptionist",
+          "voiceId": "female-british",
+          "text": "Great. Could I get your current address?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "male-american",
+          "text": "Yes, it's fourteen Elm Grove, and the postcode is B S seven, four J P."
+        },
+        {
+          "speaker": "Receptionist",
+          "voiceId": "female-british",
+          "text": "Thank you. Do you have any allergies we should be aware of?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "male-american",
+          "text": "Yes, I'm allergic to penicillin."
+        },
+        {
+          "speaker": "Receptionist",
+          "voiceId": "female-british",
+          "text": "Noted, thank you. Is there a particular doctor you'd like to register with, or no preference?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "male-american",
+          "text": "No preference, whoever's available really."
+        },
+        {
+          "speaker": "Receptionist",
+          "voiceId": "female-british",
+          "text": "That's fine. We can offer you a new-patient health check — the next available slot is Thursday the twenty-third, at half past nine."
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "male-american",
+          "text": "That works for me."
+        },
+        {
+          "speaker": "Receptionist",
+          "voiceId": "female-british",
+          "text": "Great, I've booked that in. Please bring some photo ID and a recent proof of address when you come."
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "male-american",
+          "text": "Will do, thank you."
+        },
+        {
+          "speaker": "Receptionist",
+          "voiceId": "female-british",
+          "text": "You're welcome, we'll see you on the twenty-third."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "sentence-completion",
+          "instructions": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Surname: ___",
+              "answer": [
+                "Delgado"
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Month of birth: ___",
+              "answer": [
+                "September"
+              ]
+            },
+            {
+              "number": 3,
+              "prompt": "House number: ___ Elm Grove",
+              "answer": [
+                "14"
+              ]
+            },
+            {
+              "number": 4,
+              "prompt": "Postcode: BS7 ___",
+              "answer": [
+                "4JP",
+                "4 J P"
+              ]
+            },
+            {
+              "number": 5,
+              "prompt": "Allergy: ___",
+              "answer": [
+                "penicillin"
+              ]
+            },
+            {
+              "number": 6,
+              "prompt": "GP preference: ___",
+              "answer": [
+                "no preference",
+                "none"
+              ]
+            },
+            {
+              "number": 7,
+              "prompt": "Appointment type: ___ health check",
+              "answer": [
+                "new-patient",
+                "new patient"
+              ]
+            },
+            {
+              "number": 8,
+              "prompt": "Appointment day: ___",
+              "answer": [
+                "Thursday"
+              ]
+            },
+            {
+              "number": 9,
+              "prompt": "Appointment date: the ___",
+              "answer": [
+                "23rd",
+                "23",
+                "twenty-third",
+                "twenty third"
+              ]
+            },
+            {
+              "number": 10,
+              "prompt": "Appointment time: ___",
+              "answer": [
+                "9:30",
+                "half past nine",
+                "9.30"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "listening-test-003-section-2",
+      "skill": "listening",
+      "sectionNumber": 2,
+      "testGroup": "3",
+      "title": "Orientation Talk for New Volunteers at a Nature Reserve",
+      "audioFile": null,
+      "transcript": [
+        {
+          "speaker": "Coordinator",
+          "voiceId": "female-australian",
+          "text": "Good morning, everyone, and welcome to the volunteer induction here at Foxglove Nature Reserve. I'll briefly run through the five main volunteering roles we offer, so you can decide which suits you best. First, Trail Maintenance. Volunteers in this role help clear overgrown paths, repair fencing, and replace damaged signage. It's physically active work, usually outdoors in small teams, and no previous experience is required — full training and equipment are provided on your first session. Second, Visitor Centre Reception. This role is based indoors, welcoming visitors, answering questions, and handling small retail sales in our gift shop. It suits volunteers who enjoy talking to the public, and a friendly manner matters more than specific qualifications."
+        },
+        {
+          "speaker": "Coordinator",
+          "voiceId": "female-australian",
+          "text": "Third, Wildlife Monitoring. This involves recording sightings of birds, mammals, and insects during scheduled surveys, and the data collected feeds directly into national conservation databases. Some background knowledge of local species is genuinely useful here, though we do run a short training course for anyone keen to learn. Fourth, Habitat Restoration. Volunteers assist with tasks like removing invasive plant species, planting native trees, and restoring wetland areas. It's seasonal work, most active between autumn and early spring, and can involve fairly strenuous physical activity. And finally, Educational Tours. Volunteers in this role lead guided walks for school groups and members of the public, sharing knowledge about the reserve's ecology and history. This is the only one of the five roles that requires you to complete a short public-speaking assessment before you begin."
+        },
+        {
+          "speaker": "Coordinator",
+          "voiceId": "female-australian",
+          "text": "Let me add a few more practical details. Trail Maintenance sessions run every Saturday, starting at nine in the morning. The Visitor Centre needs cover mainly on weekday afternoons, from one until five. Wildlife Monitoring surveys typically last around two hours, and volunteers are asked to commit to at least one survey per month. For Habitat Restoration, please wear sturdy boots, as some sites can be quite muddy. And anyone interested in Educational Tours should contact the reserve's learning officer directly, whose name is Fiona Marsh."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "matching-features",
+          "instructions": "Match each description below with the correct volunteering role, A–E.",
+          "matchOptions": [
+            "Trail Maintenance",
+            "Visitor Centre Reception",
+            "Wildlife Monitoring",
+            "Habitat Restoration",
+            "Educational Tours"
+          ],
+          "questions": [
+            {
+              "number": 11,
+              "statement": "Requires no previous experience, with training provided on the first session.",
+              "answer": "Trail Maintenance"
+            },
+            {
+              "number": 12,
+              "statement": "Involves recording data that feeds into national conservation databases.",
+              "answer": "Wildlife Monitoring"
+            },
+            {
+              "number": 13,
+              "statement": "Is most active between autumn and early spring.",
+              "answer": "Habitat Restoration"
+            },
+            {
+              "number": 14,
+              "statement": "Is the only role requiring a public-speaking assessment.",
+              "answer": "Educational Tours"
+            },
+            {
+              "number": 15,
+              "statement": "Suits volunteers who enjoy talking to the public in an indoor setting.",
+              "answer": "Visitor Centre Reception"
+            }
+          ]
+        },
+        {
+          "type": "sentence-completion",
+          "instructions": "Complete the sentences below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 16,
+              "prompt": "Trail Maintenance sessions run every ___, starting at nine in the morning.",
+              "answer": [
+                "Saturday"
+              ]
+            },
+            {
+              "number": 17,
+              "prompt": "The Visitor Centre needs cover mainly on weekday afternoons, from one until ___.",
+              "answer": [
+                "5",
+                "five"
+              ]
+            },
+            {
+              "number": 18,
+              "prompt": "Wildlife Monitoring surveys typically last around ___ hours.",
+              "answer": [
+                "2",
+                "two"
+              ]
+            },
+            {
+              "number": 19,
+              "prompt": "Volunteers doing Habitat Restoration should wear sturdy ___.",
+              "answer": [
+                "boots"
+              ]
+            },
+            {
+              "number": 20,
+              "prompt": "The reserve's learning officer is called ___.",
+              "answer": [
+                "Fiona Marsh"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "listening-test-003-section-3",
+      "skill": "listening",
+      "sectionNumber": 3,
+      "testGroup": "3",
+      "title": "Dissertation Supervision Meeting",
+      "audioFile": null,
+      "transcript": [
+        {
+          "speaker": "Supervisor",
+          "voiceId": "male-british",
+          "text": "Come in. So, how's the literature review coming along?"
+        },
+        {
+          "speaker": "Hana",
+          "voiceId": "female-american",
+          "text": "It's mostly done — I've got about forty sources now, though I think I need a few more on the methodology side."
+        },
+        {
+          "speaker": "Supervisor",
+          "voiceId": "male-british",
+          "text": "That's a reasonable number for this stage. What's your research question again, remind me?"
+        },
+        {
+          "speaker": "Hana",
+          "voiceId": "female-american",
+          "text": "I'm looking at whether remote working affects employee wellbeing differently depending on job seniority."
+        },
+        {
+          "speaker": "Supervisor",
+          "voiceId": "male-british",
+          "text": "Good, that's nicely specific. What method are you planning to use?"
+        },
+        {
+          "speaker": "Hana",
+          "voiceId": "female-american",
+          "text": "I'm planning a mixed-methods approach — an online survey, plus follow-up interviews with about ten participants."
+        },
+        {
+          "speaker": "Supervisor",
+          "voiceId": "male-british",
+          "text": "How many responses are you hoping to get for the survey?"
+        },
+        {
+          "speaker": "Hana",
+          "voiceId": "female-american",
+          "text": "I'm aiming for at least one hundred and fifty, ideally more."
+        },
+        {
+          "speaker": "Supervisor",
+          "voiceId": "male-british",
+          "text": "That should give you enough for meaningful statistical analysis. When do you plan to launch the survey?"
+        },
+        {
+          "speaker": "Hana",
+          "voiceId": "female-american",
+          "text": "I was hoping to send it out in the second week of February."
+        },
+        {
+          "speaker": "Supervisor",
+          "voiceId": "male-british",
+          "text": "That's fine, just make sure ethical approval comes through first — have you submitted the application?"
+        },
+        {
+          "speaker": "Hana",
+          "voiceId": "female-american",
+          "text": "Yes, I submitted it last Monday, so I'm expecting a response within the next two weeks."
+        },
+        {
+          "speaker": "Supervisor",
+          "voiceId": "male-british",
+          "text": "Good. And your final submission deadline is still the fifteenth of May?"
+        },
+        {
+          "speaker": "Hana",
+          "voiceId": "female-american",
+          "text": "That's right."
+        },
+        {
+          "speaker": "Supervisor",
+          "voiceId": "male-british",
+          "text": "Okay. One suggestion — for the interviews, I'd recommend recruiting participants from at least two different industries, not just one, to strengthen your findings."
+        },
+        {
+          "speaker": "Hana",
+          "voiceId": "female-american",
+          "text": "That makes sense, I'll broaden my recruitment."
+        },
+        {
+          "speaker": "Supervisor",
+          "voiceId": "male-british",
+          "text": "Good. Let's meet again in three weeks to review your survey draft."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "table-completion",
+          "instructions": "Complete the table below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "wordLimit": 2,
+          "table": {
+            "headers": [
+              "Item",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Literature review",
+                {
+                  "qnum": 21,
+                  "before": "Approximately ",
+                  "after": " sources gathered so far"
+                }
+              ],
+              [
+                "Survey target",
+                {
+                  "qnum": 22,
+                  "before": "At least ",
+                  "after": " responses"
+                }
+              ],
+              [
+                "Interviews",
+                {
+                  "qnum": 23,
+                  "before": "With approximately ",
+                  "after": " participants"
+                }
+              ],
+              [
+                "Ethics application",
+                {
+                  "qnum": 24,
+                  "before": "Submitted "
+                }
+              ],
+              [
+                "Final deadline",
+                {
+                  "qnum": 25,
+                  "before": "The ",
+                  "after": " of May"
+                }
+              ]
+            ]
+          },
+          "questions": [
+            {
+              "number": 21,
+              "answer": [
+                "40",
+                "forty"
+              ]
+            },
+            {
+              "number": 22,
+              "answer": [
+                "150"
+              ]
+            },
+            {
+              "number": 23,
+              "answer": [
+                "10",
+                "ten"
+              ]
+            },
+            {
+              "number": 24,
+              "answer": [
+                "last Monday",
+                "Monday"
+              ]
+            },
+            {
+              "number": 25,
+              "answer": [
+                "15th",
+                "fifteenth",
+                "15"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "multiple-choice",
+          "instructions": "Choose the correct letter, A, B, C, or D.",
+          "questions": [
+            {
+              "number": 26,
+              "statement": "What is Hana's research question about?",
+              "options": [
+                "Job seniority and salary",
+                "Remote working and wellbeing by seniority",
+                "Employee turnover rates",
+                "Office design and productivity"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 27,
+              "statement": "What research method is Hana planning to use?",
+              "options": [
+                "Survey only",
+                "Interviews only",
+                "A mixed-methods approach",
+                "A literature review only"
+              ],
+              "answer": 2
+            },
+            {
+              "number": 28,
+              "statement": "When does Hana plan to launch the survey?",
+              "options": [
+                "First week of January",
+                "Second week of February",
+                "Last week of February",
+                "First week of March"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 29,
+              "statement": "What does the supervisor recommend regarding the interview participants?",
+              "options": [
+                "Recruiting only senior staff",
+                "Recruiting from at least two different industries",
+                "Reducing the number of interviews",
+                "Conducting interviews online only"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 30,
+              "statement": "When will Hana and her supervisor meet next?",
+              "options": [
+                "In one week",
+                "In two weeks",
+                "In three weeks",
+                "In one month"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "listening-test-003-section-4",
+      "skill": "listening",
+      "sectionNumber": 4,
+      "testGroup": "3",
+      "title": "The Human Genome Project",
+      "audioFile": null,
+      "transcript": [
+        {
+          "speaker": "Lecturer",
+          "voiceId": "male-australian",
+          "text": "Today's lecture looks at the Human Genome Project, one of the most significant scientific undertakings of the twentieth century. Launched in 1990 as an international collaborative effort, the project set out to determine the complete sequence of DNA base pairs that make up the human genome, and to identify and map all of the genes it contains. It was originally expected to take fifteen years to complete."
+        },
+        {
+          "speaker": "Lecturer",
+          "voiceId": "male-australian",
+          "text": "In fact, thanks to rapid technological improvements in sequencing methods during the project's later years, a working draft of the genome was announced in the year 2000, and the project was declared essentially complete in 2003, two years ahead of the original schedule. The final cost came to approximately three billion dollars, funded primarily by the United States government alongside international partners in the United Kingdom, Japan, Germany, France, and China."
+        },
+        {
+          "speaker": "Lecturer",
+          "voiceId": "male-australian",
+          "text": "One of the most surprising early findings was the number of genes involved. Before the project began, many scientists estimated the human genome would contain somewhere between eighty thousand and a hundred thousand genes. The actual figure, once sequencing was complete, turned out to be far lower — approximately twenty thousand — a discovery that overturned prior assumptions about the relationship between the number of genes an organism has and the complexity of that organism."
+        },
+        {
+          "speaker": "Lecturer",
+          "voiceId": "male-australian",
+          "text": "The project has had enormously wide-ranging practical applications. In medicine, it has enabled more precise diagnosis of genetic disorders and underpins the growing field of personalised medicine, in which treatments can, in principle, be tailored to an individual's specific genetic profile. It has also contributed significantly to forensic science, agricultural research, and our understanding of human evolutionary history."
+        },
+        {
+          "speaker": "Lecturer",
+          "voiceId": "male-australian",
+          "text": "It's worth noting that the project's findings raised significant ethical questions from the outset, particularly around genetic privacy and the potential for discrimination based on genetic information — for instance, by employers or insurance companies. In response, around five percent of the project's total budget was deliberately allocated to research specifically examining the ethical, legal, and social implications of the research, a dedicated funding stream that was, at the time, considered a genuinely novel approach for a scientific project of this scale."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "summary-completion",
+          "instructions": "Complete the summary below. Choose ONE WORD ONLY from the box for each answer.",
+          "wordLimit": 1,
+          "wordBank": [
+            "draft",
+            "ahead",
+            "genes",
+            "personalised",
+            "ethical"
+          ],
+          "summaryText": "A working ___31___ of the human genome was announced in 2000, and the project finished two years ___32___ of schedule. Sequencing revealed approximately twenty thousand ___33___, far fewer than originally estimated. The project's findings have supported the growth of ___34___ medicine, though they also raised significant ___35___ questions around privacy and discrimination.",
+          "questions": [
+            {
+              "number": 31,
+              "answer": [
+                "draft"
+              ]
+            },
+            {
+              "number": 32,
+              "answer": [
+                "ahead"
+              ]
+            },
+            {
+              "number": 33,
+              "answer": [
+                "genes"
+              ]
+            },
+            {
+              "number": 34,
+              "answer": [
+                "personalised"
+              ]
+            },
+            {
+              "number": 35,
+              "answer": [
+                "ethical"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "short-answer",
+          "instructions": "Answer the questions below. Choose NO MORE THAN THREE WORDS for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 36,
+              "prompt": "In what year was the Human Genome Project launched?",
+              "answer": [
+                "1990"
+              ]
+            },
+            {
+              "number": 37,
+              "prompt": "What was the approximate final cost of the project?",
+              "answer": [
+                "three billion dollars",
+                "$3 billion",
+                "3 billion dollars"
+              ]
+            },
+            {
+              "number": 38,
+              "prompt": "What was the higher end of the early estimate for the number of genes?",
+              "answer": [
+                "100,000",
+                "a hundred thousand",
+                "100000"
+              ]
+            },
+            {
+              "number": 39,
+              "prompt": "What percentage of the total budget was allocated to ethical, legal, and social research?",
+              "answer": [
+                "5%",
+                "five percent",
+                "5 percent"
+              ]
+            },
+            {
+              "number": 40,
+              "prompt": "Besides medicine, name one other field the project has contributed to.",
+              "answer": [
+                "forensic science",
+                "agricultural research",
+                "human evolutionary history",
+                "evolutionary history"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

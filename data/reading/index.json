@@ -961,6 +961,486 @@
           ]
         }
       ]
+    },
+    {
+      "id": "reading-passage-007",
+      "skill": "reading",
+      "testType": "academic",
+      "testGroup": "3",
+      "title": "Stonehenge: Engineering Mystery of the Neolithic",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "Stonehenge, on Salisbury Plain in southern England, was built in stages between roughly 3000 and 1500 BCE, and remains one of the most recognisable prehistoric monuments in the world. Yet the identity of its builders, and the precise purpose of the site, remain the subject of continuing debate among archaeologists."
+        },
+        {
+          "label": "B",
+          "text": "The monument is made up of two distinct types of stone. The larger “sarsen” stones were sourced from the Marlborough Downs, roughly twenty-five kilometres away, and weigh up to twenty-five tonnes each. The smaller “bluestones,” by contrast, originated remarkably from the Preseli Hills in Wales, some two hundred kilometres from the site — a transport distance that has puzzled researchers for over a century."
+        },
+        {
+          "label": "C",
+          "text": "How such multi-tonne stones were transported over this distance remains actively debated, with hypotheses including sledge-and-roller systems, ice rafting during an earlier glacial period, and coastal watercraft. In 2019, geologists identified the specific quarry in Wales from which several of the bluestones originated, but the precise method of transport itself remains unconfirmed."
+        },
+        {
+          "label": "D",
+          "text": "Proposed explanations for the monument’s purpose range widely: a ceremonial burial ground, supported by excavations that have uncovered cremated human remains dating to the site’s earliest phase; an astronomical calendar aligned with the solstices; or a place associated with healing, given the number of excavated remains showing signs of illness or injury."
+        },
+        {
+          "label": "E",
+          "text": "One of the few points of broad consensus concerns solar alignment: the monument’s main axis lines up with sunrise on the summer solstice and sunset on the winter solstice, a level of precision unlikely to be coincidental — though what ceremonial significance this alignment held for its builders remains speculative."
+        },
+        {
+          "label": "F",
+          "text": "Modern research using ground-penetrating radar and other non-invasive techniques has revealed further prehistoric monuments buried in the surrounding landscape, suggesting Stonehenge was part of a much larger ceremonial complex, rather than an isolated structure standing alone."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "true-false-not-given",
+          "instructions": "Do the following statements agree with the information given in the passage?",
+          "questions": [
+            {
+              "number": 1,
+              "statement": "Stonehenge was built as a single, continuous construction project.",
+              "answer": "FALSE"
+            },
+            {
+              "number": 2,
+              "statement": "The sarsen stones were transported from a location closer to the site than the bluestones.",
+              "answer": "TRUE"
+            },
+            {
+              "number": 3,
+              "statement": "Archaeologists agree on exactly how the bluestones were transported to the site.",
+              "answer": "FALSE"
+            },
+            {
+              "number": 4,
+              "statement": "The specific quarry that produced some of the bluestones has been identified.",
+              "answer": "TRUE"
+            },
+            {
+              "number": 5,
+              "statement": "Ground-penetrating radar has revealed no further monuments near Stonehenge.",
+              "answer": "FALSE"
+            }
+          ]
+        },
+        {
+          "type": "matching-headings",
+          "instructions": "The passage has six paragraphs, A–F. Choose the correct heading for paragraphs B–E from the list of headings below.",
+          "headingOptions": [
+            "A rare point of scientific agreement",
+            "Competing explanations for the monument's function",
+            "Two very different sources of stone",
+            "Unresolved questions about how the stones arrived",
+            "A monument that may not stand alone",
+            "The dating of the earliest construction phase",
+            "Modern tools reveal a hidden landscape",
+            "Why the monument was eventually abandoned"
+          ],
+          "questions": [
+            {
+              "number": 6,
+              "paragraphLabel": "B",
+              "answer": 2
+            },
+            {
+              "number": 7,
+              "paragraphLabel": "C",
+              "answer": 3
+            },
+            {
+              "number": 8,
+              "paragraphLabel": "D",
+              "answer": 1
+            },
+            {
+              "number": 9,
+              "paragraphLabel": "E",
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "type": "short-answer",
+          "instructions": "Answer the questions below. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 10,
+              "prompt": "Where were the bluestones originally sourced from?",
+              "answer": [
+                "the Preseli Hills",
+                "Preseli Hills"
+              ]
+            },
+            {
+              "number": 11,
+              "prompt": "What have excavations found dating to the monument's earliest phase?",
+              "answer": [
+                "cremated human remains",
+                "human remains"
+              ]
+            },
+            {
+              "number": 12,
+              "prompt": "The monument's main axis aligns with sunrise on which event?",
+              "answer": [
+                "the summer solstice",
+                "summer solstice"
+              ]
+            },
+            {
+              "number": 13,
+              "prompt": "What technology has revealed further hidden monuments near the site?",
+              "answer": [
+                "ground-penetrating radar",
+                "ground penetrating radar"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-passage-008",
+      "skill": "reading",
+      "testType": "academic",
+      "testGroup": "3",
+      "title": "CRISPR and the Ethics of Gene Editing",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "CRISPR-Cas9, first identified as part of a bacterial immune system, has since 2012 been adapted into a precise and comparatively inexpensive gene-editing tool. In 2020, Jennifer Doudna and Emmanuelle Charpentier were awarded the Nobel Prize in Chemistry for its development. The technology allows scientists to cut DNA at a specific location and either disable a gene or insert a new sequence."
+        },
+        {
+          "label": "B",
+          "text": "A critical ethical distinction separates two kinds of application. Somatic gene therapy edits genes only within a patient's own body; the changes are not passed on to any offspring. Germline editing, by contrast, alters genes in embryos, sperm, or eggs, meaning the changes are passed to all future generations — a vastly higher ethical stake, since the consequences, intended or not, become permanent and heritable."
+        },
+        {
+          "label": "C",
+          "text": "In 2018, the Chinese scientist He Jiankui announced that he had used CRISPR to edit the genomes of twin embryos, aiming to confer resistance to HIV, resulting in the birth of the first genome-edited babies. The announcement was met with near-universal condemnation from the international scientific community, since it violated an informal global moratorium on clinical germline editing and had bypassed established ethical review procedures. He was later sentenced to three years in prison."
+        },
+        {
+          "label": "D",
+          "text": "Somatic applications, by contrast, have advanced with far less controversy. In 2023, the first CRISPR-based therapy, Casgevy, was approved for treating sickle cell disease and beta-thalassemia. It works by editing a patient's own bone-marrow stem cells outside the body before reinfusing them, sidestepping germline concerns entirely."
+        },
+        {
+          "label": "E",
+          "text": "A separate, technical concern involves so-called off-target effects, in which CRISPR occasionally edits DNA at unintended locations. This risk has driven substantial research into more precise variants of the technology, including base editing and prime editing, both of which offer greater accuracy, though neither eliminates the risk entirely."
+        },
+        {
+          "label": "F",
+          "text": "Since the He Jiankui case, the international scientific community has called for a global governance framework. The World Health Organisation established an advisory committee in 2019 to develop standards for both somatic and germline editing. Nevertheless, no binding international treaty yet exists, and national regulations vary considerably: some countries permit germline research under strict oversight, while others ban it outright."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "multiple-choice",
+          "instructions": "Choose the correct letter, A, B, C, or D.",
+          "questions": [
+            {
+              "number": 14,
+              "statement": "According to the passage, CRISPR-Cas9 originated from",
+              "options": [
+                "a synthetic laboratory process",
+                "a bacterial immune system",
+                "a human gene therapy trial",
+                "a plant genome"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 15,
+              "statement": "What distinguishes germline editing from somatic editing?",
+              "options": [
+                "Germline editing is less precise",
+                "Germline changes are passed to future generations",
+                "Somatic editing is more expensive",
+                "Somatic editing was banned in 2018"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 16,
+              "statement": "What was the outcome for He Jiankui following his announcement?",
+              "options": [
+                "He received the Nobel Prize",
+                "He was sentenced to three years in prison",
+                "He was awarded a government grant",
+                "His research was independently replicated"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 17,
+              "statement": "How does the Casgevy therapy avoid germline concerns?",
+              "options": [
+                "It only edits genes in the reproductive organs",
+                "It edits bone-marrow stem cells outside the body before reinfusion",
+                "It is only used on embryos",
+                "It has no connection to CRISPR technology"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "matching-features",
+          "instructions": "Match each description below with the correct term, A–E.",
+          "matchOptions": [
+            "Somatic gene therapy",
+            "Germline editing",
+            "He Jiankui",
+            "Off-target effects",
+            "Base editing"
+          ],
+          "questions": [
+            {
+              "number": 18,
+              "statement": "Changes are not passed on to a patient's children.",
+              "answer": "Somatic gene therapy"
+            },
+            {
+              "number": 19,
+              "statement": "Was the subject of a widely condemned experiment in 2018.",
+              "answer": "He Jiankui"
+            },
+            {
+              "number": 20,
+              "statement": "A risk that has driven the development of more precise CRISPR variants.",
+              "answer": "Off-target effects"
+            },
+            {
+              "number": 21,
+              "statement": "Carries the highest ethical stakes because changes are heritable.",
+              "answer": "Germline editing"
+            },
+            {
+              "number": 22,
+              "statement": "A more precise CRISPR variant that reduces, but does not eliminate, unintended edits.",
+              "answer": "Base editing"
+            }
+          ]
+        },
+        {
+          "type": "summary-completion",
+          "instructions": "Complete the summary below. Choose ONE WORD ONLY from the box for each answer.",
+          "wordLimit": 1,
+          "wordBank": [
+            "moratorium",
+            "advisory",
+            "binding",
+            "varies",
+            "oversight"
+          ],
+          "summaryText": "Following the He Jiankui case, the scientific community called for stronger global governance, since the experiment had already violated an informal ___23___ on clinical germline editing. In 2019, the WHO established an ___24___ committee to develop standards, but no ___25___ international treaty yet exists. As a result, regulation ___26___ considerably between countries: some permit germline research under strict ___27___, while others ban it outright.",
+          "questions": [
+            {
+              "number": 23,
+              "answer": [
+                "moratorium"
+              ]
+            },
+            {
+              "number": 24,
+              "answer": [
+                "advisory"
+              ]
+            },
+            {
+              "number": 25,
+              "answer": [
+                "binding"
+              ]
+            },
+            {
+              "number": 26,
+              "answer": [
+                "varies"
+              ]
+            },
+            {
+              "number": 27,
+              "answer": [
+                "oversight"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-passage-009",
+      "skill": "reading",
+      "testType": "academic",
+      "testGroup": "3",
+      "title": "The Science of Sleep and the Brain's Cleaning System",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "For much of the twentieth century, sleep was considered a largely passive state, in which the brain simply switched off. Research over the past two decades has overturned this view: sleep is now understood as an actively regulated process essential to memory consolidation, emotional regulation, and, more recently discovered, the physical clearance of waste from the brain itself."
+        },
+        {
+          "label": "B",
+          "text": "This waste-clearance system, known as the glymphatic system, was discovered and named in 2012 by Maiken Nedergaard and colleagues. It consists of a network of channels running alongside blood vessels that flush cerebrospinal fluid through brain tissue, clearing metabolic waste products including beta-amyloid, a protein implicated in Alzheimer's disease. Crucially, this clearance system has been found to be up to ten times more active during sleep than during wakefulness, since brain cells shrink slightly during sleep, widening the channels through which fluid can flow."
+        },
+        {
+          "label": "C",
+          "text": "Several studies have investigated a possible link between sleep deprivation and Alzheimer's disease. Experiments in mice found that chronic sleep deprivation led to significant beta-amyloid accumulation, and separate human studies found that even a single night of sleep deprivation was associated with a measurable increase in beta-amyloid levels the following morning. Researchers caution, however, that the correlation observed in these relatively short-term studies does not yet prove that sleep deprivation directly causes Alzheimer's disease over a lifetime."
+        },
+        {
+          "label": "D",
+          "text": "Different stages of sleep appear to serve different functions in memory. Deep, “slow-wave” sleep is particularly implicated in consolidating factual, declarative memories, while REM sleep appears especially important for procedural memory — that is, skills — and for emotional processing. In laboratory studies, participants deprived specifically of REM sleep showed an impaired ability to accurately recognise emotional facial expressions the following day."
+        },
+        {
+          "label": "E",
+          "text": "In 2019, the World Health Organisation officially declared a “sleep-loss epidemic” across industrialised nations, attributing widespread chronic sleep deprivation to a combination of factors including artificial lighting, shift work, and the pervasive use of screens before bedtime, whose blue light has been shown to suppress the natural release of melatonin, the hormone that signals to the body that it is time to sleep."
+        },
+        {
+          "label": "F",
+          "text": "Despite mounting evidence, deep-rooted cultural attitudes that equate long working hours with virtue and ambition change only slowly. Public health researchers increasingly argue that treating adequate sleep as optional, rather than as a biological necessity comparable to food, represents one of the most significant and under-addressed public health failures of the present era."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "yes-no-not-given",
+          "instructions": "Do the following statements agree with the claims of the writer?",
+          "questions": [
+            {
+              "number": 28,
+              "statement": "Sleep was once widely believed to be a passive state in which the brain effectively stopped working.",
+              "answer": "YES"
+            },
+            {
+              "number": 29,
+              "statement": "The glymphatic system is more active during wakefulness than during sleep.",
+              "answer": "NO"
+            },
+            {
+              "number": 30,
+              "statement": "Research has already proven that sleep deprivation directly causes Alzheimer's disease over a lifetime.",
+              "answer": "NO"
+            },
+            {
+              "number": 31,
+              "statement": "REM sleep deprivation was shown to impair recognition of emotional facial expressions.",
+              "answer": "YES"
+            },
+            {
+              "number": 32,
+              "statement": "The WHO has recommended a specific ban on screen use after nine in the evening.",
+              "answer": "NOT GIVEN"
+            }
+          ]
+        },
+        {
+          "type": "table-completion",
+          "instructions": "Complete the table below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "wordLimit": 2,
+          "table": {
+            "headers": [
+              "Sleep stage / factor",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Slow-wave sleep",
+                {
+                  "qnum": 33,
+                  "before": "Particularly important for consolidating ",
+                  "after": " memories"
+                }
+              ],
+              [
+                "REM sleep",
+                {
+                  "qnum": 34,
+                  "before": "Important for ",
+                  "after": " memory and emotional processing"
+                }
+              ],
+              [
+                "Blue light",
+                {
+                  "qnum": 35,
+                  "before": "Suppresses the release of "
+                }
+              ],
+              [
+                "Cultural attitudes",
+                {
+                  "qnum": 36,
+                  "before": "Equate long working hours with ",
+                  "after": " and ambition"
+                }
+              ]
+            ]
+          },
+          "questions": [
+            {
+              "number": 33,
+              "answer": [
+                "declarative",
+                "factual"
+              ]
+            },
+            {
+              "number": 34,
+              "answer": [
+                "procedural"
+              ]
+            },
+            {
+              "number": 35,
+              "answer": [
+                "melatonin"
+              ]
+            },
+            {
+              "number": 36,
+              "answer": [
+                "virtue"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "matching-information",
+          "instructions": "Which paragraph contains the following information? Write the correct letter, A–F.",
+          "matchOptions": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "questions": [
+            {
+              "number": 37,
+              "statement": "a description of how brain cells physically change to enable better waste clearance during sleep",
+              "answer": "B"
+            },
+            {
+              "number": 38,
+              "statement": "a term used by an international health organisation to describe a public health problem",
+              "answer": "E"
+            },
+            {
+              "number": 39,
+              "statement": "a caution that a research finding does not yet establish direct causation",
+              "answer": "C"
+            },
+            {
+              "number": 40,
+              "statement": "a comparison between the biological necessity of sleep and that of food",
+              "answer": "F"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

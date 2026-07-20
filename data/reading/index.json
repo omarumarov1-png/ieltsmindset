@@ -6,23 +6,61 @@
       "testType": "academic",
       "title": "The Return of the Wolves to Yellowstone",
       "paragraphs": [
-        { "label": "A", "text": "In 1926, the last wild wolf pack in Yellowstone National Park was hunted down and killed, bringing an end to a species that had roamed the region for thousands of years. For nearly seventy years afterwards, the park's ecosystem operated without one of its most significant predators. Elk populations, freed from the threat of wolf predation, grew rapidly, and their grazing habits began to reshape the landscape in ways that scientists would only fully understand decades later." },
-        { "label": "B", "text": "By the 1990s, ecologists had become increasingly concerned about the state of Yellowstone's willow and aspen groves, which had declined dramatically since the wolves' disappearance. Without predators to keep them moving, elk herds lingered in river valleys, browsing on young saplings before they had a chance to mature. This, in turn, affected beaver populations, which depend on willow for both food and dam-building material. Fewer beavers meant fewer dams, which meant less wetland habitat for a whole range of other species, from songbirds to amphibians." },
-        { "label": "C", "text": "In January 1995, after years of scientific debate and public controversy, wildlife officials reintroduced fourteen wolves captured in Canada into Yellowstone. A further seventeen were released the following year. The decision was fiercely opposed by many local ranchers, who feared for their livestock, but was strongly supported by conservationists, who argued that the park's ecological balance could not be restored without its apex predator." },
-        { "label": "D", "text": "The effects of the reintroduction, though not instantaneous, proved to be far-reaching. Elk began to avoid open river valleys and gorges where they were more vulnerable to attack, a behavioural shift that researchers termed the \"ecology of fear.\" Freed from constant grazing pressure, willow and aspen began to recover in these areas, and within a decade, beaver colonies had increased several-fold. Some scientists have even suggested that the wolves indirectly altered the course of rivers, as regrown vegetation stabilised riverbanks and reduced erosion — a phenomenon that has become one of the most cited examples of what ecologists call a \"trophic cascade.\"" },
-        { "label": "E", "text": "Not all researchers agree on the scale of the wolves' influence, however. Some argue that other factors, including a period of wetter weather and the culling of elk by hunters outside the park, played an equally important role in the vegetation's recovery. Nevertheless, few dispute that the wolves' return marked a turning point in how conservationists think about predators: rather than being viewed as pests to be controlled, top predators are now widely recognised as keystone species whose presence can shape entire ecosystems." },
-        { "label": "F", "text": "Today, Yellowstone is home to roughly ten wolf packs, and the park has become an important site for long-term ecological research. Visitors now travel from around the world hoping to catch a glimpse of a wild wolf, and the animals have become a symbol of the park's recovery — a reminder of how quickly, and how profoundly, an ecosystem can change when a single species is lost, or found again." }
+        {
+          "label": "A",
+          "text": "In 1926, the last wild wolf pack in Yellowstone National Park was hunted down and killed, bringing an end to a species that had roamed the region for thousands of years. For nearly seventy years afterwards, the park's ecosystem operated without one of its most significant predators. Elk populations, freed from the threat of wolf predation, grew rapidly, and their grazing habits began to reshape the landscape in ways that scientists would only fully understand decades later."
+        },
+        {
+          "label": "B",
+          "text": "By the 1990s, ecologists had become increasingly concerned about the state of Yellowstone's willow and aspen groves, which had declined dramatically since the wolves' disappearance. Without predators to keep them moving, elk herds lingered in river valleys, browsing on young saplings before they had a chance to mature. This, in turn, affected beaver populations, which depend on willow for both food and dam-building material. Fewer beavers meant fewer dams, which meant less wetland habitat for a whole range of other species, from songbirds to amphibians."
+        },
+        {
+          "label": "C",
+          "text": "In January 1995, after years of scientific debate and public controversy, wildlife officials reintroduced fourteen wolves captured in Canada into Yellowstone. A further seventeen were released the following year. The decision was fiercely opposed by many local ranchers, who feared for their livestock, but was strongly supported by conservationists, who argued that the park's ecological balance could not be restored without its apex predator."
+        },
+        {
+          "label": "D",
+          "text": "The effects of the reintroduction, though not instantaneous, proved to be far-reaching. Elk began to avoid open river valleys and gorges where they were more vulnerable to attack, a behavioural shift that researchers termed the \"ecology of fear.\" Freed from constant grazing pressure, willow and aspen began to recover in these areas, and within a decade, beaver colonies had increased several-fold. Some scientists have even suggested that the wolves indirectly altered the course of rivers, as regrown vegetation stabilised riverbanks and reduced erosion — a phenomenon that has become one of the most cited examples of what ecologists call a \"trophic cascade.\""
+        },
+        {
+          "label": "E",
+          "text": "Not all researchers agree on the scale of the wolves' influence, however. Some argue that other factors, including a period of wetter weather and the culling of elk by hunters outside the park, played an equally important role in the vegetation's recovery. Nevertheless, few dispute that the wolves' return marked a turning point in how conservationists think about predators: rather than being viewed as pests to be controlled, top predators are now widely recognised as keystone species whose presence can shape entire ecosystems."
+        },
+        {
+          "label": "F",
+          "text": "Today, Yellowstone is home to roughly ten wolf packs, and the park has become an important site for long-term ecological research. Visitors now travel from around the world hoping to catch a glimpse of a wild wolf, and the animals have become a symbol of the park's recovery — a reminder of how quickly, and how profoundly, an ecosystem can change when a single species is lost, or found again."
+        }
       ],
       "questionGroups": [
         {
           "type": "true-false-not-given",
           "instructions": "Do the following statements agree with the information given in the passage?",
           "questions": [
-            { "number": 1, "statement": "The last wolves in Yellowstone died out in the early twentieth century.", "answer": "TRUE" },
-            { "number": 2, "statement": "Elk numbers decreased after wolves disappeared from the park.", "answer": "FALSE" },
-            { "number": 3, "statement": "Beaver populations were affected by the decline in willow trees.", "answer": "TRUE" },
-            { "number": 4, "statement": "All local ranchers supported the reintroduction of wolves.", "answer": "FALSE" },
-            { "number": 5, "statement": "The number of wolf packs in Yellowstone today is fewer than it was in 1996.", "answer": "NOT GIVEN" }
+            {
+              "number": 1,
+              "statement": "The last wolves in Yellowstone died out in the early twentieth century.",
+              "answer": "TRUE"
+            },
+            {
+              "number": 2,
+              "statement": "Elk numbers decreased after wolves disappeared from the park.",
+              "answer": "FALSE"
+            },
+            {
+              "number": 3,
+              "statement": "Beaver populations were affected by the decline in willow trees.",
+              "answer": "TRUE"
+            },
+            {
+              "number": 4,
+              "statement": "All local ranchers supported the reintroduction of wolves.",
+              "answer": "FALSE"
+            },
+            {
+              "number": 5,
+              "statement": "The number of wolf packs in Yellowstone today is fewer than it was in 1996.",
+              "answer": "NOT GIVEN"
+            }
           ]
         },
         {
@@ -39,10 +77,26 @@
             "A cascade of unforeseen ecological benefits"
           ],
           "questions": [
-            { "number": 6, "paragraphLabel": "B", "answer": 1 },
-            { "number": 7, "paragraphLabel": "C", "answer": 0 },
-            { "number": 8, "paragraphLabel": "D", "answer": 6 },
-            { "number": 9, "paragraphLabel": "E", "answer": 4 }
+            {
+              "number": 6,
+              "paragraphLabel": "B",
+              "answer": 1
+            },
+            {
+              "number": 7,
+              "paragraphLabel": "C",
+              "answer": 0
+            },
+            {
+              "number": 8,
+              "paragraphLabel": "D",
+              "answer": 6
+            },
+            {
+              "number": 9,
+              "paragraphLabel": "E",
+              "answer": 4
+            }
           ]
         },
         {
@@ -50,10 +104,36 @@
           "instructions": "Answer the questions below. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
           "wordLimit": 3,
           "questions": [
-            { "number": 10, "prompt": "How many wolves were released into Yellowstone in the first reintroduction in 1995?", "answer": ["fourteen", "14"] },
-            { "number": 11, "prompt": "What term do researchers use to describe elk's changed behaviour around open valleys?", "answer": ["ecology of fear"] },
-            { "number": 12, "prompt": "What term is used to describe the wide-ranging ecological effect the wolves caused?", "answer": ["trophic cascade"] },
-            { "number": 13, "prompt": "What category of species are top predators like wolves now considered to be?", "answer": ["keystone species", "keystone"] }
+            {
+              "number": 10,
+              "prompt": "How many wolves were released into Yellowstone in the first reintroduction in 1995?",
+              "answer": [
+                "fourteen",
+                "14"
+              ]
+            },
+            {
+              "number": 11,
+              "prompt": "What term do researchers use to describe elk's changed behaviour around open valleys?",
+              "answer": [
+                "ecology of fear"
+              ]
+            },
+            {
+              "number": 12,
+              "prompt": "What term is used to describe the wide-ranging ecological effect the wolves caused?",
+              "answer": [
+                "trophic cascade"
+              ]
+            },
+            {
+              "number": 13,
+              "prompt": "What category of species are top predators like wolves now considered to be?",
+              "answer": [
+                "keystone species",
+                "keystone"
+              ]
+            }
           ]
         }
       ]
@@ -64,23 +144,84 @@
       "testType": "academic",
       "title": "The Origins of Written Language",
       "paragraphs": [
-        { "label": "A", "text": "For most of human history, information was passed from one generation to the next purely through speech. Knowledge of hunting techniques, tribal law, and religious belief relied entirely on memory and oral repetition, a system that, while remarkably effective, was also fragile: a single generation's failure to pass on its knowledge could mean its permanent loss. The invention of writing changed this dynamic fundamentally, allowing information to be recorded, stored, and transmitted across vast distances of time and space." },
-        { "label": "B", "text": "The earliest writing systems did not emerge as a way to record poetry or philosophy, as is sometimes assumed, but rather out of economic necessity. In ancient Sumer, in the region now known as southern Iraq, a system of clay tokens had been used since around 8000 BCE to represent goods such as grain, livestock, and oil, allowing merchants and officials to keep track of transactions. By around 3400 BCE, these tokens had evolved into pictographic symbols pressed into wet clay tablets, marking the beginnings of what would become cuneiform script — widely regarded as the earliest known writing system." },
-        { "label": "C", "text": "Cuneiform script developed gradually over several centuries. Early symbols were simple pictures representing physical objects, but scribes soon began combining and adapting these signs to represent sounds and abstract ideas as well as concrete objects. This shift from pictographic to phonetic representation was a crucial development, as it meant the script could, in principle, be used to write down anything expressible in spoken language, not merely lists of goods." },
-        { "label": "D", "text": "A separate writing tradition developed independently in ancient Egypt at roughly the same period. Egyptian hieroglyphics, first appearing around 3200 BCE, combined logographic elements, in which a single symbol represented a whole word, with phonetic elements representing individual sounds. Unlike cuneiform, which was pressed into clay with a wedge-shaped stylus, hieroglyphics were typically carved into stone or painted onto papyrus, a material made from the pith of a reed plant that grew abundantly along the Nile." },
-        { "label": "E", "text": "Writing systems also arose independently in other parts of the world. Chinese script, which first appears in the archaeological record around 1200 BCE on so-called oracle bones used for divination, developed along broadly similar lines to cuneiform and hieroglyphics, evolving from pictographic origins toward a more abstract system capable of representing spoken language in full. Remarkably, a version of this script remains in use in China today, making it one of the longest continuously used writing systems in human history. Mesoamerican civilisations, including the Maya, developed yet another independent writing tradition, combining logographic and syllabic elements in inscriptions that have only been fully deciphered in recent decades." },
-        { "label": "F", "text": "The invention of the alphabet marked the next major turning point in the history of writing. Unlike earlier systems, which required scribes to memorise hundreds or even thousands of individual symbols, an alphabet uses a small set of letters, each representing a single sound, that can be combined to spell any word in the language. The first alphabetic systems are thought to have developed among Semitic-speaking peoples in the eastern Mediterranean around 1700 BCE, likely influenced by Egyptian hieroglyphics. This innovation was later adapted by the Phoenicians, whose trading networks helped spread the alphabet across the Mediterranean world, eventually giving rise to the Greek and, later, Latin alphabets used across much of the world today." },
-        { "label": "G", "text": "The spread of alphabetic writing had a profound democratising effect on literacy. Because alphabets require memorising only a limited number of symbols, they could be learned far more quickly than logographic systems, which historically restricted literacy to a small class of professional scribes. Some historians argue that the relative simplicity of alphabetic writing contributed to the flourishing of literature, philosophy, and scientific enquiry in societies that adopted it, though this claim remains a subject of ongoing academic debate." }
+        {
+          "label": "A",
+          "text": "For most of human history, information was passed from one generation to the next purely through speech. Knowledge of hunting techniques, tribal law, and religious belief relied entirely on memory and oral repetition, a system that, while remarkably effective, was also fragile: a single generation's failure to pass on its knowledge could mean its permanent loss. The invention of writing changed this dynamic fundamentally, allowing information to be recorded, stored, and transmitted across vast distances of time and space."
+        },
+        {
+          "label": "B",
+          "text": "The earliest writing systems did not emerge as a way to record poetry or philosophy, as is sometimes assumed, but rather out of economic necessity. In ancient Sumer, in the region now known as southern Iraq, a system of clay tokens had been used since around 8000 BCE to represent goods such as grain, livestock, and oil, allowing merchants and officials to keep track of transactions. By around 3400 BCE, these tokens had evolved into pictographic symbols pressed into wet clay tablets, marking the beginnings of what would become cuneiform script — widely regarded as the earliest known writing system."
+        },
+        {
+          "label": "C",
+          "text": "Cuneiform script developed gradually over several centuries. Early symbols were simple pictures representing physical objects, but scribes soon began combining and adapting these signs to represent sounds and abstract ideas as well as concrete objects. This shift from pictographic to phonetic representation was a crucial development, as it meant the script could, in principle, be used to write down anything expressible in spoken language, not merely lists of goods."
+        },
+        {
+          "label": "D",
+          "text": "A separate writing tradition developed independently in ancient Egypt at roughly the same period. Egyptian hieroglyphics, first appearing around 3200 BCE, combined logographic elements, in which a single symbol represented a whole word, with phonetic elements representing individual sounds. Unlike cuneiform, which was pressed into clay with a wedge-shaped stylus, hieroglyphics were typically carved into stone or painted onto papyrus, a material made from the pith of a reed plant that grew abundantly along the Nile."
+        },
+        {
+          "label": "E",
+          "text": "Writing systems also arose independently in other parts of the world. Chinese script, which first appears in the archaeological record around 1200 BCE on so-called oracle bones used for divination, developed along broadly similar lines to cuneiform and hieroglyphics, evolving from pictographic origins toward a more abstract system capable of representing spoken language in full. Remarkably, a version of this script remains in use in China today, making it one of the longest continuously used writing systems in human history. Mesoamerican civilisations, including the Maya, developed yet another independent writing tradition, combining logographic and syllabic elements in inscriptions that have only been fully deciphered in recent decades."
+        },
+        {
+          "label": "F",
+          "text": "The invention of the alphabet marked the next major turning point in the history of writing. Unlike earlier systems, which required scribes to memorise hundreds or even thousands of individual symbols, an alphabet uses a small set of letters, each representing a single sound, that can be combined to spell any word in the language. The first alphabetic systems are thought to have developed among Semitic-speaking peoples in the eastern Mediterranean around 1700 BCE, likely influenced by Egyptian hieroglyphics. This innovation was later adapted by the Phoenicians, whose trading networks helped spread the alphabet across the Mediterranean world, eventually giving rise to the Greek and, later, Latin alphabets used across much of the world today."
+        },
+        {
+          "label": "G",
+          "text": "The spread of alphabetic writing had a profound democratising effect on literacy. Because alphabets require memorising only a limited number of symbols, they could be learned far more quickly than logographic systems, which historically restricted literacy to a small class of professional scribes. Some historians argue that the relative simplicity of alphabetic writing contributed to the flourishing of literature, philosophy, and scientific enquiry in societies that adopted it, though this claim remains a subject of ongoing academic debate."
+        }
       ],
       "questionGroups": [
         {
           "type": "multiple-choice",
           "instructions": "Choose the correct letter, A, B, C, or D.",
           "questions": [
-            { "number": 14, "statement": "What was the main original purpose of the earliest writing systems, according to the passage?", "options": ["Recording religious beliefs", "Preserving poetry and philosophy", "Keeping track of economic transactions", "Communicating over long distances"], "answer": 2 },
-            { "number": 15, "statement": "According to the passage, cuneiform script was written using", "options": ["ink on papyrus", "paint on stone", "a wedge-shaped stylus on clay", "carved wooden tablets"], "answer": 2 },
-            { "number": 16, "statement": "What made the shift from pictographic to phonetic symbols in cuneiform significant?", "options": ["It allowed scribes to write faster", "It meant the script could represent any spoken idea", "It reduced the number of symbols scribes needed", "It made the script easier to carve into stone"], "answer": 1 },
-            { "number": 17, "statement": "What is notable about Chinese script, according to the passage?", "options": ["It was the first writing system in the world", "It has never changed since 1200 BCE", "It remains in use after thousands of years", "It was borrowed from Egyptian hieroglyphics"], "answer": 2 }
+            {
+              "number": 14,
+              "statement": "What was the main original purpose of the earliest writing systems, according to the passage?",
+              "options": [
+                "Recording religious beliefs",
+                "Preserving poetry and philosophy",
+                "Keeping track of economic transactions",
+                "Communicating over long distances"
+              ],
+              "answer": 2
+            },
+            {
+              "number": 15,
+              "statement": "According to the passage, cuneiform script was written using",
+              "options": [
+                "ink on papyrus",
+                "paint on stone",
+                "a wedge-shaped stylus on clay",
+                "carved wooden tablets"
+              ],
+              "answer": 2
+            },
+            {
+              "number": 16,
+              "statement": "What made the shift from pictographic to phonetic symbols in cuneiform significant?",
+              "options": [
+                "It allowed scribes to write faster",
+                "It meant the script could represent any spoken idea",
+                "It reduced the number of symbols scribes needed",
+                "It made the script easier to carve into stone"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 17,
+              "statement": "What is notable about Chinese script, according to the passage?",
+              "options": [
+                "It was the first writing system in the world",
+                "It has never changed since 1200 BCE",
+                "It remains in use after thousands of years",
+                "It was borrowed from Egyptian hieroglyphics"
+              ],
+              "answer": 2
+            }
           ]
         },
         {
@@ -88,25 +229,89 @@
           "instructions": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
           "wordLimit": 2,
           "questions": [
-            { "number": 18, "prompt": "Before writing existed, knowledge was transmitted mainly through ___.", "answer": ["speech", "oral repetition"] },
-            { "number": 19, "prompt": "In ancient Sumer, clay tokens were originally used to represent goods such as grain and ___.", "answer": ["livestock", "oil"] },
-            { "number": 20, "prompt": "Egyptian hieroglyphics were often written on ___, a material made from a reed plant.", "answer": ["papyrus"] },
-            { "number": 21, "prompt": "Chinese writing first appears on objects known as ___.", "answer": ["oracle bones"] },
-            { "number": 22, "prompt": "The first alphabets are believed to have emerged among ___ peoples.", "answer": ["semitic-speaking", "semitic"] }
+            {
+              "number": 18,
+              "prompt": "Before writing existed, knowledge was transmitted mainly through ___.",
+              "answer": [
+                "speech",
+                "oral repetition"
+              ]
+            },
+            {
+              "number": 19,
+              "prompt": "In ancient Sumer, clay tokens were originally used to represent goods such as grain and ___.",
+              "answer": [
+                "livestock",
+                "oil"
+              ]
+            },
+            {
+              "number": 20,
+              "prompt": "Egyptian hieroglyphics were often written on ___, a material made from a reed plant.",
+              "answer": [
+                "papyrus"
+              ]
+            },
+            {
+              "number": 21,
+              "prompt": "Chinese writing first appears on objects known as ___.",
+              "answer": [
+                "oracle bones"
+              ]
+            },
+            {
+              "number": 22,
+              "prompt": "The first alphabets are believed to have emerged among ___ peoples.",
+              "answer": [
+                "semitic-speaking",
+                "semitic"
+              ]
+            }
           ]
         },
         {
           "type": "summary-completion",
           "instructions": "Complete the summary below. Choose ONE WORD ONLY from the box for each answer.",
           "wordLimit": 1,
-          "wordBank": ["Phoenicians", "scribes", "alphabet", "literacy", "Greek"],
+          "wordBank": [
+            "Phoenicians",
+            "scribes",
+            "alphabet",
+            "literacy",
+            "Greek"
+          ],
           "summaryText": "Unlike earlier writing systems, which could take years for ___23___ to master, the ___24___ used a small number of symbols to represent sound. Early alphabetic writing was spread throughout the Mediterranean by the ___25___, whose trading contacts helped it evolve into the ___26___ alphabet and, eventually, systems used worldwide today. Because it was simpler to learn, the alphabet is thought by some historians to have widened ___27___ across society.",
           "questions": [
-            { "number": 23, "answer": ["scribes"] },
-            { "number": 24, "answer": ["alphabet"] },
-            { "number": 25, "answer": ["phoenicians"] },
-            { "number": 26, "answer": ["greek"] },
-            { "number": 27, "answer": ["literacy"] }
+            {
+              "number": 23,
+              "answer": [
+                "scribes"
+              ]
+            },
+            {
+              "number": 24,
+              "answer": [
+                "alphabet"
+              ]
+            },
+            {
+              "number": 25,
+              "answer": [
+                "phoenicians"
+              ]
+            },
+            {
+              "number": 26,
+              "answer": [
+                "greek"
+              ]
+            },
+            {
+              "number": 27,
+              "answer": [
+                "literacy"
+              ]
+            }
           ]
         }
       ]
@@ -117,23 +322,61 @@
       "testType": "academic",
       "title": "Urban Heat Islands",
       "paragraphs": [
-        { "label": "A", "text": "Anyone who has walked through a city on a summer evening and then driven out into the surrounding countryside may have noticed a curious phenomenon: the city often feels distinctly warmer than the fields and forests beyond its boundaries, even after the sun has set. This effect, known as the urban heat island, has been documented by scientists since at least the early nineteenth century, when the British meteorologist Luke Howard observed that the centre of London was consistently warmer than its outskirts." },
-        { "label": "B", "text": "Urban heat islands arise from a combination of factors related to how cities are built and used. Concrete, asphalt, and other common building materials absorb solar radiation during the day and release it slowly as heat during the night, unlike vegetation and soil, which reflect more sunlight and cool more quickly after dark. Tall buildings can also trap heat by reducing airflow between them and creating what scientists call \"urban canyons,\" where heat becomes concentrated. Additional heat is generated directly by vehicles, air conditioning units, and industrial processes, all of which are far more concentrated in cities than in rural areas." },
-        { "label": "C", "text": "The scale of the effect varies considerably depending on a city's size, climate, and layout, but temperature differences of five to seven degrees Celsius between urban centres and surrounding rural areas are not unusual, particularly at night. In extreme cases, some cities have recorded differences of over ten degrees. The effect tends to be most pronounced on calm, clear nights, when there is little wind to disperse the accumulated heat and no cloud cover to trap outgoing radiation near the ground during the day." },
-        { "label": "D", "text": "The consequences of urban heat islands extend well beyond simple discomfort. Higher temperatures increase demand for air conditioning, which in turn raises energy consumption and greenhouse gas emissions, creating a feedback loop that can worsen the very problem it responds to. Elevated urban temperatures have also been linked to increased rates of heat-related illness and death, particularly among elderly residents and those without access to air conditioning. Furthermore, higher temperatures can worsen air quality, as heat accelerates the chemical reactions that produce ground-level ozone, a pollutant harmful to human health." },
-        { "label": "E", "text": "In response, many cities have begun experimenting with strategies to reduce the urban heat island effect. One widely adopted approach involves increasing urban green space: parks, street trees, and rooftop gardens all help cool cities by providing shade and releasing moisture into the air through a process called evapotranspiration. Singapore, often cited as a leader in this field, has integrated vertical gardens and rooftop greenery into much of its urban planning. Other cities have turned to \"cool roofs\" and \"cool pavements\" — surfaces coated with reflective materials designed to bounce sunlight back into the atmosphere rather than absorbing it." },
-        { "label": "F", "text": "Some researchers caution, however, that such measures, while helpful, are unlikely to fully offset the combined effects of continued urbanisation and global climate change. As cities continue to grow and temperatures rise worldwide, the urban heat island effect is expected to become an increasingly significant challenge for urban planners, particularly in rapidly developing regions where infrastructure is often built with little consideration for its thermal impact. Some architects now argue that reducing urban heat should be treated as seriously as reducing carbon emissions, given how directly it affects the daily lives of city residents." }
+        {
+          "label": "A",
+          "text": "Anyone who has walked through a city on a summer evening and then driven out into the surrounding countryside may have noticed a curious phenomenon: the city often feels distinctly warmer than the fields and forests beyond its boundaries, even after the sun has set. This effect, known as the urban heat island, has been documented by scientists since at least the early nineteenth century, when the British meteorologist Luke Howard observed that the centre of London was consistently warmer than its outskirts."
+        },
+        {
+          "label": "B",
+          "text": "Urban heat islands arise from a combination of factors related to how cities are built and used. Concrete, asphalt, and other common building materials absorb solar radiation during the day and release it slowly as heat during the night, unlike vegetation and soil, which reflect more sunlight and cool more quickly after dark. Tall buildings can also trap heat by reducing airflow between them and creating what scientists call \"urban canyons,\" where heat becomes concentrated. Additional heat is generated directly by vehicles, air conditioning units, and industrial processes, all of which are far more concentrated in cities than in rural areas."
+        },
+        {
+          "label": "C",
+          "text": "The scale of the effect varies considerably depending on a city's size, climate, and layout, but temperature differences of five to seven degrees Celsius between urban centres and surrounding rural areas are not unusual, particularly at night. In extreme cases, some cities have recorded differences of over ten degrees. The effect tends to be most pronounced on calm, clear nights, when there is little wind to disperse the accumulated heat and no cloud cover to trap outgoing radiation near the ground during the day."
+        },
+        {
+          "label": "D",
+          "text": "The consequences of urban heat islands extend well beyond simple discomfort. Higher temperatures increase demand for air conditioning, which in turn raises energy consumption and greenhouse gas emissions, creating a feedback loop that can worsen the very problem it responds to. Elevated urban temperatures have also been linked to increased rates of heat-related illness and death, particularly among elderly residents and those without access to air conditioning. Furthermore, higher temperatures can worsen air quality, as heat accelerates the chemical reactions that produce ground-level ozone, a pollutant harmful to human health."
+        },
+        {
+          "label": "E",
+          "text": "In response, many cities have begun experimenting with strategies to reduce the urban heat island effect. One widely adopted approach involves increasing urban green space: parks, street trees, and rooftop gardens all help cool cities by providing shade and releasing moisture into the air through a process called evapotranspiration. Singapore, often cited as a leader in this field, has integrated vertical gardens and rooftop greenery into much of its urban planning. Other cities have turned to \"cool roofs\" and \"cool pavements\" — surfaces coated with reflective materials designed to bounce sunlight back into the atmosphere rather than absorbing it."
+        },
+        {
+          "label": "F",
+          "text": "Some researchers caution, however, that such measures, while helpful, are unlikely to fully offset the combined effects of continued urbanisation and global climate change. As cities continue to grow and temperatures rise worldwide, the urban heat island effect is expected to become an increasingly significant challenge for urban planners, particularly in rapidly developing regions where infrastructure is often built with little consideration for its thermal impact. Some architects now argue that reducing urban heat should be treated as seriously as reducing carbon emissions, given how directly it affects the daily lives of city residents."
+        }
       ],
       "questionGroups": [
         {
           "type": "yes-no-not-given",
           "instructions": "Do the following statements agree with the claims of the writer?",
           "questions": [
-            { "number": 28, "statement": "Scientists have only recently discovered the urban heat island effect.", "answer": "NO" },
-            { "number": 29, "statement": "Tall buildings can increase heat by limiting the flow of air between them.", "answer": "YES" },
-            { "number": 30, "statement": "All cities experience urban heat islands to the same degree.", "answer": "NO" },
-            { "number": 31, "statement": "Increased use of air conditioning in cities can make the heat island effect worse.", "answer": "YES" },
-            { "number": 32, "statement": "Singapore has banned the construction of new buildings in its city centre.", "answer": "NOT GIVEN" }
+            {
+              "number": 28,
+              "statement": "Scientists have only recently discovered the urban heat island effect.",
+              "answer": "NO"
+            },
+            {
+              "number": 29,
+              "statement": "Tall buildings can increase heat by limiting the flow of air between them.",
+              "answer": "YES"
+            },
+            {
+              "number": 30,
+              "statement": "All cities experience urban heat islands to the same degree.",
+              "answer": "NO"
+            },
+            {
+              "number": 31,
+              "statement": "Increased use of air conditioning in cities can make the heat island effect worse.",
+              "answer": "YES"
+            },
+            {
+              "number": 32,
+              "statement": "Singapore has banned the construction of new buildings in its city centre.",
+              "answer": "NOT GIVEN"
+            }
           ]
         },
         {
@@ -141,30 +384,580 @@
           "instructions": "Complete the table below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
           "wordLimit": 2,
           "table": {
-            "headers": ["Strategy", "Detail"],
+            "headers": [
+              "Strategy",
+              "Detail"
+            ],
             "rows": [
-              ["Green space (parks, trees, rooftop gardens)", { "qnum": 33, "before": "Cools air through the process of " }],
-              ["\"Cool roofs\" and \"cool pavements\"", { "qnum": 34, "before": "Coated with ", "after": " materials" }],
-              ["Vertical gardens", { "qnum": 35, "before": "Integrated into ", "after": "'s urban planning" }],
-              [{ "qnum": 36, "before": "Some " }, "Argue urban heat should be treated as seriously as carbon emissions"]
+              [
+                "Green space (parks, trees, rooftop gardens)",
+                {
+                  "qnum": 33,
+                  "before": "Cools air through the process of "
+                }
+              ],
+              [
+                "\"Cool roofs\" and \"cool pavements\"",
+                {
+                  "qnum": 34,
+                  "before": "Coated with ",
+                  "after": " materials"
+                }
+              ],
+              [
+                "Vertical gardens",
+                {
+                  "qnum": 35,
+                  "before": "Integrated into ",
+                  "after": "'s urban planning"
+                }
+              ],
+              [
+                {
+                  "qnum": 36,
+                  "before": "Some "
+                },
+                "Argue urban heat should be treated as seriously as carbon emissions"
+              ]
             ]
           },
           "questions": [
-            { "number": 33, "answer": ["evapotranspiration"] },
-            { "number": 34, "answer": ["reflective"] },
-            { "number": 35, "answer": ["singapore"] },
-            { "number": 36, "answer": ["architects"] }
+            {
+              "number": 33,
+              "answer": [
+                "evapotranspiration"
+              ]
+            },
+            {
+              "number": 34,
+              "answer": [
+                "reflective"
+              ]
+            },
+            {
+              "number": 35,
+              "answer": [
+                "singapore"
+              ]
+            },
+            {
+              "number": 36,
+              "answer": [
+                "architects"
+              ]
+            }
           ]
         },
         {
           "type": "matching-information",
           "instructions": "Which paragraph contains the following information? Write the correct letter, A–F.",
-          "matchOptions": ["A", "B", "C", "D", "E", "F"],
+          "matchOptions": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
           "questions": [
-            { "number": 37, "statement": "a comparison of temperature differences recorded in different cities", "answer": "C" },
-            { "number": 38, "statement": "a description of a historical observation of the phenomenon", "answer": "A" },
-            { "number": 39, "statement": "an example of a country recognised for its urban cooling design", "answer": "E" },
-            { "number": 40, "statement": "a warning that current solutions may not be enough on their own", "answer": "F" }
+            {
+              "number": 37,
+              "statement": "a comparison of temperature differences recorded in different cities",
+              "answer": "C"
+            },
+            {
+              "number": 38,
+              "statement": "a description of a historical observation of the phenomenon",
+              "answer": "A"
+            },
+            {
+              "number": 39,
+              "statement": "an example of a country recognised for its urban cooling design",
+              "answer": "E"
+            },
+            {
+              "number": 40,
+              "statement": "a warning that current solutions may not be enough on their own",
+              "answer": "F"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-passage-004",
+      "skill": "reading",
+      "testType": "academic",
+      "testGroup": "2",
+      "title": "The Psychology of Prediction",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "In the early 1970s, the psychologists Daniel Kahneman and Amos Tversky began a research collaboration that would fundamentally reshape not only psychology but also economics. Their work explored the mental shortcuts, or “heuristics,” that people rely on when making judgements under uncertainty, and the predictable errors, or “biases,” that these shortcuts often produce. Tversky died in 1996; when Kahneman was awarded the Nobel Memorial Prize in Economic Sciences in 2002 for this body of work, the prize could not be shared with his collaborator, since the Nobel Foundation does not make posthumous awards."
+        },
+        {
+          "label": "B",
+          "text": "One of the pair’s best-known findings concerns the availability heuristic: the tendency to judge how likely an event is by how easily examples of it come to mind, rather than by objective probability. This explains why people often overestimate the risk of dramatic but statistically rare events, such as plane crashes or shark attacks, immediately after seeing them reported in the media, while underestimating the risk of far more common but less newsworthy causes of harm, such as heart disease."
+        },
+        {
+          "label": "C",
+          "text": "A closely related concept, also introduced by Kahneman and Tversky, is the planning fallacy — the tendency to underestimate the time, cost, and risk of future projects while simultaneously overestimating their benefits. A frequently cited real-world example is the Sydney Opera House, originally budgeted at seven million dollars with a projected completion time of four years; the building was not finished for fourteen years, at a final cost of roughly one hundred and two million dollars."
+        },
+        {
+          "label": "D",
+          "text": "A further bias, known as anchoring, describes how an initial piece of information can disproportionately influence subsequent judgements, even when that information is arbitrary or clearly irrelevant. In a now-famous experiment, participants spun a wheel that had secretly been rigged to stop on either the number ten or the number sixty-five, and were then asked to estimate the percentage of African countries in the United Nations. Those who had seen the wheel stop on sixty-five gave substantially higher estimates than those who had seen it stop on ten, despite the number on the wheel having no logical connection to the question."
+        },
+        {
+          "label": "E",
+          "text": "Kahneman and Tversky’s 1979 paper on prospect theory introduced another influential idea: loss aversion, the finding that losses tend to loom psychologically larger than equivalent gains. Losing a hundred dollars, in other words, feels roughly twice as bad as gaining a hundred dollars feels good. This asymmetry helps to explain a range of otherwise puzzling behaviours, including why investors often continue to hold onto a falling stock far longer than is financially sensible, in the hope of merely breaking even rather than accepting a loss."
+        },
+        {
+          "label": "F",
+          "text": "Awareness of these biases, on its own, rarely eliminates them, since they tend to operate automatically and largely below the level of conscious attention. More effective interventions instead redesign the decision-making environment itself — an approach sometimes called choice architecture. For the planning fallacy specifically, researchers recommend a technique known as reference-class forecasting, in which planners deliberately set aside their own intuitive estimate and instead look at the actual outcomes of similar past projects."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "true-false-not-given",
+          "instructions": "Do the following statements agree with the information given in the passage?",
+          "questions": [
+            {
+              "number": 1,
+              "statement": "Tversky was awarded a share of the Nobel Prize along with Kahneman.",
+              "answer": "FALSE"
+            },
+            {
+              "number": 2,
+              "statement": "Kahneman and Tversky's early research combined ideas from psychology and economics.",
+              "answer": "TRUE"
+            },
+            {
+              "number": 3,
+              "statement": "People tend to overestimate the probability of dramatic but rare events after seeing them reported in the media.",
+              "answer": "TRUE"
+            },
+            {
+              "number": 4,
+              "statement": "The wheel used in the anchoring experiment produced genuinely random numbers.",
+              "answer": "FALSE"
+            },
+            {
+              "number": 5,
+              "statement": "According to prospect theory, people feel the pain of a loss roughly twice as strongly as the pleasure of an equivalent gain.",
+              "answer": "TRUE"
+            }
+          ]
+        },
+        {
+          "type": "matching-headings",
+          "instructions": "The passage has six paragraphs, A–F. Choose the correct heading for paragraphs B–E from the list of headings below.",
+          "headingOptions": [
+            "A demonstration that random numbers can distort judgement",
+            "Why costly projects so often take far longer than predicted",
+            "The origins of a Nobel Prize-winning partnership",
+            "Redesigning decisions rather than relying on willpower",
+            "Judging probability by what comes easily to mind",
+            "The asymmetry between the pain of losing and the pleasure of gaining",
+            "A theory that was later disproved by subsequent researchers",
+            "How advertisers exploit cognitive shortcuts"
+          ],
+          "questions": [
+            {
+              "number": 6,
+              "paragraphLabel": "B",
+              "answer": 4
+            },
+            {
+              "number": 7,
+              "paragraphLabel": "C",
+              "answer": 1
+            },
+            {
+              "number": 8,
+              "paragraphLabel": "D",
+              "answer": 0
+            },
+            {
+              "number": 9,
+              "paragraphLabel": "E",
+              "answer": 5
+            }
+          ]
+        },
+        {
+          "type": "short-answer",
+          "instructions": "Answer the questions below. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 10,
+              "prompt": "What term describes the tendency to underestimate the time and cost of future projects?",
+              "answer": [
+                "the planning fallacy",
+                "planning fallacy"
+              ]
+            },
+            {
+              "number": 11,
+              "prompt": "Which building is given as a famous real-world example of this tendency?",
+              "answer": [
+                "the sydney opera house",
+                "sydney opera house"
+              ]
+            },
+            {
+              "number": 12,
+              "prompt": "What is the name of the theory, published in 1979, that explains loss aversion?",
+              "answer": [
+                "prospect theory"
+              ]
+            },
+            {
+              "number": 13,
+              "prompt": "What specific technique is recommended for correcting the planning fallacy?",
+              "answer": [
+                "reference-class forecasting",
+                "reference class forecasting"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-passage-005",
+      "skill": "reading",
+      "testType": "academic",
+      "testGroup": "2",
+      "title": "The Gut Microbiome and Human Health",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "The human gut is home to an estimated thirty-eight trillion microorganisms — a number roughly equal to the total count of human cells in the body. Collectively known as the gut microbiome, these bacteria, viruses, and fungi were once dismissed as passive, largely irrelevant bystanders. Today, however, they are understood to play an active role in digestion, immune regulation, and, more surprisingly, mental health."
+        },
+        {
+          "label": "B",
+          "text": "Much of this influence occurs through what researchers call the gut–brain axis, a bidirectional communication network linking gut bacteria to the central nervous system via the vagus nerve, immune signalling, and microbial metabolic by-products. In one landmark study, researchers transplanted the gut microbiome of anxious mice into genetically identical, germ-free mice; the previously calm recipient mice went on to display measurably increased anxiety-like behaviour, suggesting that behavioural traits could, to some extent, be transferred along with the bacteria themselves."
+        },
+        {
+          "label": "C",
+          "text": "Diet appears to be a major determinant of microbial diversity. Comparative studies of the Hadza, a hunter-gatherer community in Tanzania whose diet remains high in fibre and highly varied by season, have found substantially greater gut microbial diversity than is typically observed in populations following a low-fibre, industrialised diet."
+        },
+        {
+          "label": "D",
+          "text": "Broad-spectrum antibiotics, while often medically necessary, indiscriminately eliminate beneficial bacteria alongside harmful ones. Evidence suggests the microbiome can take many months to recover fully after a course of such antibiotics, and some bacterial species may never return to their original levels. Observational studies have linked early-life antibiotic exposure to a higher subsequent risk of conditions such as asthma and obesity, although a direct causal relationship has not been firmly established."
+        },
+        {
+          "label": "E",
+          "text": "One striking clinical application of microbiome science is faecal microbiota transplantation, or FMT, in which stool from a healthy donor is introduced into a patient’s gut. For recurrent infection with the bacterium Clostridioides difficile that has resisted conventional antibiotic treatment, FMT achieves a cure rate above ninety percent. Researchers are now investigating whether the same technique might help treat other conditions, including inflammatory bowel disease, obesity, and even certain neurological disorders, although evidence for these more experimental applications remains far less developed."
+        },
+        {
+          "label": "F",
+          "text": "Despite these genuine advances, some scientists urge caution against overstating what is currently known, given how young the field still is. Much of the existing literature is correlational rather than experimental, which makes establishing causation difficult; such studies must also contend with confounding variables that are hard to rule out. For this reason, evidence for the more experimental applications of FMT remains preliminary. Nonetheless, most researchers agree that the gut microbiome will remain one of medicine’s most significant frontiers for decades to come."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "multiple-choice",
+          "instructions": "Choose the correct letter, A, B, C, or D.",
+          "questions": [
+            {
+              "number": 14,
+              "statement": "According to the passage, the number of microorganisms in the human gut is",
+              "options": [
+                "far fewer than the number of human cells",
+                "roughly equal to the number of human cells",
+                "impossible to estimate accurately",
+                "declining rapidly worldwide"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 15,
+              "statement": "The mouse experiment described in paragraph B demonstrated that",
+              "options": [
+                "anxiety cannot be transferred between animals",
+                "the vagus nerve has no role in gut-brain communication",
+                "transplanting gut bacteria could transfer behavioural traits",
+                "germ-free mice are more resilient to stress"
+              ],
+              "answer": 2
+            },
+            {
+              "number": 16,
+              "statement": "What did researchers find when comparing the Hadza to populations on industrialised diets?",
+              "options": [
+                "Hadza diets contain less fibre",
+                "Hadza gut microbiomes are less diverse",
+                "Hadza gut microbiomes show greater diversity",
+                "Diet has no effect on microbiome diversity"
+              ],
+              "answer": 2
+            },
+            {
+              "number": 17,
+              "statement": "What does the passage state about FMT as a treatment for resistant C. difficile infection?",
+              "options": [
+                "It has a cure rate below fifty percent",
+                "It remains purely experimental with no clinical use",
+                "It achieves a cure rate above ninety percent",
+                "It has been discontinued due to safety concerns"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "matching-features",
+          "instructions": "Match each description below with the correct term, A–E.",
+          "matchOptions": [
+            "The vagus nerve",
+            "The Hadza",
+            "Faecal microbiota transplantation",
+            "Broad-spectrum antibiotics",
+            "Clostridioides difficile"
+          ],
+          "questions": [
+            {
+              "number": 18,
+              "statement": "Forms part of a bidirectional signalling network connecting the gut and the brain.",
+              "answer": "The vagus nerve"
+            },
+            {
+              "number": 19,
+              "statement": "A hunter-gatherer community whose diet is linked to unusually high microbial diversity.",
+              "answer": "The Hadza"
+            },
+            {
+              "number": 20,
+              "statement": "A treatment that transfers bacteria from a healthy donor into a patient.",
+              "answer": "Faecal microbiota transplantation"
+            },
+            {
+              "number": 21,
+              "statement": "Can eliminate beneficial bacteria as well as harmful ones.",
+              "answer": "Broad-spectrum antibiotics"
+            },
+            {
+              "number": 22,
+              "statement": "An infection against which FMT has proven highly effective.",
+              "answer": "Clostridioides difficile"
+            }
+          ]
+        },
+        {
+          "type": "summary-completion",
+          "instructions": "Complete the summary below. Choose ONE WORD ONLY from the box for each answer.",
+          "wordLimit": 1,
+          "wordBank": [
+            "correlational",
+            "causation",
+            "confounding",
+            "preliminary",
+            "decades"
+          ],
+          "summaryText": "Much of the current research linking the microbiome to disease is ___23___ rather than experimental, which makes establishing ___24___ difficult. Such studies must also contend with ___25___ variables that are hard to rule out. For this reason, evidence for more experimental applications of FMT remains ___26___. Nonetheless, most scientists agree the gut microbiome will remain one of medicine's most significant frontiers for ___27___ to come.",
+          "questions": [
+            {
+              "number": 23,
+              "answer": [
+                "correlational"
+              ]
+            },
+            {
+              "number": 24,
+              "answer": [
+                "causation"
+              ]
+            },
+            {
+              "number": 25,
+              "answer": [
+                "confounding"
+              ]
+            },
+            {
+              "number": 26,
+              "answer": [
+                "preliminary"
+              ]
+            },
+            {
+              "number": 27,
+              "answer": [
+                "decades"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-passage-006",
+      "skill": "reading",
+      "testType": "academic",
+      "testGroup": "2",
+      "title": "Antibiotic Resistance: A Global Health Crisis",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "In 1928, the Scottish scientist Alexander Fleming noticed that a mould had accidentally contaminated one of his bacterial cultures, killing the surrounding bacteria. The mould, Penicillium, led to the development of penicillin, which by the 1940s was being mass-produced and transformed previously fatal infections into treatable conditions almost overnight. Yet even in his 1945 Nobel lecture, Fleming warned that careless overuse could allow bacteria to develop resistance to the drug — a prediction that has proved remarkably accurate."
+        },
+        {
+          "label": "B",
+          "text": "The scale of the problem today is considerable. The World Health Organisation estimates that antimicrobial-resistant infections are responsible for approximately seven hundred thousand deaths worldwide each year. Without intervention, some projections suggest this figure could rise to as many as ten million deaths annually by 2050, a toll that would potentially exceed cancer as a global cause of death."
+        },
+        {
+          "label": "C",
+          "text": "A significant driver of resistance lies outside human medicine altogether. Approximately seventy percent of antibiotics produced globally are administered to livestock, frequently not to treat existing illness but to promote growth and prevent disease in crowded farming conditions. This large-scale, often low-dose use creates near-ideal conditions for resistant bacterial strains to emerge, which can then spread into the human food supply and surrounding water systems."
+        },
+        {
+          "label": "D",
+          "text": "Resistance develops through natural selection. Random genetic mutations occasionally confer resistance to a particular antibiotic; when that antibiotic is present, susceptible bacteria are eliminated while resistant strains survive and multiply. Resistance genes can also be transferred directly between bacteria of entirely different species, through a process known as horizontal gene transfer, allowing resistance to spread far more rapidly than mutation alone would permit."
+        },
+        {
+          "label": "E",
+          "text": "Despite the evident urgency, pharmaceutical companies have shown reluctance to invest heavily in developing new antibiotics. New antibiotics are typically held in reserve for resistant infections rather than prescribed widely, which limits sales revenue compared with drugs for chronic conditions taken daily over many years. As a result, only a small number of major pharmaceutical companies still maintain active antibiotic-discovery programmes, and several others have exited the field entirely over the past two decades."
+        },
+        {
+          "label": "F",
+          "text": "International health bodies increasingly promote antimicrobial stewardship programmes, which encourage clinicians to prescribe antibiotics only when necessary and to select the narrowest-spectrum drug effective against a specific infection. Some countries have introduced restrictions on non-therapeutic antibiotic use in agriculture. Researchers are also exploring alternative approaches, including bacteriophage therapy, which uses viruses that specifically target bacteria, though such treatments remain largely experimental outside a handful of specialist centres."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "yes-no-not-given",
+          "instructions": "Do the following statements agree with the claims of the writer?",
+          "questions": [
+            {
+              "number": 28,
+              "statement": "Fleming predicted that antibiotic resistance could become a problem.",
+              "answer": "YES"
+            },
+            {
+              "number": 29,
+              "statement": "The WHO believes antimicrobial resistance currently causes more deaths annually than cancer.",
+              "answer": "NO"
+            },
+            {
+              "number": 30,
+              "statement": "Most antibiotics used in agriculture are given to animals that are already sick.",
+              "answer": "NO"
+            },
+            {
+              "number": 31,
+              "statement": "Resistance genes can spread between different species of bacteria.",
+              "answer": "YES"
+            },
+            {
+              "number": 32,
+              "statement": "Government funding has made antibiotic development more profitable than treatments for chronic disease.",
+              "answer": "NOT GIVEN"
+            }
+          ]
+        },
+        {
+          "type": "table-completion",
+          "instructions": "Complete the table below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "wordLimit": 2,
+          "table": {
+            "headers": [
+              "Strategy",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Antimicrobial stewardship",
+                {
+                  "qnum": 33,
+                  "before": "Prescribe the ",
+                  "after": " drug effective against the infection"
+                }
+              ],
+              [
+                {
+                  "qnum": 34,
+                  "before": "Restricting non-therapeutic antibiotic use in "
+                },
+                "Introduced by some countries"
+              ],
+              [
+                "Bacteriophage therapy",
+                {
+                  "qnum": 35,
+                  "before": "Uses viruses that specifically target "
+                }
+              ],
+              [
+                "Alternative treatments",
+                {
+                  "qnum": 36,
+                  "before": "Remain largely ",
+                  "after": " outside specialist centres"
+                }
+              ]
+            ]
+          },
+          "questions": [
+            {
+              "number": 33,
+              "answer": [
+                "narrowest-spectrum",
+                "narrowest spectrum"
+              ]
+            },
+            {
+              "number": 34,
+              "answer": [
+                "agriculture"
+              ]
+            },
+            {
+              "number": 35,
+              "answer": [
+                "bacteria"
+              ]
+            },
+            {
+              "number": 36,
+              "answer": [
+                "experimental"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "matching-information",
+          "instructions": "Which paragraph contains the following information? Write the correct letter, A–F.",
+          "matchOptions": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "questions": [
+            {
+              "number": 37,
+              "statement": "a historical warning that later proved accurate",
+              "answer": "A"
+            },
+            {
+              "number": 38,
+              "statement": "a comparison of current and projected future death tolls",
+              "answer": "B"
+            },
+            {
+              "number": 39,
+              "statement": "an explanation of how resistance can spread between different bacterial species",
+              "answer": "D"
+            },
+            {
+              "number": 40,
+              "statement": "a financial reason why new antibiotics are not being developed",
+              "answer": "E"
+            }
           ]
         }
       ]

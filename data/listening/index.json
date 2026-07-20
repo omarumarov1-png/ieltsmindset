@@ -7,23 +7,91 @@
       "title": "Booking a Hotel Room",
       "audioFile": null,
       "transcript": [
-        { "speaker": "Receptionist", "voiceId": "female-british", "text": "Good morning, Lakeside Hotel, how can I help you?" },
-        { "speaker": "Caller", "voiceId": "male-american", "text": "Hi, I'd like to book a room for next weekend, please." },
-        { "speaker": "Receptionist", "voiceId": "female-british", "text": "Of course. Could I take your name first?" },
-        { "speaker": "Caller", "voiceId": "male-american", "text": "Yes, it's Daniel Whitfield. That's W-H-I-T-F-I-E-L-D." },
-        { "speaker": "Receptionist", "voiceId": "female-british", "text": "Thank you, Mr Whitfield. And what dates were you looking at?" },
-        { "speaker": "Caller", "voiceId": "male-american", "text": "Friday the ninth to Sunday the eleventh of May. Two nights." },
-        { "speaker": "Receptionist", "voiceId": "female-british", "text": "Let me check... yes, we have availability. Would you like a single or a double room?" },
-        { "speaker": "Caller", "voiceId": "male-american", "text": "A double, please. Actually, do you have any rooms with a lake view?" },
-        { "speaker": "Receptionist", "voiceId": "female-british", "text": "We do, though they're a little more expensive — ninety-five pounds a night instead of seventy-eight." },
-        { "speaker": "Caller", "voiceId": "male-american", "text": "That's fine, I'll take the lake view." },
-        { "speaker": "Receptionist", "voiceId": "female-british", "text": "Great. So that's a double room with a lake view for two nights, coming to a hundred and ninety pounds in total. Breakfast is included." },
-        { "speaker": "Caller", "voiceId": "male-american", "text": "Perfect. Oh, and is there parking available?" },
-        { "speaker": "Receptionist", "voiceId": "female-british", "text": "Yes, there's a car park behind the hotel — it's free for guests. Could I get a contact number, in case we need to reach you?" },
-        { "speaker": "Caller", "voiceId": "male-american", "text": "Sure, it's 07 700 900 452." },
-        { "speaker": "Receptionist", "voiceId": "female-british", "text": "Thank you. Your booking reference is LH-2214. You'll receive a confirmation email shortly." },
-        { "speaker": "Caller", "voiceId": "male-american", "text": "Great, thank you very much." },
-        { "speaker": "Receptionist", "voiceId": "female-british", "text": "You're welcome. We look forward to seeing you on the ninth." }
+        {
+          "speaker": "Receptionist",
+          "voiceId": "female-british",
+          "text": "Good morning, Lakeside Hotel, how can I help you?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "male-american",
+          "text": "Hi, I'd like to book a room for next weekend, please."
+        },
+        {
+          "speaker": "Receptionist",
+          "voiceId": "female-british",
+          "text": "Of course. Could I take your name first?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "male-american",
+          "text": "Yes, it's Daniel Whitfield. That's W-H-I-T-F-I-E-L-D."
+        },
+        {
+          "speaker": "Receptionist",
+          "voiceId": "female-british",
+          "text": "Thank you, Mr Whitfield. And what dates were you looking at?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "male-american",
+          "text": "Friday the ninth to Sunday the eleventh of May. Two nights."
+        },
+        {
+          "speaker": "Receptionist",
+          "voiceId": "female-british",
+          "text": "Let me check... yes, we have availability. Would you like a single or a double room?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "male-american",
+          "text": "A double, please. Actually, do you have any rooms with a lake view?"
+        },
+        {
+          "speaker": "Receptionist",
+          "voiceId": "female-british",
+          "text": "We do, though they're a little more expensive — ninety-five pounds a night instead of seventy-eight."
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "male-american",
+          "text": "That's fine, I'll take the lake view."
+        },
+        {
+          "speaker": "Receptionist",
+          "voiceId": "female-british",
+          "text": "Great. So that's a double room with a lake view for two nights, coming to a hundred and ninety pounds in total. Breakfast is included."
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "male-american",
+          "text": "Perfect. Oh, and is there parking available?"
+        },
+        {
+          "speaker": "Receptionist",
+          "voiceId": "female-british",
+          "text": "Yes, there's a car park behind the hotel — it's free for guests. Could I get a contact number, in case we need to reach you?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "male-american",
+          "text": "Sure, it's 07 700 900 452."
+        },
+        {
+          "speaker": "Receptionist",
+          "voiceId": "female-british",
+          "text": "Thank you. Your booking reference is LH-2214. You'll receive a confirmation email shortly."
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "male-american",
+          "text": "Great, thank you very much."
+        },
+        {
+          "speaker": "Receptionist",
+          "voiceId": "female-british",
+          "text": "You're welcome. We look forward to seeing you on the ninth."
+        }
       ],
       "questionGroups": [
         {
@@ -31,16 +99,80 @@
           "instructions": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
           "wordLimit": 3,
           "questions": [
-            { "number": 1, "prompt": "Guest name: ___ Whitfield", "answer": ["Daniel"] },
-            { "number": 2, "prompt": "Dates: ___ May – 11 May", "answer": ["9", "9th", "ninth"] },
-            { "number": 3, "prompt": "Room type: ___ room", "answer": ["double"] },
-            { "number": 4, "prompt": "Room feature: ___ view", "answer": ["lake"] },
-            { "number": 5, "prompt": "Price per night: £___", "answer": ["95"] },
-            { "number": 6, "prompt": "Total cost: £___", "answer": ["190"] },
-            { "number": 7, "prompt": "Meal included: ___", "answer": ["breakfast"] },
-            { "number": 8, "prompt": "Parking: ___ for guests", "answer": ["free"] },
-            { "number": 9, "prompt": "Contact number: ___", "answer": ["07700900452", "07 700 900 452"] },
-            { "number": 10, "prompt": "Booking reference: ___", "answer": ["LH-2214", "LH2214"] }
+            {
+              "number": 1,
+              "prompt": "Guest name: ___ Whitfield",
+              "answer": [
+                "Daniel"
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Dates: ___ May – 11 May",
+              "answer": [
+                "9",
+                "9th",
+                "ninth"
+              ]
+            },
+            {
+              "number": 3,
+              "prompt": "Room type: ___ room",
+              "answer": [
+                "double"
+              ]
+            },
+            {
+              "number": 4,
+              "prompt": "Room feature: ___ view",
+              "answer": [
+                "lake"
+              ]
+            },
+            {
+              "number": 5,
+              "prompt": "Price per night: £___",
+              "answer": [
+                "95"
+              ]
+            },
+            {
+              "number": 6,
+              "prompt": "Total cost: £___",
+              "answer": [
+                "190"
+              ]
+            },
+            {
+              "number": 7,
+              "prompt": "Meal included: ___",
+              "answer": [
+                "breakfast"
+              ]
+            },
+            {
+              "number": 8,
+              "prompt": "Parking: ___ for guests",
+              "answer": [
+                "free"
+              ]
+            },
+            {
+              "number": 9,
+              "prompt": "Contact number: ___",
+              "answer": [
+                "07700900452",
+                "07 700 900 452"
+              ]
+            },
+            {
+              "number": 10,
+              "prompt": "Booking reference: ___",
+              "answer": [
+                "LH-2214",
+                "LH2214"
+              ]
+            }
           ]
         }
       ]
@@ -52,30 +184,109 @@
       "title": "A Museum Tour Introduction",
       "audioFile": null,
       "transcript": [
-        { "speaker": "Guide", "voiceId": "female-australian", "text": "Good afternoon, everyone, and welcome to the City History Museum. Before we begin the tour, let me give you a quick overview of the building and what's on offer today. We're currently standing in the main entrance hall, which was actually the original ballroom when this building served as a private residence in the 1890s. The ceiling you can see above you is the original plasterwork, though it was carefully restored about ten years ago after water damage. If you look to your left, you'll see the museum shop, which sells postcards, books, and replicas of some of our most popular exhibits. It's open the same hours as the museum itself. To your right is the café, which serves light lunches and snacks until four in the afternoon — a little later than the shop, which closes at three thirty. Now, in terms of the exhibits themselves, the ground floor is dedicated to the city's early history, from its founding right through to the industrial period. The first floor houses our textiles and fashion collection, which is particularly popular with school groups. On the second floor, you'll find our newest exhibition, on maritime trade, which only opened last month. Unfortunately, the top floor, which usually contains our art collection, is closed for renovation until the autumn. If you need any assistance during your visit, staff wearing blue jackets are stationed on every floor. Photography is permitted throughout the museum, but please don't use flash, as it can damage some of the older textiles and documents. Right, let's begin our tour in the early history gallery." }
+        {
+          "speaker": "Guide",
+          "voiceId": "female-australian",
+          "text": "Good afternoon, everyone, and welcome to the City History Museum. Before we begin the tour, let me give you a quick overview of the building and what's on offer today. We're currently standing in the main entrance hall, which was actually the original ballroom when this building served as a private residence in the 1890s. The ceiling you can see above you is the original plasterwork, though it was carefully restored about ten years ago after water damage. If you look to your left, you'll see the museum shop, which sells postcards, books, and replicas of some of our most popular exhibits. It's open the same hours as the museum itself. To your right is the café, which serves light lunches and snacks until four in the afternoon — a little later than the shop, which closes at three thirty. Now, in terms of the exhibits themselves, the ground floor is dedicated to the city's early history, from its founding right through to the industrial period. The first floor houses our textiles and fashion collection, which is particularly popular with school groups. On the second floor, you'll find our newest exhibition, on maritime trade, which only opened last month. Unfortunately, the top floor, which usually contains our art collection, is closed for renovation until the autumn. If you need any assistance during your visit, staff wearing blue jackets are stationed on every floor. Photography is permitted throughout the museum, but please don't use flash, as it can damage some of the older textiles and documents. Right, let's begin our tour in the early history gallery."
+        }
       ],
       "questionGroups": [
         {
           "type": "multiple-choice",
           "instructions": "Choose the correct letter, A, B, C, or D.",
           "questions": [
-            { "number": 11, "statement": "What was the museum building originally used for?", "options": ["A school", "A private residence", "A government office", "A hotel"], "answer": 1 },
-            { "number": 12, "statement": "What time does the museum café close?", "options": ["3:00", "3:30", "4:00", "4:30"], "answer": 2 },
-            { "number": 13, "statement": "Which floor houses the maritime trade exhibition?", "options": ["Ground floor", "First floor", "Second floor", "Top floor"], "answer": 2 },
-            { "number": 14, "statement": "Why is the top floor currently closed?", "options": ["It is being renovated", "It has no exhibits", "It is being used for storage", "It was damaged by flooding"], "answer": 0 },
-            { "number": 15, "statement": "What colour jackets do museum staff wear?", "options": ["Red", "Green", "Black", "Blue"], "answer": 3 }
+            {
+              "number": 11,
+              "statement": "What was the museum building originally used for?",
+              "options": [
+                "A school",
+                "A private residence",
+                "A government office",
+                "A hotel"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 12,
+              "statement": "What time does the museum café close?",
+              "options": [
+                "3:00",
+                "3:30",
+                "4:00",
+                "4:30"
+              ],
+              "answer": 2
+            },
+            {
+              "number": 13,
+              "statement": "Which floor houses the maritime trade exhibition?",
+              "options": [
+                "Ground floor",
+                "First floor",
+                "Second floor",
+                "Top floor"
+              ],
+              "answer": 2
+            },
+            {
+              "number": 14,
+              "statement": "Why is the top floor currently closed?",
+              "options": [
+                "It is being renovated",
+                "It has no exhibits",
+                "It is being used for storage",
+                "It was damaged by flooding"
+              ],
+              "answer": 0
+            },
+            {
+              "number": 15,
+              "statement": "What colour jackets do museum staff wear?",
+              "options": [
+                "Red",
+                "Green",
+                "Black",
+                "Blue"
+              ],
+              "answer": 3
+            }
           ]
         },
         {
           "type": "matching-information",
           "instructions": "Which floor is each exhibit on? Choose the correct floor for questions 16–20.",
-          "matchOptions": ["Ground floor", "First floor", "Second floor", "Top floor"],
+          "matchOptions": [
+            "Ground floor",
+            "First floor",
+            "Second floor",
+            "Top floor"
+          ],
           "questions": [
-            { "number": 16, "statement": "Early city history exhibit", "answer": "Ground floor" },
-            { "number": 17, "statement": "Textiles and fashion collection", "answer": "First floor" },
-            { "number": 18, "statement": "Maritime trade exhibition", "answer": "Second floor" },
-            { "number": 19, "statement": "Art collection", "answer": "Top floor" },
-            { "number": 20, "statement": "Museum shop", "answer": "Ground floor" }
+            {
+              "number": 16,
+              "statement": "Early city history exhibit",
+              "answer": "Ground floor"
+            },
+            {
+              "number": 17,
+              "statement": "Textiles and fashion collection",
+              "answer": "First floor"
+            },
+            {
+              "number": 18,
+              "statement": "Maritime trade exhibition",
+              "answer": "Second floor"
+            },
+            {
+              "number": 19,
+              "statement": "Art collection",
+              "answer": "Top floor"
+            },
+            {
+              "number": 20,
+              "statement": "Museum shop",
+              "answer": "Ground floor"
+            }
           ]
         }
       ]
@@ -87,34 +298,152 @@
       "title": "Discussing a Research Project",
       "audioFile": null,
       "transcript": [
-        { "speaker": "Tutor", "voiceId": "male-british", "text": "Come in, Emma. So, how's the research project coming along?" },
-        { "speaker": "Emma", "voiceId": "female-american", "text": "Good, thanks. I've been focusing on tidal energy, like we discussed, but I've run into a few problems with my literature review." },
-        { "speaker": "Tutor", "voiceId": "male-british", "text": "What kind of problems?" },
-        { "speaker": "Emma", "voiceId": "female-american", "text": "Well, most of the studies I've found are quite technical — they focus on engineering aspects, but I want to look more at the economic viability of tidal projects, and there's much less written about that." },
-        { "speaker": "Tutor", "voiceId": "male-british", "text": "That's actually a common issue in this field. Have you looked at the Severn Estuary case study? There was a proposal for a large tidal barrage there that was eventually rejected, partly on cost grounds." },
-        { "speaker": "Emma", "voiceId": "female-american", "text": "I have looked at it briefly, but I hadn't thought about using it as a central case study." },
-        { "speaker": "Tutor", "voiceId": "male-british", "text": "I'd recommend building your whole second chapter around it. It gives you a concrete example to analyse rather than just summarising the general literature." },
-        { "speaker": "Emma", "voiceId": "female-american", "text": "That's a good idea. Should I also compare it with a project that did go ahead, for contrast?" },
-        { "speaker": "Tutor", "voiceId": "male-british", "text": "Yes, that would strengthen your argument considerably. The MeyGen project in Scotland would work well — it's one of the few tidal stream projects that's actually operating commercially." },
-        { "speaker": "Emma", "voiceId": "female-american", "text": "Okay, I'll look into that. I'm also a bit worried about my timeline. I still need to interview two industry experts, and neither has confirmed yet." },
-        { "speaker": "Tutor", "voiceId": "male-british", "text": "How many words have you written so far?" },
-        { "speaker": "Emma", "voiceId": "female-american", "text": "About three thousand, out of the required eight thousand." },
-        { "speaker": "Tutor", "voiceId": "male-british", "text": "That's not bad for this stage. I'd suggest sending a follow-up email to your interview contacts this week — don't leave it until the deadline is close." },
-        { "speaker": "Emma", "voiceId": "female-american", "text": "I will. One more thing — for the methodology section, do you think I should include a survey as well as the interviews?" },
-        { "speaker": "Tutor", "voiceId": "male-british", "text": "I don't think that's necessary, given your word limit. Two well-chosen interviews will give you more depth than a survey would. I'd rather see you spend that time strengthening your data analysis." },
-        { "speaker": "Emma", "voiceId": "female-american", "text": "Okay, that makes sense. Thank you, that's really helpful." },
-        { "speaker": "Tutor", "voiceId": "male-british", "text": "No problem. Let's meet again in two weeks — bring a draft of the Severn Estuary chapter if you can." }
+        {
+          "speaker": "Tutor",
+          "voiceId": "male-british",
+          "text": "Come in, Emma. So, how's the research project coming along?"
+        },
+        {
+          "speaker": "Emma",
+          "voiceId": "female-american",
+          "text": "Good, thanks. I've been focusing on tidal energy, like we discussed, but I've run into a few problems with my literature review."
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "male-british",
+          "text": "What kind of problems?"
+        },
+        {
+          "speaker": "Emma",
+          "voiceId": "female-american",
+          "text": "Well, most of the studies I've found are quite technical — they focus on engineering aspects, but I want to look more at the economic viability of tidal projects, and there's much less written about that."
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "male-british",
+          "text": "That's actually a common issue in this field. Have you looked at the Severn Estuary case study? There was a proposal for a large tidal barrage there that was eventually rejected, partly on cost grounds."
+        },
+        {
+          "speaker": "Emma",
+          "voiceId": "female-american",
+          "text": "I have looked at it briefly, but I hadn't thought about using it as a central case study."
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "male-british",
+          "text": "I'd recommend building your whole second chapter around it. It gives you a concrete example to analyse rather than just summarising the general literature."
+        },
+        {
+          "speaker": "Emma",
+          "voiceId": "female-american",
+          "text": "That's a good idea. Should I also compare it with a project that did go ahead, for contrast?"
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "male-british",
+          "text": "Yes, that would strengthen your argument considerably. The MeyGen project in Scotland would work well — it's one of the few tidal stream projects that's actually operating commercially."
+        },
+        {
+          "speaker": "Emma",
+          "voiceId": "female-american",
+          "text": "Okay, I'll look into that. I'm also a bit worried about my timeline. I still need to interview two industry experts, and neither has confirmed yet."
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "male-british",
+          "text": "How many words have you written so far?"
+        },
+        {
+          "speaker": "Emma",
+          "voiceId": "female-american",
+          "text": "About three thousand, out of the required eight thousand."
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "male-british",
+          "text": "That's not bad for this stage. I'd suggest sending a follow-up email to your interview contacts this week — don't leave it until the deadline is close."
+        },
+        {
+          "speaker": "Emma",
+          "voiceId": "female-american",
+          "text": "I will. One more thing — for the methodology section, do you think I should include a survey as well as the interviews?"
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "male-british",
+          "text": "I don't think that's necessary, given your word limit. Two well-chosen interviews will give you more depth than a survey would. I'd rather see you spend that time strengthening your data analysis."
+        },
+        {
+          "speaker": "Emma",
+          "voiceId": "female-american",
+          "text": "Okay, that makes sense. Thank you, that's really helpful."
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "male-british",
+          "text": "No problem. Let's meet again in two weeks — bring a draft of the Severn Estuary chapter if you can."
+        }
       ],
       "questionGroups": [
         {
           "type": "multiple-choice",
           "instructions": "Choose the correct letter, A, B, C, or D.",
           "questions": [
-            { "number": 21, "statement": "What is Emma's research project mainly about?", "options": ["Solar power in the UK", "Wind energy costs", "Tidal energy", "Hydroelectric dams"], "answer": 2 },
-            { "number": 22, "statement": "What problem does Emma say she has with the existing literature?", "options": ["There isn't enough of it", "It's too focused on economics", "It's mostly about engineering, not economics", "It's outdated"], "answer": 2 },
-            { "number": 23, "statement": "Why does the tutor suggest the Severn Estuary case study?", "options": ["It was a very successful project", "It gives a concrete example to analyse", "Emma has already researched it in depth", "It is the largest tidal project in the world"], "answer": 1 },
-            { "number": 24, "statement": "What does the tutor say about the MeyGen project?", "options": ["It failed due to high costs", "It is still only a proposal", "It operates commercially", "It is located in England"], "answer": 2 },
-            { "number": 25, "statement": "What does the tutor advise Emma NOT to include in her methodology?", "options": ["Interviews", "A case study", "A survey", "Data analysis"], "answer": 2 }
+            {
+              "number": 21,
+              "statement": "What is Emma's research project mainly about?",
+              "options": [
+                "Solar power in the UK",
+                "Wind energy costs",
+                "Tidal energy",
+                "Hydroelectric dams"
+              ],
+              "answer": 2
+            },
+            {
+              "number": 22,
+              "statement": "What problem does Emma say she has with the existing literature?",
+              "options": [
+                "There isn't enough of it",
+                "It's too focused on economics",
+                "It's mostly about engineering, not economics",
+                "It's outdated"
+              ],
+              "answer": 2
+            },
+            {
+              "number": 23,
+              "statement": "Why does the tutor suggest the Severn Estuary case study?",
+              "options": [
+                "It was a very successful project",
+                "It gives a concrete example to analyse",
+                "Emma has already researched it in depth",
+                "It is the largest tidal project in the world"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 24,
+              "statement": "What does the tutor say about the MeyGen project?",
+              "options": [
+                "It failed due to high costs",
+                "It is still only a proposal",
+                "It operates commercially",
+                "It is located in England"
+              ],
+              "answer": 2
+            },
+            {
+              "number": 25,
+              "statement": "What does the tutor advise Emma NOT to include in her methodology?",
+              "options": [
+                "Interviews",
+                "A case study",
+                "A survey",
+                "Data analysis"
+              ],
+              "answer": 2
+            }
           ]
         },
         {
@@ -122,11 +451,47 @@
           "instructions": "Answer the questions below. Write NO MORE THAN THREE WORDS for each answer.",
           "wordLimit": 3,
           "questions": [
-            { "number": 26, "prompt": "How many industry experts does Emma still need to interview?", "answer": ["two"] },
-            { "number": 27, "prompt": "How many words has Emma written so far?", "answer": ["three thousand", "3000"] },
-            { "number": 28, "prompt": "What is Emma's total required word count?", "answer": ["eight thousand", "8000"] },
-            { "number": 29, "prompt": "What does the tutor tell Emma to do this week regarding her interview contacts?", "answer": ["send a follow-up email", "follow-up email", "email them"] },
-            { "number": 30, "prompt": "What should Emma bring to the next meeting?", "answer": ["a draft", "draft of the severn estuary chapter", "draft chapter"] }
+            {
+              "number": 26,
+              "prompt": "How many industry experts does Emma still need to interview?",
+              "answer": [
+                "two"
+              ]
+            },
+            {
+              "number": 27,
+              "prompt": "How many words has Emma written so far?",
+              "answer": [
+                "three thousand",
+                "3000"
+              ]
+            },
+            {
+              "number": 28,
+              "prompt": "What is Emma's total required word count?",
+              "answer": [
+                "eight thousand",
+                "8000"
+              ]
+            },
+            {
+              "number": 29,
+              "prompt": "What does the tutor tell Emma to do this week regarding her interview contacts?",
+              "answer": [
+                "send a follow-up email",
+                "follow-up email",
+                "email them"
+              ]
+            },
+            {
+              "number": 30,
+              "prompt": "What should Emma bring to the next meeting?",
+              "answer": [
+                "a draft",
+                "draft of the severn estuary chapter",
+                "draft chapter"
+              ]
+            }
           ]
         }
       ]
@@ -138,7 +503,11 @@
       "title": "The Global History of Coffee",
       "audioFile": null,
       "transcript": [
-        { "speaker": "Lecturer", "voiceId": "male-british", "text": "Good morning, everyone. Today I want to talk about the global history of coffee — a plant that began as a regional curiosity and became one of the most widely traded commodities in the world. The coffee plant is native to the highlands of Ethiopia, where, according to popular legend, a goat herder named Kaldi first noticed his goats becoming unusually energetic after eating berries from a certain shrub. While this story is almost certainly more folklore than fact, historical records do confirm that coffee was being cultivated in Ethiopia by at least the ninth century. From there, coffee cultivation and consumption spread to the Arabian Peninsula, particularly Yemen, by the fifteenth century, where it became closely associated with Sufi religious practice, used to help monks stay awake during long nights of prayer. Coffee houses, known as qahveh khaneh, began appearing in cities across the Middle East during the sixteenth century, functioning as important centres of social and intellectual life, where people gathered to talk, listen to music, and play games, as well as to drink coffee. These coffee houses became so influential that they were sometimes referred to as 'schools of the wise,' since so much political and cultural discussion took place within them. European travellers encountered coffee in the Middle East and brought it back to the continent in the seventeenth century, where it initially met with some suspicion — in Italy, some clergy even argued the drink should be banned as an invention of the devil, before Pope Clement the Eighth reportedly tried it himself and gave it his approval. From Europe, coffee cultivation spread to the colonies, with the Dutch establishing plantations in Java, in modern-day Indonesia, and the French introducing the plant to the Caribbean. It was a single coffee plant, given as a gift to King Louis the Fourteenth, that is said to have been the ancestor of nearly all coffee plants later grown throughout Latin America, following a rather dramatic sea voyage in which a young naval officer supposedly protected the seedling with his own share of drinking water. By the eighteenth century, coffee had become a major global commodity, and today it remains one of the most valuable agricultural exports in the world, second only to crude oil among globally traded commodities according to some estimates, supporting the livelihoods of an estimated hundred and twenty-five million people worldwide." }
+        {
+          "speaker": "Lecturer",
+          "voiceId": "male-british",
+          "text": "Good morning, everyone. Today I want to talk about the global history of coffee — a plant that began as a regional curiosity and became one of the most widely traded commodities in the world. The coffee plant is native to the highlands of Ethiopia, where, according to popular legend, a goat herder named Kaldi first noticed his goats becoming unusually energetic after eating berries from a certain shrub. While this story is almost certainly more folklore than fact, historical records do confirm that coffee was being cultivated in Ethiopia by at least the ninth century. From there, coffee cultivation and consumption spread to the Arabian Peninsula, particularly Yemen, by the fifteenth century, where it became closely associated with Sufi religious practice, used to help monks stay awake during long nights of prayer. Coffee houses, known as qahveh khaneh, began appearing in cities across the Middle East during the sixteenth century, functioning as important centres of social and intellectual life, where people gathered to talk, listen to music, and play games, as well as to drink coffee. These coffee houses became so influential that they were sometimes referred to as 'schools of the wise,' since so much political and cultural discussion took place within them. European travellers encountered coffee in the Middle East and brought it back to the continent in the seventeenth century, where it initially met with some suspicion — in Italy, some clergy even argued the drink should be banned as an invention of the devil, before Pope Clement the Eighth reportedly tried it himself and gave it his approval. From Europe, coffee cultivation spread to the colonies, with the Dutch establishing plantations in Java, in modern-day Indonesia, and the French introducing the plant to the Caribbean. It was a single coffee plant, given as a gift to King Louis the Fourteenth, that is said to have been the ancestor of nearly all coffee plants later grown throughout Latin America, following a rather dramatic sea voyage in which a young naval officer supposedly protected the seedling with his own share of drinking water. By the eighteenth century, coffee had become a major global commodity, and today it remains one of the most valuable agricultural exports in the world, second only to crude oil among globally traded commodities according to some estimates, supporting the livelihoods of an estimated hundred and twenty-five million people worldwide."
+        }
       ],
       "questionGroups": [
         {
@@ -146,22 +515,759 @@
           "instructions": "Complete the notes below. Write ONE WORD ONLY for each answer.",
           "wordLimit": 1,
           "questions": [
-            { "number": 31, "prompt": "Coffee is believed to have originated in the highlands of ___.", "answer": ["ethiopia"] },
-            { "number": 32, "prompt": "According to legend, ___ first noticed the effects of coffee berries on his goats.", "answer": ["kaldi"] },
-            { "number": 33, "prompt": "In Yemen, coffee became closely associated with ___ religious practice.", "answer": ["sufi"] },
-            { "number": 34, "prompt": "Middle Eastern coffee houses were sometimes called \"schools of the ___.\"", "answer": ["wise"] },
-            { "number": 35, "prompt": "The Dutch established coffee plantations in ___, in modern-day Indonesia.", "answer": ["java"] }
+            {
+              "number": 31,
+              "prompt": "Coffee is believed to have originated in the highlands of ___.",
+              "answer": [
+                "ethiopia"
+              ]
+            },
+            {
+              "number": 32,
+              "prompt": "According to legend, ___ first noticed the effects of coffee berries on his goats.",
+              "answer": [
+                "kaldi"
+              ]
+            },
+            {
+              "number": 33,
+              "prompt": "In Yemen, coffee became closely associated with ___ religious practice.",
+              "answer": [
+                "sufi"
+              ]
+            },
+            {
+              "number": 34,
+              "prompt": "Middle Eastern coffee houses were sometimes called \"schools of the ___.\"",
+              "answer": [
+                "wise"
+              ]
+            },
+            {
+              "number": 35,
+              "prompt": "The Dutch established coffee plantations in ___, in modern-day Indonesia.",
+              "answer": [
+                "java"
+              ]
+            }
           ]
         },
         {
           "type": "multiple-choice",
           "instructions": "Choose the correct letter, A, B, C, or D.",
           "questions": [
-            { "number": 36, "statement": "Who is said to have approved of coffee after initially facing opposition from clergy?", "options": ["King Louis XIV", "Pope Clement VIII", "A Dutch merchant", "A French naval officer"], "answer": 1 },
-            { "number": 37, "statement": "How did a single coffee plant reportedly spread to Latin America?", "options": ["It was smuggled by Dutch traders", "It was given as a gift and taken by ship", "It grew wild after being carried by birds", "It was purchased by Ethiopian farmers"], "answer": 1 },
-            { "number": 38, "statement": "What did the naval officer reportedly sacrifice to protect the coffee seedling?", "options": ["His salary", "His food rations", "His share of drinking water", "His cabin space"], "answer": 2 },
-            { "number": 39, "statement": "According to the lecture, coffee is said to be the world's most valuable traded commodity after which other product?", "options": ["Gold", "Crude oil", "Wheat", "Cotton"], "answer": 1 },
-            { "number": 40, "statement": "Approximately how many people worldwide does coffee support the livelihoods of, according to the lecture?", "options": ["12.5 million", "25 million", "80 million", "125 million"], "answer": 3 }
+            {
+              "number": 36,
+              "statement": "Who is said to have approved of coffee after initially facing opposition from clergy?",
+              "options": [
+                "King Louis XIV",
+                "Pope Clement VIII",
+                "A Dutch merchant",
+                "A French naval officer"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 37,
+              "statement": "How did a single coffee plant reportedly spread to Latin America?",
+              "options": [
+                "It was smuggled by Dutch traders",
+                "It was given as a gift and taken by ship",
+                "It grew wild after being carried by birds",
+                "It was purchased by Ethiopian farmers"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 38,
+              "statement": "What did the naval officer reportedly sacrifice to protect the coffee seedling?",
+              "options": [
+                "His salary",
+                "His food rations",
+                "His share of drinking water",
+                "His cabin space"
+              ],
+              "answer": 2
+            },
+            {
+              "number": 39,
+              "statement": "According to the lecture, coffee is said to be the world's most valuable traded commodity after which other product?",
+              "options": [
+                "Gold",
+                "Crude oil",
+                "Wheat",
+                "Cotton"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 40,
+              "statement": "Approximately how many people worldwide does coffee support the livelihoods of, according to the lecture?",
+              "options": [
+                "12.5 million",
+                "25 million",
+                "80 million",
+                "125 million"
+              ],
+              "answer": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "listening-test-002-section-1",
+      "skill": "listening",
+      "sectionNumber": 1,
+      "testGroup": "2",
+      "title": "Enrolling at a Sports Centre",
+      "audioFile": null,
+      "transcript": [
+        {
+          "speaker": "Receptionist",
+          "voiceId": "female-british",
+          "text": "Good afternoon, Riverside Sports Centre, how can I help you?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "female-american",
+          "text": "Hi, I'd like to find out about joining, please."
+        },
+        {
+          "speaker": "Receptionist",
+          "voiceId": "female-british",
+          "text": "Of course. Are you interested in the gym only, or the full membership with classes included?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "female-american",
+          "text": "The full membership, I think. My name's Elena Turasheva."
+        },
+        {
+          "speaker": "Receptionist",
+          "voiceId": "female-british",
+          "text": "Thanks, Elena. Could you spell your surname for me?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "female-american",
+          "text": "Yes, it's T-U-R-A-S-H-E-V-A."
+        },
+        {
+          "speaker": "Receptionist",
+          "voiceId": "female-british",
+          "text": "Great. The full membership is forty-two pounds a month, but we're currently running a fifteen percent discount for anyone who joins before the end of the month."
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "female-american",
+          "text": "Oh, that's good timing then."
+        },
+        {
+          "speaker": "Receptionist",
+          "voiceId": "female-british",
+          "text": "It is! So when would you like to start?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "female-american",
+          "text": "Could I start on the first of June?"
+        },
+        {
+          "speaker": "Receptionist",
+          "voiceId": "female-british",
+          "text": "Yes, that's fine. Now, I see you mentioned classes — is there a particular one you're interested in?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "female-american",
+          "text": "I'd really like to try the Tuesday evening yoga class, if there's space."
+        },
+        {
+          "speaker": "Receptionist",
+          "voiceId": "female-british",
+          "text": "Let me check... yes, there's space. That class runs from six thirty until seven thirty."
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "female-american",
+          "text": "Perfect."
+        },
+        {
+          "speaker": "Receptionist",
+          "voiceId": "female-british",
+          "text": "There is also a refundable locker deposit of ten pounds, which you get back if you return the key. And could I take a contact email address?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "female-american",
+          "text": "Sure, it's elena dot t at mailbox dot com."
+        },
+        {
+          "speaker": "Receptionist",
+          "voiceId": "female-british",
+          "text": "Thank you. I'll send your membership confirmation to that address, along with your member number."
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "female-american",
+          "text": "Great, thank you very much."
+        },
+        {
+          "speaker": "Receptionist",
+          "voiceId": "female-british",
+          "text": "You're welcome. We look forward to seeing you on the first."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "sentence-completion",
+          "instructions": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Membership type: ___ membership",
+              "answer": [
+                "full"
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Surname: ___",
+              "answer": [
+                "Turasheva"
+              ]
+            },
+            {
+              "number": 3,
+              "prompt": "Monthly fee before discount: £___",
+              "answer": [
+                "42"
+              ]
+            },
+            {
+              "number": 4,
+              "prompt": "Discount: ___%",
+              "answer": [
+                "15"
+              ]
+            },
+            {
+              "number": 5,
+              "prompt": "Start date: ___ of June",
+              "answer": [
+                "1st",
+                "1",
+                "first"
+              ]
+            },
+            {
+              "number": 6,
+              "prompt": "Class: ___ class",
+              "answer": [
+                "yoga"
+              ]
+            },
+            {
+              "number": 7,
+              "prompt": "Class day: ___ evening",
+              "answer": [
+                "Tuesday"
+              ]
+            },
+            {
+              "number": 8,
+              "prompt": "Class start time: ___",
+              "answer": [
+                "6:30",
+                "six thirty",
+                "6.30"
+              ]
+            },
+            {
+              "number": 9,
+              "prompt": "Refundable locker deposit: £___",
+              "answer": [
+                "10"
+              ]
+            },
+            {
+              "number": 10,
+              "prompt": "Contact email: ___",
+              "answer": [
+                "elena.t@mailbox.com"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "listening-test-002-section-2",
+      "skill": "listening",
+      "sectionNumber": 2,
+      "testGroup": "2",
+      "title": "A Guide to the Cultural Quarter",
+      "audioFile": null,
+      "transcript": [
+        {
+          "speaker": "Narrator",
+          "voiceId": "female-australian",
+          "text": "Good afternoon, and welcome to this recorded guide to the city's Cultural Quarter. I'll take you through five of the area's best-known venues, so you can plan your visit. First, the Old Mill Gallery. This is a contemporary art space housed in a converted nineteenth-century flour mill, right on the riverbank. It's particularly known for hosting emerging local artists, and entry is completely free, though donations are welcomed. It's open every day except Monday. Next is the Riverside Theatre, our largest performance venue, seating just over eight hundred people. It hosts a mixture of touring productions and local drama groups, and it's especially popular for its annual Shakespeare festival each summer. The Museum of Craft focuses on traditional and contemporary craftsmanship — woodwork, textiles, ceramics, and glassblowing. Uniquely among the venues on this tour, it offers hands-on workshops most weekends, where visitors can try a craft themselves under the guidance of a working artisan. The Central Library, meanwhile, isn't just for borrowing books. Its top floor houses a small archive of historical photographs of the city, which is open to the public free of charge on weekday afternoons. And finally, the Botanical Conservatory, a large glasshouse containing over two thousand plant species from around the world. It's especially popular with families, and it's the only one of the five venues that charges a standard admission fee, currently six pounds fifty for adults."
+        },
+        {
+          "speaker": "Narrator",
+          "voiceId": "female-australian",
+          "text": "Let me give you a little more detail. The Old Mill Gallery is open from ten in the morning until six in the evening, and there's a small café inside called The Kiln, which serves light lunches. The Riverside Theatre box office is located on Mill Street, just a two-minute walk from the gallery, and the nearest bus stop is Riverside Quay, served by the number twelve bus. For group visits of ten or more to the Botanical Conservatory, there is a twenty percent discount on the admission price, but you'll need to book at least forty-eight hours in advance."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "matching-features",
+          "instructions": "Match each description below with the correct venue, A–E.",
+          "matchOptions": [
+            "The Old Mill Gallery",
+            "The Riverside Theatre",
+            "The Museum of Craft",
+            "Central Library",
+            "The Botanical Conservatory"
+          ],
+          "questions": [
+            {
+              "number": 11,
+              "statement": "Is closed on one specific day of the week.",
+              "answer": "The Old Mill Gallery"
+            },
+            {
+              "number": 12,
+              "statement": "Hosts a festival dedicated to a single playwright each year.",
+              "answer": "The Riverside Theatre"
+            },
+            {
+              "number": 13,
+              "statement": "Allows visitors to practise a craft themselves.",
+              "answer": "The Museum of Craft"
+            },
+            {
+              "number": 14,
+              "statement": "Contains a collection of historical photographs.",
+              "answer": "Central Library"
+            },
+            {
+              "number": 15,
+              "statement": "Charges a standard admission fee.",
+              "answer": "The Botanical Conservatory"
+            }
+          ]
+        },
+        {
+          "type": "sentence-completion",
+          "instructions": "Complete the sentences below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 16,
+              "prompt": "The Old Mill Gallery closes at ___ in the evening.",
+              "answer": [
+                "6",
+                "six"
+              ]
+            },
+            {
+              "number": 17,
+              "prompt": "The café inside the gallery is called ___.",
+              "answer": [
+                "The Kiln",
+                "Kiln"
+              ]
+            },
+            {
+              "number": 18,
+              "prompt": "The Riverside Theatre box office is located on ___ Street.",
+              "answer": [
+                "Mill"
+              ]
+            },
+            {
+              "number": 19,
+              "prompt": "The nearest bus stop is served by the number ___ bus.",
+              "answer": [
+                "12",
+                "twelve"
+              ]
+            },
+            {
+              "number": 20,
+              "prompt": "Group visits of ten or more require booking at least ___ hours in advance.",
+              "answer": [
+                "48",
+                "forty-eight",
+                "forty eight"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "listening-test-002-section-3",
+      "skill": "listening",
+      "sectionNumber": 3,
+      "testGroup": "2",
+      "title": "Planning a Group Presentation",
+      "audioFile": null,
+      "transcript": [
+        {
+          "speaker": "Tutor",
+          "voiceId": "male-british",
+          "text": "So, how's the group presentation coming along? You're looking at renewable energy policy, is that right?"
+        },
+        {
+          "speaker": "Mateo",
+          "voiceId": "male-american",
+          "text": "That's right. We've split it into three parts — I'm covering solar, Priya's doing wind, and we still need someone for the policy comparison section."
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "male-british",
+          "text": "And how are you finding the research?"
+        },
+        {
+          "speaker": "Priya",
+          "voiceId": "female-australian",
+          "text": "It's going well, actually. I found a really useful case study on offshore wind in Denmark that I want to use."
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "male-british",
+          "text": "Good. Just remember the presentation needs to be exactly fifteen minutes, split roughly equally between the three of you."
+        },
+        {
+          "speaker": "Mateo",
+          "voiceId": "male-american",
+          "text": "We were thinking five minutes each, then five minutes for questions at the end."
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "male-british",
+          "text": "That works. What about visuals — are you using slides?"
+        },
+        {
+          "speaker": "Priya",
+          "voiceId": "female-australian",
+          "text": "Yes, we're preparing a shared slide deck. We're aiming for no more than six slides per section."
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "male-british",
+          "text": "Sensible. And who's responsible for the policy comparison section, in the end?"
+        },
+        {
+          "speaker": "Mateo",
+          "voiceId": "male-american",
+          "text": "We haven't decided yet — possibly Daniel, if he agrees."
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "male-british",
+          "text": "Okay. One thing I'd suggest: make sure your case studies come from at least two different continents, not just Europe."
+        },
+        {
+          "speaker": "Priya",
+          "voiceId": "female-australian",
+          "text": "Good point — I'll look for something in Southeast Asia to balance the Denmark example."
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "male-british",
+          "text": "When's the presentation scheduled?"
+        },
+        {
+          "speaker": "Mateo",
+          "voiceId": "male-american",
+          "text": "The fourteenth of November, in the main lecture theatre."
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "male-british",
+          "text": "And do you need any equipment beyond the usual projector?"
+        },
+        {
+          "speaker": "Priya",
+          "voiceId": "female-australian",
+          "text": "We might need a microphone, since the lecture theatre is quite large."
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "male-british",
+          "text": "I'll arrange that. Last thing — make sure you rehearse together at least once beforehand, as a full run-through, not just individually."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "table-completion",
+          "instructions": "Complete the table below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "wordLimit": 2,
+          "table": {
+            "headers": [
+              "Topic",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Solar power",
+                {
+                  "qnum": 21,
+                  "before": "Presented by "
+                }
+              ],
+              [
+                "Wind power",
+                {
+                  "qnum": 22,
+                  "before": "Case study from "
+                }
+              ],
+              [
+                "Policy comparison",
+                {
+                  "qnum": 23,
+                  "before": "Possibly presented by "
+                }
+              ],
+              [
+                "Total length",
+                {
+                  "qnum": 24,
+                  "before": "",
+                  "after": " minutes"
+                }
+              ],
+              [
+                "Slides",
+                {
+                  "qnum": 25,
+                  "before": "Maximum of ",
+                  "after": " per section"
+                }
+              ]
+            ]
+          },
+          "questions": [
+            {
+              "number": 21,
+              "answer": [
+                "Mateo"
+              ]
+            },
+            {
+              "number": 22,
+              "answer": [
+                "Denmark"
+              ]
+            },
+            {
+              "number": 23,
+              "answer": [
+                "Daniel"
+              ]
+            },
+            {
+              "number": 24,
+              "answer": [
+                "15"
+              ]
+            },
+            {
+              "number": 25,
+              "answer": [
+                "6",
+                "six"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "multiple-choice",
+          "instructions": "Choose the correct letter, A, B, C, or D.",
+          "questions": [
+            {
+              "number": 26,
+              "statement": "How will the fifteen minutes be divided?",
+              "options": [
+                "Ten minutes presenting, five for questions",
+                "Five minutes each, then five for questions",
+                "Equal time with no time for questions",
+                "Twelve minutes plus three for questions"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 27,
+              "statement": "What does the tutor suggest about the case studies used?",
+              "options": [
+                "They should all come from Europe",
+                "They should come from at least two continents",
+                "Only one case study should be used",
+                "They should focus only on Denmark"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 28,
+              "statement": "When is the presentation scheduled?",
+              "options": [
+                "4th November",
+                "14th November",
+                "40th November",
+                "14th December"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 29,
+              "statement": "What additional equipment might the group need?",
+              "options": [
+                "A projector",
+                "A microphone",
+                "A whiteboard",
+                "Extra chairs"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 30,
+              "statement": "What does the tutor recommend before the presentation?",
+              "options": [
+                "Individual rehearsal only",
+                "No rehearsal is necessary",
+                "A full run-through together",
+                "Rehearsing in the lecture theatre only"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "listening-test-002-section-4",
+      "skill": "listening",
+      "sectionNumber": 4,
+      "testGroup": "2",
+      "title": "The Psychology of Motivation",
+      "audioFile": null,
+      "transcript": [
+        {
+          "speaker": "Lecturer",
+          "voiceId": "male-australian",
+          "text": "Today I want to look at motivation — specifically, the distinction psychologists draw between intrinsic and extrinsic motivation, and why that distinction matters so much in education and the workplace. Intrinsic motivation refers to engaging in an activity for its own sake, because it's inherently interesting or satisfying. Extrinsic motivation, by contrast, involves doing something to obtain an external reward or avoid a punishment — a salary, a grade, praise from a parent. For decades, it was widely assumed that any motivation was better than none. But a series of experiments beginning in the early nineteen seventies challenged this. Psychologists Edward Deci and Richard Ryan found that offering people external rewards for tasks they already found intrinsically enjoyable often reduced their subsequent interest in that task once the reward was removed — a phenomenon now known as the overjustification effect."
+        },
+        {
+          "speaker": "Lecturer",
+          "voiceId": "male-australian",
+          "text": "This led Deci and Ryan to develop what's called self-determination theory, which proposes that human motivation depends on satisfying three basic psychological needs: autonomy, meaning a sense of control over one's own actions; competence, meaning a sense of being effective and capable; and relatedness, meaning a sense of connection to others. This theory has had significant influence in education. Classrooms that offer students meaningful choices, appropriately challenging tasks, and supportive relationships with teachers tend to produce more durable, self-sustaining motivation than classrooms relying heavily on grades and external pressure alone."
+        },
+        {
+          "speaker": "Lecturer",
+          "voiceId": "male-australian",
+          "text": "It's worth noting, though, that self-determination theory doesn't claim external rewards are always harmful. Researchers now generally distinguish between controlling rewards, which are experienced as pressure, and informational rewards, which simply provide feedback on competence without feeling coercive. A genuine, specific compliment on a piece of work, for instance, tends not to undermine intrinsic motivation the way a cash bonus for the same task often does. One further complication is cultural variation. Some cross-cultural studies suggest the importance of autonomy, in particular, may be somewhat greater in individualist societies than in more collectivist ones, where relatedness may play a comparatively larger motivational role, though this remains an active area of ongoing research, and the findings are not yet entirely settled."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "summary-completion",
+          "instructions": "Complete the summary below. Choose ONE WORD ONLY from the box for each answer.",
+          "wordLimit": 1,
+          "wordBank": [
+            "autonomy",
+            "competence",
+            "relatedness",
+            "overjustification",
+            "informational"
+          ],
+          "summaryText": "Deci and Ryan's research found that external rewards could sometimes reduce interest in a task that was already enjoyable, a pattern they called the ___31___ effect. This led to self-determination theory, which holds that motivation depends on three needs: ___32___, a sense of control; ___33___, a sense of being capable; and ___34___, a sense of connection to others. Later researchers distinguished controlling rewards from ___35___ rewards, which give feedback without feeling coercive.",
+          "questions": [
+            {
+              "number": 31,
+              "answer": [
+                "overjustification"
+              ]
+            },
+            {
+              "number": 32,
+              "answer": [
+                "autonomy"
+              ]
+            },
+            {
+              "number": 33,
+              "answer": [
+                "competence"
+              ]
+            },
+            {
+              "number": 34,
+              "answer": [
+                "relatedness"
+              ]
+            },
+            {
+              "number": 35,
+              "answer": [
+                "informational"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "short-answer",
+          "instructions": "Answer the questions below. Choose NO MORE THAN THREE WORDS for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 36,
+              "prompt": "In what decade did Deci and Ryan's early experiments begin?",
+              "answer": [
+                "the 1970s",
+                "1970s"
+              ]
+            },
+            {
+              "number": 37,
+              "prompt": "What term describes rewards that are experienced as pressure?",
+              "answer": [
+                "controlling rewards",
+                "controlling"
+              ]
+            },
+            {
+              "number": 38,
+              "prompt": "Give an example of an informational reward mentioned in the lecture.",
+              "answer": [
+                "a specific compliment",
+                "a compliment",
+                "specific compliment"
+              ]
+            },
+            {
+              "number": 39,
+              "prompt": "In which type of society might relatedness play a comparatively larger motivational role?",
+              "answer": [
+                "collectivist societies",
+                "collectivist"
+              ]
+            },
+            {
+              "number": 40,
+              "prompt": "How does the lecturer describe the current state of research into cultural variation in motivation?",
+              "answer": [
+                "not settled",
+                "not entirely settled",
+                "ongoing"
+              ]
+            }
           ]
         }
       ]

@@ -31,6 +31,7 @@
     backToHub: "Назад к списку",
     passage: "Текст",
     section: "Часть",
+    testShort: "Тест",
     questions: "Вопросы",
     exitTest: "Выйти",
     flagQuestion: "Отметить",
@@ -328,7 +329,7 @@
     const unitLabel = isReading ? `${unitCount} ${passagesWord(unitCount)}` : `${unitCount} ${sectionsWord(unitCount)}`;
     return `
       <div class="content-row" data-testgroup="${group.id}">
-        <span class="c-badge">${UI.testMode.split(" ")[0]} ${idx + 1}</span>
+        <span class="c-badge">${UI.testShort} ${idx + 1}</span>
         <span class="c-title">${isReading ? "Полный тест по чтению" : "Полный тест по аудированию"} — ${unitLabel}, ${qCount} ${questionsWord(qCount)}</span>
         <span class="c-status">⏱ ${isReading ? "60 мин" : "~30 мин"}</span>
       </div>`;
@@ -338,8 +339,8 @@
     const qCount = (item.questionGroups || []).reduce((s, g) => s + g.questions.length, 0);
     const tg = item.testGroup || "1";
     const badge = isReading
-      ? `${UI.passage} · ${UI.testMode.split(" ")[0]} ${tg}`
-      : `${UI.section} ${item.sectionNumber || idx + 1} · ${UI.testMode.split(" ")[0]} ${tg}`;
+      ? `${UI.passage} · ${UI.testShort} ${tg}`
+      : `${UI.section} ${item.sectionNumber || idx + 1} · ${UI.testShort} ${tg}`;
     return `
       <div class="content-row" data-practice-idx="${idx}">
         <span class="c-badge">${badge}</span>

@@ -1441,6 +1441,485 @@
           ]
         }
       ]
+    },
+    {
+      "id": "reading-passage-010",
+      "skill": "reading",
+      "testType": "academic",
+      "testGroup": "4",
+      "title": "Nudge Theory and the Architecture of Choice",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "The 2008 book Nudge, by Richard Thaler and Cass Sunstein, introduced the concept of “libertarian paternalism” — the idea that policymakers can steer people toward better decisions by redesigning how choices are presented, without restricting freedom, forbidding any option, or significantly changing economic incentives. Thaler was later awarded the 2017 Nobel Memorial Prize in Economic Sciences, in part for this work."
+        },
+        {
+          "label": "B",
+          "text": "The most influential single application of the theory concerns defaults — the option automatically selected if someone takes no action. In countries where organ donation is opt-out, donation rates are dramatically higher, sometimes exceeding ninety percent, compared with opt-in countries, where rates often remain below twenty percent, despite surveys showing broadly similar levels of underlying public support for donation in both cases."
+        },
+        {
+          "label": "C",
+          "text": "A similar principle has been applied to retirement savings. When employees were automatically enrolled in workplace pension schemes, with the ability to opt out at any time, participation rates rose sharply compared with schemes requiring active opt-in, even though the financial terms on offer were identical in both cases."
+        },
+        {
+          "label": "D",
+          "text": "Beyond defaults, choice architecture also includes cafeteria layouts that place healthier food at eye level, and simplified, comparison-friendly formatting of information such as energy bills, all intended to make complex decisions easier without removing any option from the table."
+        },
+        {
+          "label": "E",
+          "text": "The approach is not without critics. Some argue that exploiting predictable irrationality is manipulative regardless of the stated good intentions behind it, and that “libertarian paternalism” is something of a contradiction, since a default inevitably favours one outcome, blurring the line between genuine choice and covert steering. Others question whether effects observed in small, controlled studies reliably generalise to large-scale policy."
+        },
+        {
+          "label": "F",
+          "text": "Despite the debate, a dedicated “nudge unit” — the Behavioural Insights Team — was established within the UK government in 2010, and the approach has since spread to dozens of countries and international organisations, including the World Bank and the United Nations, applying behavioural-science-informed nudges to areas ranging from tax compliance to vaccination uptake."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "true-false-not-given",
+          "instructions": "Do the following statements agree with the information given in the passage?",
+          "questions": [
+            {
+              "number": 1,
+              "statement": "Thaler and Sunstein's book was published in 2008.",
+              "answer": "TRUE"
+            },
+            {
+              "number": 2,
+              "statement": "Nudge theory involves banning certain choices in order to steer behaviour.",
+              "answer": "FALSE"
+            },
+            {
+              "number": 3,
+              "statement": "Organ donation rates are generally higher in opt-out countries than in opt-in countries.",
+              "answer": "TRUE"
+            },
+            {
+              "number": 4,
+              "statement": "Automatic pension enrolment schemes offered better financial terms than opt-in schemes.",
+              "answer": "FALSE"
+            },
+            {
+              "number": 5,
+              "statement": "All researchers agree that nudge effects observed in small studies scale reliably to large policies.",
+              "answer": "FALSE"
+            }
+          ]
+        },
+        {
+          "type": "matching-headings",
+          "instructions": "The passage has six paragraphs, A–F. Choose the correct heading for paragraphs B–E from the list of headings below.",
+          "headingOptions": [
+            "Making healthier and simpler choices easier, without limiting choice",
+            "How doing nothing can determine an outcome",
+            "Doubts about whether the approach is truly non-manipulative",
+            "Applying the same principle to long-term saving",
+            "The founding of the first behavioural insights unit",
+            "A term for a group of Nobel Prize-winning economists",
+            "Why higher taxes discourage saving",
+            "A controversial ban on unhealthy food"
+          ],
+          "questions": [
+            {
+              "number": 6,
+              "paragraphLabel": "B",
+              "answer": 1
+            },
+            {
+              "number": 7,
+              "paragraphLabel": "C",
+              "answer": 3
+            },
+            {
+              "number": 8,
+              "paragraphLabel": "D",
+              "answer": 0
+            },
+            {
+              "number": 9,
+              "paragraphLabel": "E",
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "short-answer",
+          "instructions": "Answer the questions below. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 10,
+              "prompt": "In what year was Thaler awarded the Nobel Memorial Prize in Economic Sciences?",
+              "answer": [
+                "2017"
+              ]
+            },
+            {
+              "number": 11,
+              "prompt": "What term describes the option automatically selected if someone takes no action?",
+              "answer": [
+                "the default",
+                "default"
+              ]
+            },
+            {
+              "number": 12,
+              "prompt": "What UK government unit, established in 2010, is named in the passage?",
+              "answer": [
+                "the Behavioural Insights Team",
+                "Behavioural Insights Team"
+              ]
+            },
+            {
+              "number": 13,
+              "prompt": "Besides the World Bank, which international organisation is mentioned as having adopted nudge-based methods?",
+              "answer": [
+                "the United Nations",
+                "United Nations",
+                "the UN",
+                "UN"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-passage-011",
+      "skill": "reading",
+      "testType": "academic",
+      "testGroup": "4",
+      "title": "The Search for Exoplanets",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "The first confirmed exoplanet — a planet orbiting a star other than the Sun — was discovered in 1995, orbiting the Sun-like star 51 Pegasi, by Michel Mayor and Didier Queloz, who were awarded the Nobel Prize in Physics in 2019. Since that discovery, more than five thousand exoplanets have been confirmed, transforming what was once a purely theoretical field into one of the most active areas of contemporary astronomy."
+        },
+        {
+          "label": "B",
+          "text": "The transit method is the most productive detection technique in use today: astronomers observe the tiny, periodic dimming of a star's light as a planet passes in front of it, from Earth's point of view. NASA's Kepler Space Telescope, launched in 2009, used this method to identify the majority of confirmed exoplanets, monitoring the brightness of over 150,000 stars simultaneously."
+        },
+        {
+          "label": "C",
+          "text": "The earlier method used to discover 51 Pegasi b, the radial velocity method, detects the slight wobble a star exhibits due to the gravitational pull of an orbiting planet, measurable through tiny shifts in the star's light spectrum. Historically less efficient than the transit method for detecting large numbers of exoplanets, it nonetheless remains valuable for confirming and characterising the mass of planets found by other methods."
+        },
+        {
+          "label": "D",
+          "text": "A central concept in the search for potentially life-supporting planets is the habitable zone — the range of orbital distance from a star within which conditions permit liquid water to exist on a planet's surface, neither too hot nor too cold. TRAPPIST-1, a nearby ultra-cool dwarf star, hosts at least three planets orbiting within its habitable zone, making the system one of the most closely studied targets in the field."
+        },
+        {
+          "label": "E",
+          "text": "Beyond detection, the James Webb Space Telescope, launched in 2021, is capable of a more advanced technique: analysing starlight that passes through an exoplanet's atmosphere as it transits, revealing the chemical composition present, potentially including gases such as oxygen or methane that could indicate biological activity. Astronomers caution, however, that non-biological processes can also produce many of the same chemical signatures, complicating any firm interpretation."
+        },
+        {
+          "label": "F",
+          "text": "Proposed future missions aim to directly image Earth-sized exoplanets, rather than merely inferring their existence indirectly. Such direct images, though likely to appear as no more than a single pixel of light even with next-generation telescopes, would nonetheless represent a landmark achievement — confirming a rocky exoplanet's existence for the first time through direct observation rather than statistical inference alone."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "multiple-choice",
+          "instructions": "Choose the correct letter, A, B, C, or D.",
+          "questions": [
+            {
+              "number": 14,
+              "statement": "What method was used to discover the first confirmed exoplanet, 51 Pegasi b?",
+              "options": [
+                "The transit method",
+                "Direct imaging",
+                "The radial velocity method",
+                "Atmospheric analysis"
+              ],
+              "answer": 2
+            },
+            {
+              "number": 15,
+              "statement": "According to the passage, the Kepler Space Telescope",
+              "options": [
+                "used the radial velocity method exclusively",
+                "monitored over 150,000 stars simultaneously",
+                "was launched before 51 Pegasi b was discovered",
+                "was designed to directly image exoplanets"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 16,
+              "statement": "What does the 'habitable zone' refer to?",
+              "options": [
+                "The area of a galaxy most likely to contain stars",
+                "The orbital distance range permitting liquid water",
+                "The zone immediately surrounding a black hole",
+                "The region of a star studied by radial velocity"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 17,
+              "statement": "What caution do astronomers raise about atmospheric analysis?",
+              "options": [
+                "It cannot detect oxygen or methane",
+                "Non-biological processes can produce similar chemical signatures",
+                "It only works on gas giant planets",
+                "It has never been successfully attempted"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "matching-features",
+          "instructions": "Match each description below with the correct term, A–E.",
+          "matchOptions": [
+            "The transit method",
+            "The radial velocity method",
+            "TRAPPIST-1",
+            "The James Webb Space Telescope",
+            "Direct imaging"
+          ],
+          "questions": [
+            {
+              "number": 18,
+              "statement": "Detects a star's tiny wobble caused by an orbiting planet's gravity.",
+              "answer": "The radial velocity method"
+            },
+            {
+              "number": 19,
+              "statement": "A nearby star system hosting at least three planets in its habitable zone.",
+              "answer": "TRAPPIST-1"
+            },
+            {
+              "number": 20,
+              "statement": "Analyses starlight passing through an exoplanet's atmosphere.",
+              "answer": "The James Webb Space Telescope"
+            },
+            {
+              "number": 21,
+              "statement": "Identified the majority of confirmed exoplanets by observing periodic dimming.",
+              "answer": "The transit method"
+            },
+            {
+              "number": 22,
+              "statement": "A future technique that would produce images equivalent to only a single pixel of light.",
+              "answer": "Direct imaging"
+            }
+          ]
+        },
+        {
+          "type": "summary-completion",
+          "instructions": "Complete the summary below. Choose ONE WORD ONLY from the box for each answer.",
+          "wordLimit": 1,
+          "wordBank": [
+            "theoretical",
+            "confirmed",
+            "wobble",
+            "habitable",
+            "biological"
+          ],
+          "summaryText": "Before 1995, the existence of planets beyond our solar system was purely ___23___. Since then, more than five thousand exoplanets have been ___24___. The radial velocity method detects the ___25___ a star exhibits due to an orbiting planet's gravity, while the transit method detects dimming light. Planets within a star's ___26___ zone may support liquid water, and some atmospheric chemical signatures could indicate ___27___ activity, though this remains difficult to confirm with certainty.",
+          "questions": [
+            {
+              "number": 23,
+              "answer": [
+                "theoretical"
+              ]
+            },
+            {
+              "number": 24,
+              "answer": [
+                "confirmed"
+              ]
+            },
+            {
+              "number": 25,
+              "answer": [
+                "wobble"
+              ]
+            },
+            {
+              "number": 26,
+              "answer": [
+                "habitable"
+              ]
+            },
+            {
+              "number": 27,
+              "answer": [
+                "biological"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-passage-012",
+      "skill": "reading",
+      "testType": "academic",
+      "testGroup": "4",
+      "title": "Ultra-Processed Foods and Public Health",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "The term “ultra-processed food” was popularised by the NOVA classification system, developed by Brazilian researchers in 2009, which groups foods into four categories based on the degree and purpose of processing, rather than on traditional nutrient content alone. Category four, ultra-processed foods, includes industrially manufactured products typically containing ingredients rarely found in home kitchens, such as emulsifiers, artificial flavourings, and modified starches."
+        },
+        {
+          "label": "B",
+          "text": "In some high-income countries, ultra-processed foods now account for more than half of total daily caloric intake. A 2019 study conducted in the United States found the figure to be approximately fifty-eight percent, among the highest recorded internationally."
+        },
+        {
+          "label": "C",
+          "text": "Large observational studies have found consistent associations between high consumption of ultra-processed foods and increased rates of obesity, type 2 diabetes, and cardiovascular disease. One frequently cited controlled feeding trial, conducted in 2019 by the researcher Kevin Hall, found that participants given ultra-processed diets spontaneously consumed approximately five hundred more calories per day than when given minimally processed diets matched for total sugar, fat, and fibre content."
+        },
+        {
+          "label": "D",
+          "text": "Researchers have proposed several possible mechanisms behind this effect, including the unusually rapid eating speed such foods tend to encourage, their generally higher palatability, or the effect specific food additives may have on gut hormones that regulate appetite — though the precise combination and relative importance of these mechanisms remains genuinely unresolved."
+        },
+        {
+          "label": "E",
+          "text": "Some nutrition scientists have criticised the NOVA classification itself, arguing it groups together an excessively broad range of foods, from nutritionally poor products such as sugary carbonated drinks to comparatively nutritious ones such as certain wholegrain breads or fortified plant-based milks, simply because both happen to be industrially manufactured — potentially obscuring more useful nutritional distinctions."
+        },
+        {
+          "label": "F",
+          "text": "Several governments have nonetheless begun incorporating ultra-processed food into public health guidance. In 2022, Belgium became the first European country to reference the NOVA classification directly within official national dietary guidelines, and other nations, including several in Latin America, have introduced warning labels specifically targeting ultra-processed products."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "yes-no-not-given",
+          "instructions": "Do the following statements agree with the claims of the writer?",
+          "questions": [
+            {
+              "number": 28,
+              "statement": "The NOVA classification groups foods primarily according to their nutrient content.",
+              "answer": "NO"
+            },
+            {
+              "number": 29,
+              "statement": "In the United States, ultra-processed foods account for over half of daily caloric intake.",
+              "answer": "YES"
+            },
+            {
+              "number": 30,
+              "statement": "Kevin Hall's 2019 study found no difference in calorie consumption between the two diet types.",
+              "answer": "NO"
+            },
+            {
+              "number": 31,
+              "statement": "Researchers have reached full agreement on exactly why ultra-processed foods lead to overconsumption.",
+              "answer": "NO"
+            },
+            {
+              "number": 32,
+              "statement": "Every nutrition scientist agrees the NOVA classification is a useful and accurate framework.",
+              "answer": "NO"
+            }
+          ]
+        },
+        {
+          "type": "table-completion",
+          "instructions": "Complete the table below. Choose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer.",
+          "wordLimit": 2,
+          "table": {
+            "headers": [
+              "Aspect",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "NOVA classification",
+                {
+                  "qnum": 33,
+                  "before": "Developed in "
+                }
+              ],
+              [
+                "US ultra-processed intake (2019 study)",
+                {
+                  "qnum": 34,
+                  "before": "Approximately ",
+                  "after": "% of daily calories"
+                }
+              ],
+              [
+                "Kevin Hall trial",
+                {
+                  "qnum": 35,
+                  "before": "Participants consumed about ",
+                  "after": " more calories per day"
+                }
+              ],
+              [
+                "Belgium",
+                {
+                  "qnum": 36,
+                  "before": "First European country to reference NOVA in official dietary "
+                }
+              ]
+            ]
+          },
+          "questions": [
+            {
+              "number": 33,
+              "answer": [
+                "2009"
+              ]
+            },
+            {
+              "number": 34,
+              "answer": [
+                "58"
+              ]
+            },
+            {
+              "number": 35,
+              "answer": [
+                "500"
+              ]
+            },
+            {
+              "number": 36,
+              "answer": [
+                "guidelines"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "matching-information",
+          "instructions": "Which paragraph contains the following information? Write the correct letter, A–F.",
+          "matchOptions": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "questions": [
+            {
+              "number": 37,
+              "statement": "an estimate of how much of a national diet is made up of ultra-processed food",
+              "answer": "B"
+            },
+            {
+              "number": 38,
+              "statement": "a criticism that the classification groups very different foods together",
+              "answer": "E"
+            },
+            {
+              "number": 39,
+              "statement": "several possible explanations for why these foods might lead to overeating",
+              "answer": "D"
+            },
+            {
+              "number": 40,
+              "statement": "an example of a specific country's policy response",
+              "answer": "F"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1942,6 +1942,675 @@
           ]
         }
       ]
+    },
+    {
+      "id": "listening-test-004-section-1",
+      "skill": "listening",
+      "sectionNumber": 1,
+      "testGroup": "4",
+      "title": "Booking a Removal Company",
+      "audioFile": null,
+      "transcript": [
+        {
+          "speaker": "Agent",
+          "voiceId": "male-british",
+          "text": "Good afternoon, Swift Removals, how can I help?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "female-australian",
+          "text": "Hi, I'm moving flat next month and I'd like a quote, please."
+        },
+        {
+          "speaker": "Agent",
+          "voiceId": "male-british",
+          "text": "Of course. Could I take your name?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "female-australian",
+          "text": "Yes, it's Grace Okafor."
+        },
+        {
+          "speaker": "Agent",
+          "voiceId": "male-british",
+          "text": "Thanks, Grace. What's the address you're moving from?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "female-australian",
+          "text": "Twenty-two Bellview Road."
+        },
+        {
+          "speaker": "Agent",
+          "voiceId": "male-british",
+          "text": "And where are you moving to?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "female-australian",
+          "text": "Forty-five Kingfisher Close, on the other side of town."
+        },
+        {
+          "speaker": "Agent",
+          "voiceId": "male-british",
+          "text": "Right. And roughly how many rooms are we talking about?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "female-australian",
+          "text": "It's a two-bedroom flat."
+        },
+        {
+          "speaker": "Agent",
+          "voiceId": "male-british",
+          "text": "Okay. Do you need us to supply packing boxes, or will you handle the packing yourself?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "female-australian",
+          "text": "I'd like you to supply boxes, if that's included."
+        },
+        {
+          "speaker": "Agent",
+          "voiceId": "male-british",
+          "text": "It is, up to twenty boxes free of charge — after that it's fifty pence per box. Now, what date were you thinking?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "female-australian",
+          "text": "The fourteenth of April, if possible — it's a Saturday."
+        },
+        {
+          "speaker": "Agent",
+          "voiceId": "male-british",
+          "text": "Let me check... yes, we have a slot. For a two-bedroom flat with boxes supplied, the total would come to three hundred and eighty pounds."
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "female-australian",
+          "text": "That sounds reasonable."
+        },
+        {
+          "speaker": "Agent",
+          "voiceId": "male-british",
+          "text": "Great. I'll need a twenty percent deposit to confirm the booking — that's seventy-six pounds."
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "female-australian",
+          "text": "That's fine, I can pay that today."
+        },
+        {
+          "speaker": "Agent",
+          "voiceId": "male-british",
+          "text": "Perfect. And could I take a contact number, in case the team needs to reach you on the day?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "female-australian",
+          "text": "Sure, it's 07945213608."
+        },
+        {
+          "speaker": "Agent",
+          "voiceId": "male-british",
+          "text": "Thank you. I'll email your confirmation and invoice."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "sentence-completion",
+          "instructions": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Surname: ___",
+              "answer": [
+                "Okafor"
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Moving from: ___ Bellview Road",
+              "answer": [
+                "22"
+              ]
+            },
+            {
+              "number": 3,
+              "prompt": "Moving to: ___ Kingfisher Close",
+              "answer": [
+                "45"
+              ]
+            },
+            {
+              "number": 4,
+              "prompt": "Property size: ___ bedroom flat",
+              "answer": [
+                "two",
+                "2"
+              ]
+            },
+            {
+              "number": 5,
+              "prompt": "Free boxes included: up to ___",
+              "answer": [
+                "20",
+                "twenty"
+              ]
+            },
+            {
+              "number": 6,
+              "prompt": "Cost per extra box: ___",
+              "answer": [
+                "50p",
+                "fifty pence",
+                "£0.50"
+              ]
+            },
+            {
+              "number": 7,
+              "prompt": "Moving date: the ___ of April",
+              "answer": [
+                "14th",
+                "14",
+                "fourteenth"
+              ]
+            },
+            {
+              "number": 8,
+              "prompt": "Total cost: £___",
+              "answer": [
+                "380"
+              ]
+            },
+            {
+              "number": 9,
+              "prompt": "Deposit required: £___",
+              "answer": [
+                "76"
+              ]
+            },
+            {
+              "number": 10,
+              "prompt": "Contact number: ___",
+              "answer": [
+                "07945213608"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "listening-test-004-section-2",
+      "skill": "listening",
+      "sectionNumber": 2,
+      "testGroup": "4",
+      "title": "A Historic City Walking Tour",
+      "audioFile": null,
+      "transcript": [
+        {
+          "speaker": "Guide",
+          "voiceId": "female-british",
+          "text": "Good morning, and welcome to this walking tour of the old town. Over the next hour, we'll visit five historic sites, so let me give you a quick overview before we set off. Our first stop, the Old Town Hall, dates back to the fifteenth century and served as the seat of local government for over five hundred years; today it houses a small museum documenting the city's medieval trade guilds. From there, we'll walk to the Cathedral, whose tallest spire remained, for almost two centuries, the tallest structure in the entire country."
+        },
+        {
+          "speaker": "Guide",
+          "voiceId": "female-british",
+          "text": "Next, we'll cross Merchant's Bridge, the oldest surviving bridge in the city, originally built to allow traders to cross the river without paying the ferry toll charged at the time. We'll then pass the Clock Tower, famous for its mechanical figures that emerge and perform a short sequence on the hour, a tradition that has continued uninterrupted since the tower was built. And finally, we'll finish at the Riverside Market, which has operated on the same site continuously since the twelfth century, making it one of the oldest working markets in Europe."
+        },
+        {
+          "speaker": "Guide",
+          "voiceId": "female-british",
+          "text": "A few practical notes. The Old Town Hall museum is free to enter for tour groups, though individual visitors pay a small admission fee. The Cathedral's spire can be climbed for an additional fee of four pounds, though be warned, it's over three hundred steps. The Clock Tower's mechanical figures perform every hour on the hour, so if we time it right, we should catch the one o'clock performance. The Riverside Market is busiest on Saturdays, so if you're planning to return, a weekday visit tends to be considerably quieter. Please note that photography is not permitted inside the Cathedral, though it's welcomed everywhere else on the tour."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "matching-features",
+          "instructions": "Match each description below with the correct site, A–E.",
+          "matchOptions": [
+            "The Old Town Hall",
+            "The Cathedral",
+            "Merchant's Bridge",
+            "The Clock Tower",
+            "Riverside Market"
+          ],
+          "questions": [
+            {
+              "number": 11,
+              "statement": "Was originally built to help traders avoid paying a toll.",
+              "answer": "Merchant's Bridge"
+            },
+            {
+              "number": 12,
+              "statement": "Has operated continuously on the same site since the twelfth century.",
+              "answer": "Riverside Market"
+            },
+            {
+              "number": 13,
+              "statement": "Was once the tallest structure in the country.",
+              "answer": "The Cathedral"
+            },
+            {
+              "number": 14,
+              "statement": "Now houses a museum about medieval trade guilds.",
+              "answer": "The Old Town Hall"
+            },
+            {
+              "number": 15,
+              "statement": "Features mechanical figures that perform on the hour.",
+              "answer": "The Clock Tower"
+            }
+          ]
+        },
+        {
+          "type": "sentence-completion",
+          "instructions": "Complete the sentences below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 16,
+              "prompt": "Individual visitors, unlike tour groups, must pay an admission ___ for the Old Town Hall museum.",
+              "answer": [
+                "fee"
+              ]
+            },
+            {
+              "number": 17,
+              "prompt": "Climbing the Cathedral spire costs an additional £___.",
+              "answer": [
+                "4",
+                "four"
+              ]
+            },
+            {
+              "number": 18,
+              "prompt": "The spire has over ___ steps.",
+              "answer": [
+                "300",
+                "three hundred"
+              ]
+            },
+            {
+              "number": 19,
+              "prompt": "The Riverside Market is busiest on ___.",
+              "answer": [
+                "Saturdays",
+                "Saturday"
+              ]
+            },
+            {
+              "number": 20,
+              "prompt": "Photography is not permitted inside the ___.",
+              "answer": [
+                "Cathedral"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "listening-test-004-section-3",
+      "skill": "listening",
+      "sectionNumber": 3,
+      "testGroup": "4",
+      "title": "Feedback on a History Essay",
+      "audioFile": null,
+      "transcript": [
+        {
+          "speaker": "Tutor",
+          "voiceId": "male-australian",
+          "text": "So, I've read through your draft on the causes of the Industrial Revolution. Overall, it's a solid piece of work."
+        },
+        {
+          "speaker": "Tom",
+          "voiceId": "male-american",
+          "text": "Thanks, I was worried about the structure especially."
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "male-australian",
+          "text": "The structure's actually one of its strengths. My main concern is your second section, on coal and steam power — it's currently about four hundred words, but the rest of your sections average around six hundred, so it feels underdeveloped by comparison."
+        },
+        {
+          "speaker": "Tom",
+          "voiceId": "male-american",
+          "text": "I did struggle to find enough sources for that part."
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "male-australian",
+          "text": "Try looking at the Journal of Economic History — there's a good article there by Kanefsky and Robey specifically on early steam engine adoption rates."
+        },
+        {
+          "speaker": "Tom",
+          "voiceId": "male-american",
+          "text": "I'll look that up, thank you."
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "male-australian",
+          "text": "Your referencing is generally accurate, though I noticed three citations in your bibliography that don't actually appear anywhere in the main text — make sure every source you list is actually cited somewhere."
+        },
+        {
+          "speaker": "Tom",
+          "voiceId": "male-american",
+          "text": "Okay, I'll go through and check that."
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "male-australian",
+          "text": "Your introduction is good, but the thesis statement itself could be sharper — at the moment it reads as quite descriptive, rather than making a clear argument."
+        },
+        {
+          "speaker": "Tom",
+          "voiceId": "male-american",
+          "text": "Right, I'll try to make my actual position clearer."
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "male-australian",
+          "text": "Also, your word count currently stands at two thousand two hundred, but the assignment limit is two thousand five hundred, so you do have some room to expand that coal and steam section."
+        },
+        {
+          "speaker": "Tom",
+          "voiceId": "male-american",
+          "text": "Good, that helps."
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "male-australian",
+          "text": "One last thing — the deadline for the final submission is the ninth of December, but I'd recommend sending me a revised draft by the second, so I have time to give you one more round of feedback before then."
+        },
+        {
+          "speaker": "Tom",
+          "voiceId": "male-american",
+          "text": "I'll aim for the second, then."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "table-completion",
+          "instructions": "Complete the table below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "wordLimit": 2,
+          "table": {
+            "headers": [
+              "Item",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Section on coal and steam power",
+                {
+                  "qnum": 21,
+                  "before": "Currently about ",
+                  "after": " words"
+                }
+              ],
+              [
+                "Average of other sections",
+                {
+                  "qnum": 22,
+                  "before": "Around ",
+                  "after": " words"
+                }
+              ],
+              [
+                "Recommended source",
+                {
+                  "qnum": 23,
+                  "before": "Journal of "
+                }
+              ],
+              [
+                "Current word count",
+                {
+                  "qnum": 24,
+                  "before": "",
+                  "after": " words"
+                }
+              ],
+              [
+                "Word limit",
+                {
+                  "qnum": 25,
+                  "before": "",
+                  "after": " words"
+                }
+              ]
+            ]
+          },
+          "questions": [
+            {
+              "number": 21,
+              "answer": [
+                "400"
+              ]
+            },
+            {
+              "number": 22,
+              "answer": [
+                "600"
+              ]
+            },
+            {
+              "number": 23,
+              "answer": [
+                "Economic History"
+              ]
+            },
+            {
+              "number": 24,
+              "answer": [
+                "2,200",
+                "2200"
+              ]
+            },
+            {
+              "number": 25,
+              "answer": [
+                "2,500",
+                "2500"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "multiple-choice",
+          "instructions": "Choose the correct letter, A, B, C, or D.",
+          "questions": [
+            {
+              "number": 26,
+              "statement": "What is the tutor's main concern about the essay?",
+              "options": [
+                "The overall structure",
+                "The underdeveloped coal and steam power section",
+                "Poor grammar throughout",
+                "A missing conclusion"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 27,
+              "statement": "What issue does the tutor identify with the referencing?",
+              "options": [
+                "No sources are cited at all",
+                "Some bibliography entries are never cited in the text",
+                "All citations use the wrong format",
+                "There are too many citations"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 28,
+              "statement": "What does the tutor say about the thesis statement?",
+              "options": [
+                "It is too long",
+                "It is missing entirely",
+                "It could make a clearer argument",
+                "It contradicts the conclusion"
+              ],
+              "answer": 2
+            },
+            {
+              "number": 29,
+              "statement": "How much room does Tom have to expand his essay?",
+              "options": [
+                "None, he is already at the limit",
+                "About 300 words",
+                "About 600 words",
+                "About 1,000 words"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 30,
+              "statement": "When does the tutor recommend Tom send a revised draft?",
+              "options": [
+                "The 2nd",
+                "The 9th",
+                "The 15th",
+                "The 30th"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "listening-test-004-section-4",
+      "skill": "listening",
+      "sectionNumber": 4,
+      "testGroup": "4",
+      "title": "Urban Migration and the Growth of Megacities",
+      "audioFile": null,
+      "transcript": [
+        {
+          "speaker": "Lecturer",
+          "voiceId": "female-american",
+          "text": "Today's lecture examines one of the most significant demographic shifts of the modern era: the mass migration of people from rural areas into cities, and the resulting growth of so-called megacities — urban areas with a population exceeding ten million people. In 1950, only two cities, New York and Tokyo, qualified as megacities by this definition. Today, there are more than thirty, and the United Nations projects the number could exceed forty by 2035."
+        },
+        {
+          "speaker": "Lecturer",
+          "voiceId": "female-american",
+          "text": "The primary driver of rural-to-urban migration is, overwhelmingly, economic: cities typically offer significantly higher wages and a much wider range of employment opportunities than rural areas, particularly in manufacturing and service industries. Access to better healthcare, education, and infrastructure are also consistently cited as significant secondary factors in migration surveys."
+        },
+        {
+          "speaker": "Lecturer",
+          "voiceId": "female-american",
+          "text": "This rapid growth, however, brings substantial challenges. Many megacities, particularly in the Global South, have struggled to expand infrastructure quickly enough to keep pace with population growth, resulting in what urban planners term informal settlements — commonly known as slums — that often lack reliable access to clean water, sanitation, or secure land tenure. The United Nations estimates that roughly one billion people worldwide currently live in such informal settlements."
+        },
+        {
+          "speaker": "Lecturer",
+          "voiceId": "female-american",
+          "text": "In response, some cities have adopted what is known as inclusionary urban planning, which deliberately incorporates affordable housing requirements and improved public transport access into new development projects, rather than allowing infrastructure to expand haphazardly in response to demand alone. Curitiba, in Brazil, is frequently cited as an early and particularly successful example, having redesigned its public bus network in the 1970s in a way that continues to influence transport planning internationally to this day."
+        },
+        {
+          "speaker": "Lecturer",
+          "voiceId": "female-american",
+          "text": "Looking ahead, most demographers expect urban migration to continue for at least several more decades, particularly across sub-Saharan Africa and South Asia, regions that are expected to account for the majority of global urban population growth between now and 2050. This makes the question of how cities plan for growth, rather than merely reacting to it after the fact, one of the central urban policy challenges of the twenty-first century."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "summary-completion",
+          "instructions": "Complete the summary below. Choose ONE WORD ONLY from the box for each answer.",
+          "wordLimit": 1,
+          "wordBank": [
+            "economic",
+            "secondary",
+            "informal",
+            "inclusionary",
+            "reacting"
+          ],
+          "summaryText": "The primary driver of rural-to-urban migration is overwhelmingly ___31___, though access to healthcare and education are cited as ___32___ factors. Rapid growth has led to the spread of ___33___ settlements lacking basic services. Some cities have responded with ___34___ urban planning, which builds affordable housing and transport access into new projects. The central challenge for cities is planning for growth rather than simply ___35___ to it.",
+          "questions": [
+            {
+              "number": 31,
+              "answer": [
+                "economic"
+              ]
+            },
+            {
+              "number": 32,
+              "answer": [
+                "secondary"
+              ]
+            },
+            {
+              "number": 33,
+              "answer": [
+                "informal"
+              ]
+            },
+            {
+              "number": 34,
+              "answer": [
+                "inclusionary"
+              ]
+            },
+            {
+              "number": 35,
+              "answer": [
+                "reacting"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "short-answer",
+          "instructions": "Answer the questions below. Choose NO MORE THAN THREE WORDS for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 36,
+              "prompt": "How many megacities existed in 1950, according to the lecture?",
+              "answer": [
+                "two",
+                "2"
+              ]
+            },
+            {
+              "number": 37,
+              "prompt": "What number of megacities does the UN project could exist by 2035?",
+              "answer": [
+                "40",
+                "forty",
+                "more than 40",
+                "over 40"
+              ]
+            },
+            {
+              "number": 38,
+              "prompt": "Roughly how many people currently live in informal settlements, according to the UN?",
+              "answer": [
+                "one billion",
+                "1 billion"
+              ]
+            },
+            {
+              "number": 39,
+              "prompt": "Which Brazilian city is cited as an early example of inclusionary planning?",
+              "answer": [
+                "Curitiba"
+              ]
+            },
+            {
+              "number": 40,
+              "prompt": "In what decade did Curitiba redesign its public bus network?",
+              "answer": [
+                "the 1970s",
+                "1970s"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -2611,6 +2611,657 @@
           ]
         }
       ]
+    },
+    {
+      "id": "listening-test-005-section-1",
+      "skill": "listening",
+      "sectionNumber": 1,
+      "testGroup": "5",
+      "title": "Booking a Language Course",
+      "audioFile": null,
+      "transcript": [
+        {
+          "speaker": "Advisor",
+          "voiceId": "female-british",
+          "text": "Good afternoon, Language Plus, how can I help?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "female-american",
+          "text": "Hi, I'd like to enrol in one of your evening courses, please."
+        },
+        {
+          "speaker": "Advisor",
+          "voiceId": "female-british",
+          "text": "Of course. Which language were you interested in?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "female-american",
+          "text": "Spanish, ideally a beginners' course."
+        },
+        {
+          "speaker": "Advisor",
+          "voiceId": "female-british",
+          "text": "Great, we have a Spanish for Beginners course starting soon. Could I take your name?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "female-american",
+          "text": "Yes, it's Julia Marchetti."
+        },
+        {
+          "speaker": "Advisor",
+          "voiceId": "female-british",
+          "text": "Thanks, Julia. Could you spell your surname for me?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "female-american",
+          "text": "Yes, M-A-R-C-H-E-T-T-I."
+        },
+        {
+          "speaker": "Advisor",
+          "voiceId": "female-british",
+          "text": "Thank you. The course runs for twelve weeks, on Wednesday evenings from seven until nine."
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "female-american",
+          "text": "That works well for me."
+        },
+        {
+          "speaker": "Advisor",
+          "voiceId": "female-british",
+          "text": "The fee is one hundred and eighty pounds for the full course, or you can pay in three instalments of sixty-five pounds."
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "female-american",
+          "text": "I'll pay in instalments, if that's alright."
+        },
+        {
+          "speaker": "Advisor",
+          "voiceId": "female-british",
+          "text": "That's fine. Do you have any previous experience with Spanish?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "female-american",
+          "text": "No, none at all — complete beginner."
+        },
+        {
+          "speaker": "Advisor",
+          "voiceId": "female-british",
+          "text": "No problem, that's exactly what this course is for. The course starts on the ninth of September. You'll need to bring a notebook and a pen to the first class — all other materials are provided."
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "female-american",
+          "text": "Great, thank you."
+        },
+        {
+          "speaker": "Advisor",
+          "voiceId": "female-british",
+          "text": "Could I get a contact email address, to send your confirmation?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "female-american",
+          "text": "Sure, it's j.marchetti@fastmail.com."
+        },
+        {
+          "speaker": "Advisor",
+          "voiceId": "female-british",
+          "text": "Perfect, thank you. We look forward to seeing you on the ninth."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "sentence-completion",
+          "instructions": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Surname: ___",
+              "answer": [
+                "Marchetti"
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Course length: ___ weeks",
+              "answer": [
+                "12",
+                "twelve"
+              ]
+            },
+            {
+              "number": 3,
+              "prompt": "Course day: ___ evenings",
+              "answer": [
+                "Wednesday"
+              ]
+            },
+            {
+              "number": 4,
+              "prompt": "Course time: from ___ until nine",
+              "answer": [
+                "7",
+                "seven"
+              ]
+            },
+            {
+              "number": 5,
+              "prompt": "Full course fee: £___",
+              "answer": [
+                "180"
+              ]
+            },
+            {
+              "number": 6,
+              "prompt": "Instalment amount: £___",
+              "answer": [
+                "65"
+              ]
+            },
+            {
+              "number": 7,
+              "prompt": "Number of instalments: ___",
+              "answer": [
+                "3",
+                "three"
+              ]
+            },
+            {
+              "number": 8,
+              "prompt": "Previous experience: ___",
+              "answer": [
+                "none"
+              ]
+            },
+            {
+              "number": 9,
+              "prompt": "Start date: the ___ of September",
+              "answer": [
+                "9th",
+                "9",
+                "ninth"
+              ]
+            },
+            {
+              "number": 10,
+              "prompt": "Contact email: ___",
+              "answer": [
+                "j.marchetti@fastmail.com"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "listening-test-005-section-2",
+      "skill": "listening",
+      "sectionNumber": 2,
+      "testGroup": "5",
+      "title": "Archaeological Site Tour Introduction",
+      "audioFile": null,
+      "transcript": [
+        {
+          "speaker": "Guide",
+          "voiceId": "male-british",
+          "text": "Good morning, and welcome to Ashcombe Roman Site. Before we begin the tour, let me briefly introduce the five main areas you'll see today. First, the Villa Foundations — these mark the outline of what was once a substantial Roman residence, first uncovered by archaeologists in the nineteen sixties, and still the largest structure identified anywhere on the site. Next, the Bathhouse Complex, which includes a remarkably well-preserved underfloor heating system, known as a hypocaust, that visitors can view up close from a raised walkway."
+        },
+        {
+          "speaker": "Guide",
+          "voiceId": "male-british",
+          "text": "The Museum Tent houses smaller finds from the site — coins, pottery fragments, and jewellery — and is the only indoor area on the tour, useful if the weather turns. The Excavation Trench is where our archaeology team is currently working; it's an active dig, so visitors can only view it from behind a rope barrier, though you're welcome to ask the archaeologists questions. And finally, the Gift Shop, at the end of the tour, sells replicas of some of the artefacts on display, along with books about the site's history."
+        },
+        {
+          "speaker": "Guide",
+          "voiceId": "male-british",
+          "text": "A few more practical details. The Villa Foundations tour lasts about twenty minutes. The Bathhouse Complex is closed on Mondays for maintenance. The Museum Tent is open every day the site is open, from ten until four. Photography is not permitted in the Excavation Trench, to avoid distracting the archaeology team. The Gift Shop closes fifteen minutes before the rest of the site."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "matching-features",
+          "instructions": "Match each description below with the correct area of the site, A–E.",
+          "matchOptions": [
+            "The Villa Foundations",
+            "The Bathhouse Complex",
+            "The Museum Tent",
+            "The Excavation Trench",
+            "The Gift Shop"
+          ],
+          "questions": [
+            {
+              "number": 11,
+              "statement": "Is the only indoor area on the tour.",
+              "answer": "The Museum Tent"
+            },
+            {
+              "number": 12,
+              "statement": "Includes a well-preserved underfloor heating system.",
+              "answer": "The Bathhouse Complex"
+            },
+            {
+              "number": 13,
+              "statement": "Is where archaeologists are currently working.",
+              "answer": "The Excavation Trench"
+            },
+            {
+              "number": 14,
+              "statement": "Was first uncovered in the 1960s.",
+              "answer": "The Villa Foundations"
+            },
+            {
+              "number": 15,
+              "statement": "Closes before the rest of the site.",
+              "answer": "The Gift Shop"
+            }
+          ]
+        },
+        {
+          "type": "sentence-completion",
+          "instructions": "Complete the sentences below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 16,
+              "prompt": "The Villa Foundations tour lasts about ___ minutes.",
+              "answer": [
+                "20",
+                "twenty"
+              ]
+            },
+            {
+              "number": 17,
+              "prompt": "The Bathhouse Complex is closed on ___ for maintenance.",
+              "answer": [
+                "Mondays",
+                "Monday"
+              ]
+            },
+            {
+              "number": 18,
+              "prompt": "The Museum Tent is open from ten until ___.",
+              "answer": [
+                "4",
+                "four"
+              ]
+            },
+            {
+              "number": 19,
+              "prompt": "___ is not permitted in the Excavation Trench.",
+              "answer": [
+                "Photography"
+              ]
+            },
+            {
+              "number": 20,
+              "prompt": "The underfloor heating system is known as a ___.",
+              "answer": [
+                "hypocaust"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "listening-test-005-section-3",
+      "skill": "listening",
+      "sectionNumber": 3,
+      "testGroup": "5",
+      "title": "Science Lab Safety Briefing",
+      "audioFile": null,
+      "transcript": [
+        {
+          "speaker": "Tutor",
+          "voiceId": "male-australian",
+          "text": "Right, before we start today's practical, a quick safety reminder. Everyone needs to be wearing safety goggles and a lab coat at all times in this room — no exceptions."
+        },
+        {
+          "speaker": "Amir",
+          "voiceId": "male-american",
+          "text": "Even for the observation stage, before we start mixing anything?"
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "male-australian",
+          "text": "Yes, from the moment you walk in. Now, today we're working with hydrochloric acid and sodium hydroxide. Both are corrosive, so treat them with care."
+        },
+        {
+          "speaker": "Priya",
+          "voiceId": "female-british",
+          "text": "What do we do if we get any on our skin?"
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "male-australian",
+          "text": "Rinse immediately with water for at least ten minutes, and tell me straight away. The eyewash station is by the door, and the first aid kit is on the wall next to it."
+        },
+        {
+          "speaker": "Amir",
+          "voiceId": "male-american",
+          "text": "Where should we dispose of the used chemicals afterwards?"
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "male-australian",
+          "text": "There's a dedicated waste container on the back bench — labelled clearly — never pour anything down the sink unless I specifically tell you to."
+        },
+        {
+          "speaker": "Priya",
+          "voiceId": "female-british",
+          "text": "Is it alright to bring bags into the lab?"
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "male-australian",
+          "text": "No, bags should be left on the shelves by the entrance, along with coats and any food or drink — nothing like that is allowed in here."
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "male-australian",
+          "text": "One more thing — today's experiment produces a small amount of gas, so make sure your workstation's extraction fan is switched on before you begin."
+        },
+        {
+          "speaker": "Amir",
+          "voiceId": "male-american",
+          "text": "Got it."
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "male-australian",
+          "text": "Right, let's get started. Remember, if anything goes wrong, don't panic — just raise your hand and I'll come straight over."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "table-completion",
+          "instructions": "Complete the table below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "wordLimit": 2,
+          "table": {
+            "headers": [
+              "Item",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Required safety equipment",
+                {
+                  "qnum": 21,
+                  "before": "",
+                  "after": " and a lab coat"
+                }
+              ],
+              [
+                "Chemicals used today",
+                {
+                  "qnum": 22,
+                  "before": "Hydrochloric acid and "
+                }
+              ],
+              [
+                "Skin contact response",
+                {
+                  "qnum": 23,
+                  "before": "Rinse with water for at least ",
+                  "after": " minutes"
+                }
+              ],
+              [
+                "Waste disposal",
+                {
+                  "qnum": 24,
+                  "before": "Use the ",
+                  "after": " container on the back bench"
+                }
+              ],
+              [
+                "Before starting",
+                {
+                  "qnum": 25,
+                  "before": "Switch on the "
+                }
+              ]
+            ]
+          },
+          "questions": [
+            {
+              "number": 21,
+              "answer": [
+                "safety goggles",
+                "goggles"
+              ]
+            },
+            {
+              "number": 22,
+              "answer": [
+                "sodium hydroxide"
+              ]
+            },
+            {
+              "number": 23,
+              "answer": [
+                "10",
+                "ten"
+              ]
+            },
+            {
+              "number": 24,
+              "answer": [
+                "waste"
+              ]
+            },
+            {
+              "number": 25,
+              "answer": [
+                "extraction fan"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "multiple-choice",
+          "instructions": "Question 26 requires TWO answers. Questions 27-30 have one correct answer. Choose the correct letters.",
+          "questions": [
+            {
+              "number": 26,
+              "statement": "According to the briefing, which TWO items must be left on the shelves by the entrance?",
+              "options": [
+                "Safety goggles",
+                "Bags",
+                "Lab coats",
+                "Food and drink",
+                "The first aid kit"
+              ],
+              "answer": [
+                1,
+                3
+              ]
+            },
+            {
+              "number": 27,
+              "statement": "What should students do if they get acid on their skin?",
+              "options": [
+                "Wait for the tutor before doing anything",
+                "Rinse with water for at least ten minutes and tell the tutor",
+                "Apply a bandage immediately",
+                "Leave the room"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 28,
+              "statement": "Where is the eyewash station located?",
+              "options": [
+                "On the back bench",
+                "By the door",
+                "In the store cupboard",
+                "Next to the waste container"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 29,
+              "statement": "What does today's experiment produce, according to the tutor?",
+              "options": [
+                "A loud noise",
+                "A change in colour only",
+                "A small amount of gas",
+                "Excess heat"
+              ],
+              "answer": 2
+            },
+            {
+              "number": 30,
+              "statement": "What should a student do if something goes wrong during the experiment?",
+              "options": [
+                "Leave the room immediately",
+                "Raise their hand",
+                "Call the front office",
+                "Continue and fix it themselves"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "listening-test-005-section-4",
+      "skill": "listening",
+      "sectionNumber": 4,
+      "testGroup": "5",
+      "title": "Global Food Security",
+      "audioFile": null,
+      "transcript": [
+        {
+          "speaker": "Lecturer",
+          "voiceId": "female-australian",
+          "text": "Today I want to look at global food security — broadly defined as the condition in which all people, at all times, have physical and economic access to sufficient, safe, and nutritious food. Despite significant progress in reducing hunger over recent decades, the United Nations estimates that more than seven hundred million people worldwide currently experience chronic hunger, and progress toward eliminating hunger entirely has, in fact, stalled in recent years, following setbacks including conflict, climate-related disasters, and economic instability."
+        },
+        {
+          "speaker": "Lecturer",
+          "voiceId": "female-australian",
+          "text": "One major driver of food insecurity is climate change. Rising temperatures and increasingly unpredictable rainfall patterns are already reducing crop yields in many regions, particularly across parts of sub-Saharan Africa and South Asia, where agriculture remains heavily dependent on predictable seasonal rainfall rather than irrigation. Some studies project that without significant adaptation measures, yields of staple crops such as maize and wheat could decline by ten to twenty percent in some regions by mid-century."
+        },
+        {
+          "speaker": "Lecturer",
+          "voiceId": "female-australian",
+          "text": "A second major factor is food waste. Remarkably, researchers estimate that approximately one third of all food produced globally for human consumption is lost or wasted somewhere along the supply chain, from farm to fork. In lower-income countries, most of this loss occurs early in the supply chain, during harvesting, storage, and transportation, often due to inadequate infrastructure. In higher-income countries, by contrast, the greatest share of waste occurs much later, at the retail and consumer level."
+        },
+        {
+          "speaker": "Lecturer",
+          "voiceId": "female-australian",
+          "text": "In response, researchers and policymakers have proposed a range of interventions. Improving storage and transportation infrastructure in lower-income countries could substantially reduce early-stage losses. Developing crop varieties more resilient to drought and heat is another major area of ongoing research. And some governments have introduced policies specifically targeting consumer-level food waste, including France's widely cited 2016 law prohibiting supermarkets from deliberately destroying unsold, edible food, requiring them to donate it to charities instead."
+        },
+        {
+          "speaker": "Lecturer",
+          "voiceId": "female-australian",
+          "text": "It's worth noting that food security is not simply a matter of overall global food production, which has in fact kept pace with population growth for decades. Rather, it is fundamentally a matter of distribution, affordability, and access — meaning that solutions must address economic and political barriers, not simply agricultural output alone."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "summary-completion",
+          "instructions": "Complete the summary below. Choose ONE WORD ONLY from the box for each answer.",
+          "wordLimit": 1,
+          "wordBank": [
+            "stalled",
+            "yields",
+            "waste",
+            "infrastructure",
+            "distribution"
+          ],
+          "summaryText": "Progress toward eliminating global hunger has recently ___31___, following setbacks including conflict and climate-related disasters. Climate change is reducing crop ___32___ in regions dependent on rainfall rather than irrigation. Approximately a third of all food produced is lost or ___33___. Proposed solutions include improving storage ___34___ in lower-income countries. Ultimately, food security is fundamentally a matter of ___35___ and access, not simply overall production.",
+          "questions": [
+            {
+              "number": 31,
+              "answer": [
+                "stalled"
+              ]
+            },
+            {
+              "number": 32,
+              "answer": [
+                "yields"
+              ]
+            },
+            {
+              "number": 33,
+              "answer": [
+                "waste"
+              ]
+            },
+            {
+              "number": 34,
+              "answer": [
+                "infrastructure"
+              ]
+            },
+            {
+              "number": 35,
+              "answer": [
+                "distribution"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "short-answer",
+          "instructions": "Answer the questions below. Choose NO MORE THAN THREE WORDS for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 36,
+              "prompt": "According to the UN, how many people currently experience chronic hunger?",
+              "answer": [
+                "more than 700 million",
+                "700 million",
+                "over 700 million"
+              ]
+            },
+            {
+              "number": 37,
+              "prompt": "By how much could staple crop yields decline in some regions by mid-century?",
+              "answer": [
+                "10 to 20 percent",
+                "10-20%",
+                "ten to twenty percent"
+              ]
+            },
+            {
+              "number": 38,
+              "prompt": "At what stage does most food loss occur in lower-income countries?",
+              "answer": [
+                "early in the supply chain",
+                "harvesting, storage, and transportation",
+                "harvesting and storage"
+              ]
+            },
+            {
+              "number": 39,
+              "prompt": "In what year did France introduce its law on supermarket food waste?",
+              "answer": [
+                "2016"
+              ]
+            },
+            {
+              "number": 40,
+              "prompt": "According to the lecturer, has global food production kept pace with population growth?",
+              "answer": [
+                "yes"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

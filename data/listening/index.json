@@ -4221,6 +4221,184 @@
           ]
         }
       ]
+    },
+    {
+      "id": "listening-quick-005",
+      "skill": "listening",
+      "kind": "quick",
+      "title": "Ordering a Taxi",
+      "audioFile": null,
+      "transcript": [
+        {
+          "speaker": "Dispatcher",
+          "voiceId": "female-british",
+          "text": "Good evening, City Cabs, where would you like picking up from?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "female-american",
+          "text": "Hi, from twelve Elm Street, please."
+        },
+        {
+          "speaker": "Dispatcher",
+          "voiceId": "female-british",
+          "text": "And where are you heading?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "female-american",
+          "text": "The train station, as soon as possible."
+        },
+        {
+          "speaker": "Dispatcher",
+          "voiceId": "female-british",
+          "text": "No problem, a car should be with you in about ten minutes. Could I take a name?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "female-american",
+          "text": "Yes, it's Farah."
+        },
+        {
+          "speaker": "Dispatcher",
+          "voiceId": "female-british",
+          "text": "Great, Farah, we'll text you when the driver's nearby."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "sentence-completion",
+          "instructions": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Pick-up address: ___ Elm Street",
+              "answer": [
+                "12",
+                "twelve"
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Destination: the ___",
+              "answer": [
+                "train station"
+              ]
+            },
+            {
+              "number": 3,
+              "prompt": "Estimated wait: ___ minutes",
+              "answer": [
+                "10",
+                "ten"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "multiple-choice",
+          "instructions": "Choose the correct letter, A, B, C, or D.",
+          "questions": [
+            {
+              "number": 4,
+              "statement": "What is the caller's name?",
+              "options": [
+                "Sarah",
+                "Farah",
+                "Clara",
+                "Tara"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 5,
+              "statement": "How will the caller be notified the driver is near?",
+              "options": [
+                "A phone call",
+                "An email",
+                "A text message",
+                "An app notification"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "listening-quick-006",
+      "skill": "listening",
+      "kind": "quick",
+      "title": "Gym Class Schedule Update",
+      "audioFile": null,
+      "transcript": [
+        {
+          "speaker": "Announcer",
+          "voiceId": "male-australian",
+          "text": "Just a quick update on our class schedule. Starting next week, the Monday evening yoga class will move from six to six thirty. Wednesday's spin class remains unchanged, still at seven in the morning. And we're pleased to announce a brand new Friday evening pilates class, starting at half past five."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "short-answer",
+          "instructions": "Answer the questions below. Choose NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "What day does the yoga class take place?",
+              "answer": [
+                "Monday"
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "What time does the spin class start?",
+              "answer": [
+                "7",
+                "seven",
+                "7am"
+              ]
+            },
+            {
+              "number": 3,
+              "prompt": "What new class is being introduced?",
+              "answer": [
+                "pilates"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "multiple-choice",
+          "instructions": "Choose the correct letter, A, B, C, or D.",
+          "questions": [
+            {
+              "number": 4,
+              "statement": "What time will the Monday yoga class start from next week?",
+              "options": [
+                "6:00",
+                "6:15",
+                "6:30",
+                "7:00"
+              ],
+              "answer": 2
+            },
+            {
+              "number": 5,
+              "statement": "What time does the new Friday pilates class start?",
+              "options": [
+                "5:00",
+                "5:30",
+                "6:00",
+                "6:30"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
     }
   ]
 }

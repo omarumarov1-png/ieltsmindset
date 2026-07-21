@@ -3574,6 +3574,140 @@
           ]
         }
       ]
+    },
+    {
+      "id": "reading-quick-007",
+      "skill": "reading",
+      "testType": "academic",
+      "kind": "quick",
+      "title": "The History of the Umbrella",
+      "paragraphs": [
+        {
+          "text": "The umbrella has a surprisingly long history. The earliest umbrellas, used mainly for protection from the sun rather than rain, date back over four thousand years to ancient Mesopotamia and Egypt, where they were often carried by servants to shade important figures such as kings. The word 'umbrella' itself comes from the Latin word 'umbra', meaning shade. It was not until the eighteenth century that umbrellas became widely used for protection against rain in Europe, largely thanks to the efforts of an Englishman named Jonas Hanway, who was famously mocked for carrying one in public but persisted regardless. Today, over a billion umbrellas are manufactured worldwide every year."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "true-false-not-given",
+          "instructions": "Do the following statements agree with the information given in the text?",
+          "questions": [
+            {
+              "number": 1,
+              "statement": "Umbrellas were originally used mainly for protection from rain.",
+              "answer": "FALSE"
+            },
+            {
+              "number": 2,
+              "statement": "The word 'umbrella' comes from a Latin word meaning shade.",
+              "answer": "TRUE"
+            },
+            {
+              "number": 3,
+              "statement": "Jonas Hanway was warmly welcomed when he first carried an umbrella in public.",
+              "answer": "FALSE"
+            }
+          ]
+        },
+        {
+          "type": "short-answer",
+          "instructions": "Answer the questions below. Choose NO MORE THAN THREE WORDS AND/OR A NUMBER from the text for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 4,
+              "prompt": "Approximately how old are the earliest known umbrellas?",
+              "answer": [
+                "over 4,000 years",
+                "4000 years",
+                "four thousand years",
+                "over four thousand years"
+              ]
+            },
+            {
+              "number": 5,
+              "prompt": "Roughly how many umbrellas are manufactured worldwide each year today?",
+              "answer": [
+                "over a billion",
+                "a billion",
+                "1 billion"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-quick-008",
+      "skill": "reading",
+      "testType": "academic",
+      "kind": "quick",
+      "title": "Coffee and Sleep",
+      "paragraphs": [
+        {
+          "text": "Caffeine, the stimulant found in coffee, works by blocking a brain chemical called adenosine, which normally makes us feel sleepy as the day goes on. Because caffeine can remain active in the body for several hours, drinking coffee too late in the day can measurably reduce both the quantity and quality of sleep that follows, even if a person does not consciously feel less tired. Sleep researchers generally recommend avoiding caffeine for at least six hours before bedtime. Interestingly, individual sensitivity to caffeine varies considerably, and is partly explained by genetic differences in how quickly a person's body metabolises it."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "multiple-choice",
+          "instructions": "Choose the correct letter, A, B, C, or D.",
+          "questions": [
+            {
+              "number": 1,
+              "statement": "According to the passage, caffeine works by...",
+              "options": [
+                "increasing adenosine production",
+                "blocking the effects of adenosine",
+                "removing adenosine from the body",
+                "converting adenosine into energy"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 2,
+              "statement": "What do sleep researchers generally recommend?",
+              "options": [
+                "Avoiding caffeine entirely",
+                "Drinking coffee only in the morning",
+                "Avoiding caffeine for at least six hours before bed",
+                "Drinking coffee only after meals"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "short-answer",
+          "instructions": "Answer the questions below. Choose NO MORE THAN THREE WORDS from the text for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 3,
+              "prompt": "What chemical does caffeine block in the brain?",
+              "answer": [
+                "adenosine"
+              ]
+            },
+            {
+              "number": 4,
+              "prompt": "According to the passage, what can be reduced by drinking coffee too late in the day?",
+              "answer": [
+                "quantity and quality of sleep",
+                "sleep quantity and quality",
+                "quality of sleep"
+              ]
+            },
+            {
+              "number": 5,
+              "prompt": "What partly explains individual differences in caffeine sensitivity?",
+              "answer": [
+                "genetic differences",
+                "genetics"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

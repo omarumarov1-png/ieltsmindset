@@ -734,20 +734,41 @@
     const el = document.getElementById(`q${qnum}`);
     if (el) {
       el.scrollIntoView({ behavior: "smooth", block: "center" });
-      el.classList.add("flagged-flash");
+      el.classList.add("jump-flash");
+      setTimeout(() => el.classList.remove("jump-flash"), 900);
     }
   }
 
-  function toggleFlagCurrent() {
-    // flags the first visible question in the current pane as a simple affordance
+  function currentlyVisibleQuestionEl() {
     const pane = document.getElementById("questionsPane");
-    if (!pane) return;
-    const firstItem = pane.querySelector(".qitem");
-    if (!firstItem) return;
-    const qnum = Number(firstItem.dataset.qnum);
+    if (!pane) return null;
+    const items = Array.from(pane.querySelectorAll(".qitem"));
+    if (!items.length) return null;
+    // Prefer whichever question is actually scrolled into view, rather than
+    // always the first one in the DOM -- the split-view pane shows many
+    // questions in one scrollable list, so "the current question" depends on
+    // scroll position, not just document order. Require at least 40% of the
+    // item's height to be on screen, so a question that's 90%+ scrolled past
+    // (with just a sliver still peeking above the fold) doesn't win over one
+    // that's substantially visible further down.
+    const visible = items.find(el => {
+      const r = el.getBoundingClientRect();
+      if (r.height <= 0) return false;
+      const visibleHeight = Math.min(r.bottom, window.innerHeight) - Math.max(r.top, 0);
+      return visibleHeight / r.height >= 0.4;
+    });
+    return visible || items[0];
+  }
+
+  function toggleFlagCurrent() {
+    const target = currentlyVisibleQuestionEl();
+    if (!target) return;
+    const qnum = Number(target.dataset.qnum);
     if (session.flagged.has(qnum)) session.flagged.delete(qnum);
     else session.flagged.add(qnum);
     renderPalette();
+    target.classList.add("jump-flash");
+    setTimeout(() => target.classList.remove("jump-flash"), 900);
   }
 
   function onExitClicked() {

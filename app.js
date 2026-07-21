@@ -39,6 +39,22 @@
     quickMode: "Быстрое упражнение",
     quickScoreLabel: "Верных ответов",
     quickMinutes: "~5 мин",
+    quickMixedTypes: "Неск. типов",
+    setLabel: "Набор",
+    topicLabel: "Тема",
+    skillVocabulary: "Словарный запас",
+    skillVocabularyDesc: "Тематические наборы слов уровня B2–C1 с переводом, произношением и примерами — изучение карточками и проверка через упражнения.",
+    skillGrammar: "Грамматика",
+    skillGrammarDesc: "Темы грамматики с объяснением правил, частыми ошибками и упражнениями на закрепление.",
+    vocabSets: "Наборы слов",
+    studyMode: "Изучение",
+    studyModeDesc: "Карточки со словом, транскрипцией, переводом и примерами — листайте в своём темпе.",
+    quizMode: "Проверка",
+    quizModeDesc: "Упражнение на закрепление изученных слов.",
+    flashcardPrev: "← Назад",
+    flashcardNext: "Далее →",
+    flashcardOf: "из",
+    startQuiz: "Перейти к проверке",
     questions: "Вопросы",
     exitTest: "Выйти",
     flagQuestion: "Отметить",
@@ -84,6 +100,7 @@
   function passagesWord(n) { return ruPlural(n, "текст", "текста", "текстов"); }
   function sectionsWord(n) { return ruPlural(n, "часть", "части", "частей"); }
   function minutesWord(n) { return ruPlural(n, "минута", "минуты", "минут"); }
+  function wordsCountWord(n) { return ruPlural(n, "слово", "слова", "слов"); }
 
   // ======================================================================
   // Band conversion tables (approximate, publicly published IELTS tables)
@@ -160,7 +177,9 @@
   const screenEl = document.getElementById("screen");
   let readingIndex = null;   // data/reading/index.json
   let listeningIndex = null; // data/listening/index.json
+  let vocabularyIndex = null; // data/vocabulary/index.json
   let session = null;        // active practice/test session
+  let flashcardState = null; // { setIdx, wordIdx } while viewing vocab study mode
   let timerInterval = null;
 
   // ======================================================================
@@ -174,6 +193,9 @@
     try {
       listeningIndex = await fetchJson("data/listening/index.json");
     } catch (e) { listeningIndex = { tests: [] }; }
+    try {
+      vocabularyIndex = await fetchJson("data/vocabulary/index.json");
+    } catch (e) { vocabularyIndex = { sets: [] }; }
     renderDashboard();
   }
 
@@ -262,6 +284,20 @@
             <button class="btn btn-primary btn-sm" data-go="listening-test">${UI.startTest}</button>
           </div>
         </div>
+        <div class="skill-card">
+          <span class="skill-icon">🧠</span>
+          <h3>${UI.skillVocabulary}</h3>
+          <p>${UI.skillVocabularyDesc}</p>
+          <div class="skill-actions">
+            <button class="btn btn-primary btn-sm" data-go="vocabulary-open">${UI.vocabSets}</button>
+          </div>
+        </div>
+        <div class="skill-card locked">
+          <span class="soon-badge">${UI.comingSoon}</span>
+          <span class="skill-icon">📐</span>
+          <h3>${UI.skillGrammar}</h3>
+          <p>${UI.skillGrammarDesc}</p>
+        </div>
         <div class="skill-card locked">
           <span class="soon-badge">${UI.comingSoon}</span>
           <span class="skill-icon">✍️</span>
@@ -285,14 +321,18 @@
       btn.addEventListener("click", () => {
         const [skill] = btn.dataset.go.split("-");
         setNav(skill);
-        renderHub(skill);
+        if (skill === "vocabulary") renderVocabHub();
+        else renderHub(skill);
       });
     });
   }
 
+  const SKILL_ICONS = { reading: "📖", listening: "🎧", vocabulary: "🧠", grammar: "📐" };
+  const SKILL_LABELS = { reading: UI.skillReading, listening: UI.skillListening, vocabulary: UI.skillVocabulary, grammar: UI.skillGrammar };
+
   function historyRowHtml(h) {
-    const icon = h.skill === "reading" ? "📖" : "🎧";
-    const skillLabel = h.skill === "reading" ? UI.skillReading : UI.skillListening;
+    const icon = SKILL_ICONS[h.skill] || "📚";
+    const skillLabel = SKILL_LABELS[h.skill] || h.skill;
     const date = new Date(h.date).toLocaleDateString("ru-RU", { day: "numeric", month: "short" });
     const modeLabel = h.isQuick ? UI.quickMode : (h.mode === "test" ? UI.testMode : UI.practiceMode);
     const detail = h.label ? ` — ${h.label}` : "";
@@ -418,8 +458,10 @@
 
   function quickRowHtml(item, idx, isReading) {
     const qCount = (item.questionGroups || []).reduce((s, g) => s + g.questions.length, 0);
-    const primaryType = item.questionGroups?.[0]?.type;
-    const typeLabel = QUICK_TYPE_LABELS[primaryType] || (isReading ? UI.passage : UI.section);
+    const distinctTypes = new Set((item.questionGroups || []).map(g => g.type));
+    const typeLabel = distinctTypes.size > 1
+      ? UI.quickMixedTypes
+      : (QUICK_TYPE_LABELS[item.questionGroups?.[0]?.type] || (isReading ? UI.passage : UI.section));
     return `
       <div class="content-row" data-practice-idx="${idx}">
         <span class="c-badge">${typeLabel}</span>
@@ -427,6 +469,92 @@
         <span class="c-meta">${qCount} ${questionsWord(qCount)}</span>
         <span class="c-status">${UI.quickMinutes}</span>
       </div>`;
+  }
+
+  // ======================================================================
+  // Vocabulary
+  // ======================================================================
+  function renderVocabHub() {
+    screenEl.classList.remove("full-bleed");
+    const sets = vocabularyIndex.sets || [];
+    screenEl.innerHTML = `
+      <div class="hub-header">
+        <h1>${UI.skillVocabulary}</h1>
+        <p>${UI.skillVocabularyDesc}</p>
+      </div>
+      <div class="section-title">${UI.vocabSets} <span class="count">(${sets.length})</span></div>
+      <div class="content-list" id="contentList">
+        ${sets.length ? sets.map((s, i) => vocabSetRowHtml(s, i)).join("") : `<div class="empty-state">Наборы слов пока не добавлены.</div>`}
+      </div>
+    `;
+    screenEl.querySelectorAll("[data-vocab-idx]").forEach(row => {
+      row.addEventListener("click", () => {
+        const idx = Number(row.dataset.vocabIdx);
+        renderVocabStudy(idx, 0);
+      });
+    });
+  }
+
+  function vocabSetRowHtml(set, idx) {
+    return `
+      <div class="content-row" data-vocab-idx="${idx}">
+        <span class="c-badge">${set.level}</span>
+        <span class="c-title">${set.title}</span>
+        <span class="c-meta">${set.words.length} ${wordsCountWord(set.words.length)}</span>
+      </div>`;
+  }
+
+  function renderVocabStudy(setIdx, wordIdx) {
+    screenEl.classList.add("full-bleed");
+    flashcardState = { setIdx, wordIdx };
+    const set = vocabularyIndex.sets[setIdx];
+    const word = set.words[wordIdx];
+    const total = set.words.length;
+    const collocationsHtml = word.collocations && word.collocations.length
+      ? `<div class="fc-extra"><b>Коллокации:</b> ${word.collocations.join(" · ")}</div>` : "";
+    const synonymsHtml = word.synonyms && word.synonyms.length
+      ? `<div class="fc-extra"><b>Синонимы:</b> ${word.synonyms.join(", ")}</div>` : "";
+    screenEl.innerHTML = `
+      <div class="test-shell">
+        <div class="test-topbar">
+          <span class="part-label">${set.title}</span>
+          <span class="part-instructions">${UI.studyMode} — ${wordIdx + 1} ${UI.flashcardOf} ${total}</span>
+          <button class="btn btn-ghost btn-sm" id="exitBtn">${UI.exitTest}</button>
+        </div>
+        <div class="pane pane-quiz-single flashcard-pane">
+          <div class="flashcard">
+            <div class="fc-term-row">
+              <span class="fc-term">${word.term}</span>
+              <span class="fc-level">${word.level}</span>
+            </div>
+            <div class="fc-ipa">${word.ipa} <span class="fc-pos">${word.pos}</span></div>
+            <div class="fc-translation">${word.translation}</div>
+            <div class="fc-definition">${word.definition}</div>
+            <div class="fc-example">«${word.example}»</div>
+            ${collocationsHtml}
+            ${synonymsHtml}
+          </div>
+          <div class="flashcard-nav">
+            <button class="btn btn-ghost" id="fcPrevBtn" ${wordIdx === 0 ? "disabled" : ""}>${UI.flashcardPrev}</button>
+            <button class="btn btn-ghost" id="fcNextBtn" ${wordIdx === total - 1 ? "disabled" : ""}>${UI.flashcardNext}</button>
+          </div>
+          <button class="btn btn-primary" id="fcQuizBtn" style="margin-top:20px; width:100%;">${UI.startQuiz}</button>
+        </div>
+      </div>
+    `;
+    document.getElementById("exitBtn").addEventListener("click", () => { flashcardState = null; renderVocabHub(); });
+    const prevBtn = document.getElementById("fcPrevBtn");
+    const nextBtn = document.getElementById("fcNextBtn");
+    if (wordIdx > 0) prevBtn.addEventListener("click", () => renderVocabStudy(setIdx, wordIdx - 1));
+    if (wordIdx < total - 1) nextBtn.addEventListener("click", () => renderVocabStudy(setIdx, wordIdx + 1));
+    document.getElementById("fcQuizBtn").addEventListener("click", () => startVocabQuiz(setIdx));
+  }
+
+  function startVocabQuiz(setIdx) {
+    flashcardState = null;
+    const set = vocabularyIndex.sets[setIdx];
+    const content = { skill: "vocabulary", title: set.title, questionGroups: set.questionGroups };
+    beginSession("vocabulary", "practice", [content]);
   }
 
   // ======================================================================
@@ -469,8 +597,13 @@
     if (skill === "reading") {
       renderReadingShell();
       if (mode === "test") startTimer();
-    } else {
+    } else if (skill === "listening") {
       renderListeningShell();
+    } else {
+      // Vocabulary/grammar quizzes: single-pane question list, no passage
+      // pane (the study/reference material was already shown before the
+      // quiz started) and no audio player.
+      renderSinglePaneQuizShell();
     }
   }
 
@@ -541,6 +674,28 @@
     const pane = document.getElementById("questionsPane");
     pane.innerHTML = (content.questionGroups || []).map(g => renderQuestionGroup(g)).join("");
     wireQuestionInputs(pane);
+  }
+
+  // ======================================================================
+  // Single-pane quiz shell (vocabulary/grammar -- no passage or audio pane)
+  // ======================================================================
+  function renderSinglePaneQuizShell() {
+    screenEl.classList.add("full-bleed");
+    const content = session.content[session.currentContentIndex];
+    screenEl.innerHTML = `
+      <div class="test-shell">
+        <div class="test-topbar">
+          <span class="part-label">${content.title}</span>
+          <span class="part-instructions">${UI.quizMode}</span>
+          <button class="btn btn-ghost btn-sm" id="exitBtn">${UI.exitTest}</button>
+        </div>
+        <div class="pane pane-quiz-single" id="questionsPane"></div>
+        <div class="palette-bar" id="paletteBar"></div>
+      </div>
+    `;
+    renderQuestionsPane(content);
+    renderPalette();
+    document.getElementById("exitBtn").addEventListener("click", onExitClicked);
   }
 
   // ======================================================================
@@ -743,7 +898,10 @@
 
     let html = "";
     Object.keys(groups).forEach(ci => {
-      const label = session.skill === "reading" ? `${UI.passage} ${Number(ci) + 1}` : `${UI.section} ${Number(ci) + 1}`;
+      const unitWord = session.skill === "reading" ? UI.passage
+        : session.skill === "listening" ? UI.section
+        : session.skill === "vocabulary" ? UI.setLabel : UI.topicLabel;
+      const label = `${unitWord} ${Number(ci) + 1}`;
       html += `<span class="palette-section-label">${label}</span><div class="palette-grid">`;
       groups[ci].forEach(n => {
         html += paletteCellHtml(n);
@@ -833,13 +991,13 @@
   }
 
   function onExitClicked() {
-    if (session.mode === "test") showExitConfirm();
-    else {
-      stopTimer();
-      if (session.skill === "listening") stopAudio();
-      session = null;
-      renderHub(document.querySelector(".nav-link.active")?.dataset.nav || "reading");
-    }
+    if (session.mode === "test") { showExitConfirm(); return; }
+    stopTimer();
+    if (session.skill === "listening") stopAudio();
+    const skill = session.skill;
+    session = null;
+    if (skill === "vocabulary") renderVocabHub();
+    else renderHub(document.querySelector(".nav-link.active")?.dataset.nav || "reading");
   }
 
   // ======================================================================
@@ -948,7 +1106,11 @@
     const total = session.allQuestions.length;
     let correct = 0;
     session.allQuestions.forEach(q => { if (gradeQuestion(q)) correct++; });
-    const isQuick = session.content[0]?.kind === "quick";
+    // Band conversion tables only make sense for reading/listening; any
+    // other skill (vocabulary, grammar) always uses a plain percentage,
+    // same as an explicit "quick" drill within reading/listening.
+    const isQuick = session.content[0]?.kind === "quick"
+      || (session.skill !== "reading" && session.skill !== "listening");
     const isGeneralReading = session.skill === "reading" && session.content[0]?.testType === "general";
     const table = session.skill === "reading"
       ? (isGeneralReading ? READING_GENERAL_BAND_TABLE : READING_ACADEMIC_BAND_TABLE)

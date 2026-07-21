@@ -1,0 +1,615 @@
+{
+  "sets": [
+    {
+      "id": "vocab-society-01",
+      "skill": "vocabulary",
+      "title": "Общество и социальные вопросы",
+      "level": "B2–C1",
+      "words": [
+        {
+          "term": "inequality",
+          "ipa": "/ˌɪnɪˈkwɒlɪti/",
+          "pos": "n.",
+          "level": "B2",
+          "definition": "An unfair situation in which some people have more opportunities, money, or power than others.",
+          "translation": "Неравенство",
+          "example": "Income inequality has grown significantly over the past four decades in most developed countries.",
+          "collocations": [
+            "income inequality",
+            "tackle inequality",
+            "growing inequality"
+          ],
+          "synonyms": [
+            "disparity",
+            "imbalance",
+            "unfairness"
+          ]
+        },
+        {
+          "term": "marginalised",
+          "ipa": "/ˈmɑːdʒɪnəlaɪzd/",
+          "pos": "adj.",
+          "level": "B2",
+          "definition": "Treated as insignificant or peripheral, excluded from mainstream social, economic, or political life.",
+          "translation": "Маргинализированный",
+          "example": "Marginalised communities often face compounded barriers to education and healthcare.",
+          "collocations": [
+            "marginalised communities",
+            "marginalised groups",
+            "feel marginalised"
+          ],
+          "synonyms": [
+            "excluded",
+            "sidelined",
+            "disenfranchised"
+          ]
+        },
+        {
+          "term": "meritocracy",
+          "ipa": "/ˌmerɪˈtɒkrəsi/",
+          "pos": "n.",
+          "level": "C1",
+          "definition": "A system in which power and status are assigned on the basis of individual ability or achievement, rather than wealth or class.",
+          "translation": "Меритократия",
+          "example": "A genuine meritocracy requires equal access to opportunity from the earliest years of life.",
+          "collocations": [
+            "a true meritocracy",
+            "meritocratic system"
+          ],
+          "synonyms": [
+            "merit-based system"
+          ]
+        },
+        {
+          "term": "stratification",
+          "ipa": "/ˌstrætɪfɪˈkeɪʃn/",
+          "pos": "n.",
+          "level": "C1",
+          "definition": "The division of society into hierarchical layers, typically based on wealth, class, or status.",
+          "translation": "Расслоение (стратификация)",
+          "example": "Social stratification based on wealth and class is reinforced by selective educational institutions.",
+          "collocations": [
+            "social stratification",
+            "class stratification"
+          ],
+          "synonyms": [
+            "hierarchy",
+            "layering"
+          ]
+        },
+        {
+          "term": "disenfranchised",
+          "ipa": "/ˌdɪsɪnˈfræntʃaɪzd/",
+          "pos": "adj.",
+          "level": "C1",
+          "definition": "Deprived of a right or privilege, especially the right to vote or to participate meaningfully in society.",
+          "translation": "Лишённый прав",
+          "example": "Many young voters feel politically disenfranchised by a system that rarely addresses their concerns.",
+          "collocations": [
+            "disenfranchised voters",
+            "feel disenfranchised"
+          ],
+          "synonyms": [
+            "marginalised",
+            "excluded"
+          ]
+        },
+        {
+          "term": "civic engagement",
+          "ipa": "/ˈsɪvɪk ɪnˈgeɪdʒmənt/",
+          "pos": "n.phr.",
+          "level": "B2",
+          "definition": "Active participation by individuals in the political and social life of their community.",
+          "translation": "Гражданская активность",
+          "example": "Civic engagement has declined significantly among younger generations in many democracies.",
+          "collocations": [
+            "promote civic engagement",
+            "levels of civic engagement"
+          ],
+          "synonyms": [
+            "public participation",
+            "community involvement"
+          ]
+        },
+        {
+          "term": "redistributive",
+          "ipa": "/ˌriːdɪˈstrɪbjətɪv/",
+          "pos": "adj.",
+          "level": "C1",
+          "definition": "Relating to policies designed to transfer wealth or resources from some groups to others, typically to reduce inequality.",
+          "translation": "Перераспределительный",
+          "example": "Addressing inequality requires both redistributive fiscal policy and investment in public services.",
+          "collocations": [
+            "redistributive policy",
+            "redistributive taxation"
+          ],
+          "synonyms": [
+            "reallocative"
+          ]
+        },
+        {
+          "term": "social cohesion",
+          "ipa": "/ˈsəʊʃl kəʊˈhiːʒn/",
+          "pos": "n.phr.",
+          "level": "B2",
+          "definition": "The degree to which members of a society feel connected to, and trust, one another.",
+          "translation": "Социальная сплочённость",
+          "example": "Growing income inequality undermines social cohesion and weakens democratic participation.",
+          "collocations": [
+            "undermine social cohesion",
+            "strengthen social cohesion"
+          ],
+          "synonyms": [
+            "social solidarity",
+            "community bonds"
+          ]
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "summary-completion",
+          "instructions": "Complete each sentence below. Choose ONE WORD OR PHRASE from the box for each answer.",
+          "wordLimit": 3,
+          "wordBank": [
+            "inequality",
+            "marginalised",
+            "meritocracy",
+            "stratification",
+            "disenfranchised",
+            "civic engagement",
+            "redistributive",
+            "social cohesion"
+          ],
+          "summaryText": "Income ___1___ has grown significantly over the past four decades in most developed countries.<br><br>___2___ communities often face compounded barriers to education and healthcare.<br><br>A genuine ___3___ requires equal access to opportunity from the earliest years of life.<br><br>Social ___4___ based on wealth and class is reinforced by selective educational institutions.<br><br>Many young voters feel politically ___5___ by a system that rarely addresses their concerns.<br><br>___6___ has declined significantly among younger generations in many democracies.<br><br>Addressing inequality requires both ___7___ fiscal policy and investment in public services.<br><br>Growing income inequality undermines ___8___ and weakens democratic participation.",
+          "questions": [
+            {
+              "number": 1,
+              "answer": [
+                "inequality"
+              ]
+            },
+            {
+              "number": 2,
+              "answer": [
+                "marginalised"
+              ]
+            },
+            {
+              "number": 3,
+              "answer": [
+                "meritocracy"
+              ]
+            },
+            {
+              "number": 4,
+              "answer": [
+                "stratification"
+              ]
+            },
+            {
+              "number": 5,
+              "answer": [
+                "disenfranchised"
+              ]
+            },
+            {
+              "number": 6,
+              "answer": [
+                "civic engagement"
+              ]
+            },
+            {
+              "number": 7,
+              "answer": [
+                "redistributive"
+              ]
+            },
+            {
+              "number": 8,
+              "answer": [
+                "social cohesion"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocab-technology-01",
+      "skill": "vocabulary",
+      "title": "Технологии и инновации",
+      "level": "B2–C1",
+      "words": [
+        {
+          "term": "algorithmic bias",
+          "ipa": "/ˌælgəˈrɪðmɪk ˈbaɪəs/",
+          "pos": "n.phr.",
+          "level": "C1",
+          "definition": "Systematic errors in AI outputs that disadvantage particular groups, caused by biased training data or flawed design.",
+          "translation": "Алгоритмическая предвзятость",
+          "example": "Algorithmic bias in facial recognition disproportionately misidentifies people of colour.",
+          "collocations": [
+            "detect algorithmic bias",
+            "mitigate algorithmic bias"
+          ],
+          "synonyms": [
+            "AI bias"
+          ]
+        },
+        {
+          "term": "digital literacy",
+          "ipa": "/ˈdɪdʒɪtl ˈlɪtərəsi/",
+          "pos": "n.phr.",
+          "level": "B2",
+          "definition": "The ability to effectively find, evaluate, use, and create information using digital technology.",
+          "translation": "Цифровая грамотность",
+          "example": "Digital literacy is now as fundamental a skill as reading and writing in the modern economy.",
+          "collocations": [
+            "improve digital literacy",
+            "lack of digital literacy"
+          ],
+          "synonyms": [
+            "tech competence"
+          ]
+        },
+        {
+          "term": "surveillance capitalism",
+          "ipa": "/səˈveɪləns ˈkæpɪtəlɪzəm/",
+          "pos": "n.phr.",
+          "level": "C1",
+          "definition": "An economic system centred on the commodification of personal data collected through monitoring users' behaviour.",
+          "translation": "Надзорный капитализм",
+          "example": "Surveillance capitalism turns users' behavioural data into a commodity sold to advertisers.",
+          "collocations": [
+            "the rise of surveillance capitalism"
+          ],
+          "synonyms": []
+        },
+        {
+          "term": "disruptive technology",
+          "ipa": "/dɪsˈrʌptɪv tekˈnɒlədʒi/",
+          "pos": "n.phr.",
+          "level": "B2",
+          "definition": "An innovation that significantly displaces an established technology or fundamentally changes an industry.",
+          "translation": "Прорывная технология",
+          "example": "Disruptive technology destroys existing business models before viable alternatives have emerged.",
+          "collocations": [
+            "a disruptive technology",
+            "disrupt an industry"
+          ],
+          "synonyms": [
+            "breakthrough innovation"
+          ]
+        },
+        {
+          "term": "automation",
+          "ipa": "/ˌɔːtəˈmeɪʃn/",
+          "pos": "n.",
+          "level": "B2",
+          "definition": "The use of largely automatic equipment in a system of manufacturing or other production process, reducing the need for human labour.",
+          "translation": "Автоматизация",
+          "example": "Automation threatens routine cognitive and physical labour across many sectors of the economy.",
+          "collocations": [
+            "increased automation",
+            "automation of jobs"
+          ],
+          "synonyms": [
+            "mechanisation"
+          ]
+        },
+        {
+          "term": "digital divide",
+          "ipa": "/ˈdɪdʒɪtl dɪˈvaɪd/",
+          "pos": "n.phr.",
+          "level": "B2",
+          "definition": "The gap between those who have easy access to digital technology and the internet, and those who do not.",
+          "translation": "Цифровое неравенство",
+          "example": "The digital divide between high- and low-income households has widened considerably since 2020.",
+          "collocations": [
+            "bridge the digital divide",
+            "widen the digital divide"
+          ],
+          "synonyms": []
+        },
+        {
+          "term": "proprietary",
+          "ipa": "/prəˈpraɪətəri/",
+          "pos": "adj.",
+          "level": "C1",
+          "definition": "Relating to an owner or ownership, especially describing technology or software owned exclusively by a company.",
+          "translation": "Проприетарный (собственнический)",
+          "example": "The company's proprietary algorithm is protected as a trade secret.",
+          "collocations": [
+            "proprietary software",
+            "proprietary technology"
+          ],
+          "synonyms": [
+            "exclusively owned"
+          ]
+        },
+        {
+          "term": "scalable",
+          "ipa": "/ˈskeɪləbl/",
+          "pos": "adj.",
+          "level": "B2",
+          "definition": "Capable of being expanded or adapted to handle a growing amount of work or a larger scope.",
+          "translation": "Масштабируемый",
+          "example": "Investors were drawn to the startup's highly scalable business model.",
+          "collocations": [
+            "a scalable solution",
+            "highly scalable"
+          ],
+          "synonyms": [
+            "expandable"
+          ]
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "summary-completion",
+          "instructions": "Complete each sentence below. Choose ONE WORD OR PHRASE from the box for each answer.",
+          "wordLimit": 3,
+          "wordBank": [
+            "algorithmic bias",
+            "digital literacy",
+            "surveillance capitalism",
+            "disruptive technology",
+            "automation",
+            "digital divide",
+            "proprietary",
+            "scalable"
+          ],
+          "summaryText": "___1___ in facial recognition disproportionately misidentifies people of colour.<br><br>___2___ is now as fundamental a skill as reading and writing in the modern economy.<br><br>___3___ turns users' behavioural data into a commodity sold to advertisers.<br><br>___4___ destroys existing business models before viable alternatives have emerged.<br><br>___5___ threatens routine cognitive and physical labour across many sectors of the economy.<br><br>The ___6___ between high- and low-income households has widened considerably since 2020.<br><br>The company's ___7___ algorithm is protected as a trade secret.<br><br>Investors were drawn to the startup's highly ___8___ business model.",
+          "questions": [
+            {
+              "number": 1,
+              "answer": [
+                "algorithmic bias"
+              ]
+            },
+            {
+              "number": 2,
+              "answer": [
+                "digital literacy"
+              ]
+            },
+            {
+              "number": 3,
+              "answer": [
+                "surveillance capitalism"
+              ]
+            },
+            {
+              "number": 4,
+              "answer": [
+                "disruptive technology"
+              ]
+            },
+            {
+              "number": 5,
+              "answer": [
+                "automation"
+              ]
+            },
+            {
+              "number": 6,
+              "answer": [
+                "digital divide"
+              ]
+            },
+            {
+              "number": 7,
+              "answer": [
+                "proprietary"
+              ]
+            },
+            {
+              "number": 8,
+              "answer": [
+                "scalable"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocab-environment-01",
+      "skill": "vocabulary",
+      "title": "Экология и устойчивое развитие",
+      "level": "B1–C1",
+      "words": [
+        {
+          "term": "carbon footprint",
+          "ipa": "/ˈkɑːbən ˈfʊtprɪnt/",
+          "pos": "n.phr.",
+          "level": "B2",
+          "definition": "The total amount of greenhouse gases produced directly or indirectly by an individual, organisation, or activity.",
+          "translation": "Углеродный след",
+          "example": "The average carbon footprint of citizens in wealthy nations far exceeds the planet's sustainable capacity.",
+          "collocations": [
+            "reduce your carbon footprint",
+            "large carbon footprint"
+          ],
+          "synonyms": []
+        },
+        {
+          "term": "greenwashing",
+          "ipa": "/ˈgriːnwɒʃɪŋ/",
+          "pos": "n.",
+          "level": "B2",
+          "definition": "The misleading practice of making false or exaggerated environmental claims to appear eco-friendly.",
+          "translation": "Гринвошинг",
+          "example": "Several major airlines have been accused of greenwashing over their carbon offset schemes.",
+          "collocations": [
+            "accused of greenwashing"
+          ],
+          "synonyms": []
+        },
+        {
+          "term": "biodiversity",
+          "ipa": "/ˌbaɪəʊdaɪˈvɜːsəti/",
+          "pos": "n.",
+          "level": "B2",
+          "definition": "The variety of plant and animal life in a particular habitat or in the world as a whole.",
+          "translation": "Биоразнообразие",
+          "example": "Protecting biodiversity is essential for sustaining the ecosystem services on which human life depends.",
+          "collocations": [
+            "biodiversity loss",
+            "protect biodiversity"
+          ],
+          "synonyms": [
+            "biological diversity"
+          ]
+        },
+        {
+          "term": "net zero",
+          "ipa": "/net ˈzɪərəʊ/",
+          "pos": "n.phr.",
+          "level": "B2",
+          "definition": "A state in which the greenhouse gases going into the atmosphere are balanced by their removal.",
+          "translation": "Нулевые чистые выбросы",
+          "example": "Achieving net zero by 2050 requires the fundamental transformation of energy, transport, and industry.",
+          "collocations": [
+            "reach net zero",
+            "net zero target"
+          ],
+          "synonyms": [
+            "carbon neutrality"
+          ]
+        },
+        {
+          "term": "carbon sequestration",
+          "ipa": "/ˈkɑːbən ˌsiːkwɪˈstreɪʃn/",
+          "pos": "n.phr.",
+          "level": "C1",
+          "definition": "The long-term storage of carbon dioxide, typically by natural processes such as forests or oceans, or by artificial means.",
+          "translation": "Секвестрация углерода",
+          "example": "Natural carbon sequestration by forests and peatlands is one of the most cost-effective climate tools.",
+          "collocations": [
+            "natural carbon sequestration"
+          ],
+          "synonyms": [
+            "carbon capture"
+          ]
+        },
+        {
+          "term": "anthropogenic",
+          "ipa": "/ˌænθrəpəˈdʒenɪk/",
+          "pos": "adj.",
+          "level": "C1",
+          "definition": "Originating from human activity, especially referring to environmental change or pollution.",
+          "translation": "Антропогенный",
+          "example": "The anthropogenic causes of climate change are now beyond scientific dispute.",
+          "collocations": [
+            "anthropogenic emissions",
+            "anthropogenic climate change"
+          ],
+          "synonyms": [
+            "human-caused"
+          ]
+        },
+        {
+          "term": "mitigation",
+          "ipa": "/ˌmɪtɪˈgeɪʃn/",
+          "pos": "n.",
+          "level": "B2",
+          "definition": "Action taken to reduce the severity or seriousness of something, especially the impact of climate change.",
+          "translation": "Смягчение последствий",
+          "example": "Without aggressive climate mitigation, global temperatures could rise by 3 to 4 degrees this century.",
+          "collocations": [
+            "climate mitigation",
+            "mitigation measures"
+          ],
+          "synonyms": [
+            "reduction"
+          ]
+        },
+        {
+          "term": "renewable",
+          "ipa": "/rɪˈnjuːəbl/",
+          "pos": "adj.",
+          "level": "B1",
+          "definition": "Relating to a natural resource or energy source that is not depleted when used, such as sunlight or wind.",
+          "translation": "Возобновляемый",
+          "example": "Transitioning to renewable energy is the cornerstone of credible modern climate policy.",
+          "collocations": [
+            "renewable energy",
+            "renewable resources"
+          ],
+          "synonyms": [
+            "sustainable"
+          ]
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "summary-completion",
+          "instructions": "Complete each sentence below. Choose ONE WORD OR PHRASE from the box for each answer.",
+          "wordLimit": 3,
+          "wordBank": [
+            "carbon footprint",
+            "greenwashing",
+            "biodiversity",
+            "net zero",
+            "carbon sequestration",
+            "anthropogenic",
+            "mitigation",
+            "renewable"
+          ],
+          "summaryText": "The average ___1___ of citizens in wealthy nations far exceeds the planet's sustainable capacity.<br><br>Several major airlines have been accused of ___2___ over their carbon offset schemes.<br><br>Protecting ___3___ is essential for sustaining the ecosystem services on which human life depends.<br><br>Achieving ___4___ by 2050 requires the fundamental transformation of energy, transport, and industry.<br><br>Natural ___5___ by forests and peatlands is one of the most cost-effective climate tools.<br><br>The ___6___ causes of climate change are now beyond scientific dispute.<br><br>Without aggressive climate ___7___, global temperatures could rise by 3 to 4 degrees this century.<br><br>Transitioning to ___8___ energy is the cornerstone of credible modern climate policy.",
+          "questions": [
+            {
+              "number": 1,
+              "answer": [
+                "carbon footprint"
+              ]
+            },
+            {
+              "number": 2,
+              "answer": [
+                "greenwashing"
+              ]
+            },
+            {
+              "number": 3,
+              "answer": [
+                "biodiversity"
+              ]
+            },
+            {
+              "number": 4,
+              "answer": [
+                "net zero"
+              ]
+            },
+            {
+              "number": 5,
+              "answer": [
+                "carbon sequestration"
+              ]
+            },
+            {
+              "number": 6,
+              "answer": [
+                "anthropogenic"
+              ]
+            },
+            {
+              "number": 7,
+              "answer": [
+                "mitigation"
+              ]
+            },
+            {
+              "number": 8,
+              "answer": [
+                "renewable"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -182,6 +182,7 @@
       soundOn = !soundOn;
       e.currentTarget.textContent = soundOn ? "🔊" : "🔇";
       localStorage.setItem("ieltsmindset-sound", soundOn ? "1" : "0");
+      if (session && session.audioEl) session.audioEl.muted = !soundOn;
     });
     document.getElementById("exitConfirmCancel").addEventListener("click", hideExitConfirm);
     document.getElementById("exitConfirmLeave").addEventListener("click", () => {
@@ -970,6 +971,7 @@
 
     if (content.audioFile) {
       const audio = new Audio(content.audioFile);
+      audio.muted = !soundOn;
       session.audioEl = audio;
       playBtn.addEventListener("click", () => {
         if (audio.paused) { audio.play(); playBtn.textContent = "❚❚"; }
@@ -1020,6 +1022,7 @@
       timeEl.textContent = `${i + 1} / ${lines.length}`;
       const utter = new SpeechSynthesisUtterance(lines[i].text);
       utter.rate = 0.98;
+      utter.volume = soundOn ? 1 : 0;
       utter.onend = () => { i++; speakNext(); };
       utter.onerror = () => { i++; speakNext(); };
       window.speechSynthesis.speak(utter);

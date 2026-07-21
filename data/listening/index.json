@@ -3262,6 +3262,666 @@
           ]
         }
       ]
+    },
+    {
+      "id": "listening-test-006-section-1",
+      "skill": "listening",
+      "sectionNumber": 1,
+      "testGroup": "6",
+      "title": "Renting a Car for a Weekend Trip",
+      "audioFile": null,
+      "transcript": [
+        {
+          "speaker": "Agent",
+          "voiceId": "male-british",
+          "text": "Good morning, Coastal Car Hire, how can I help?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "male-american",
+          "text": "Hi, I'd like to hire a car for this weekend, please."
+        },
+        {
+          "speaker": "Agent",
+          "voiceId": "male-british",
+          "text": "Of course. Could I take your name?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "male-american",
+          "text": "Yes, it's Daniel Osei."
+        },
+        {
+          "speaker": "Agent",
+          "voiceId": "male-british",
+          "text": "Thanks, Daniel. What dates were you thinking?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "male-american",
+          "text": "Friday the sixth to Sunday the eighth of June."
+        },
+        {
+          "speaker": "Agent",
+          "voiceId": "male-british",
+          "text": "That's three days. What type of car were you looking for?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "male-american",
+          "text": "Something small, just for two of us — a compact car would be fine."
+        },
+        {
+          "speaker": "Agent",
+          "voiceId": "male-british",
+          "text": "We have a compact available for thirty-eight pounds per day, so that would be a hundred and fourteen pounds for the three days."
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "male-american",
+          "text": "That sounds good. Is insurance included?"
+        },
+        {
+          "speaker": "Agent",
+          "voiceId": "male-british",
+          "text": "Basic insurance is included, but there's an optional excess waiver for an extra nine pounds a day, which reduces your liability in the event of damage."
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "male-american",
+          "text": "I'll take the excess waiver, just to be safe."
+        },
+        {
+          "speaker": "Agent",
+          "voiceId": "male-british",
+          "text": "No problem. That brings the total to one hundred and forty-one pounds. You'll need to bring your driving licence and a credit card in your name when you collect the car."
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "male-american",
+          "text": "Understood."
+        },
+        {
+          "speaker": "Agent",
+          "voiceId": "male-british",
+          "text": "Pick-up is from our branch on Harbour Road, and we ask that you return the car with a full tank of fuel."
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "male-american",
+          "text": "Got it. What time can I collect it on Friday?"
+        },
+        {
+          "speaker": "Agent",
+          "voiceId": "male-british",
+          "text": "Any time after nine in the morning. Could I get a contact number, in case we need to reach you?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "male-american",
+          "text": "Sure, it's 07823401559."
+        },
+        {
+          "speaker": "Agent",
+          "voiceId": "male-british",
+          "text": "Thank you, Daniel. We'll see you on Friday."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "sentence-completion",
+          "instructions": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Surname: ___",
+              "answer": [
+                "Osei"
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Number of rental days: ___",
+              "answer": [
+                "3",
+                "three"
+              ]
+            },
+            {
+              "number": 3,
+              "prompt": "Car type: ___ car",
+              "answer": [
+                "compact"
+              ]
+            },
+            {
+              "number": 4,
+              "prompt": "Daily rate: £___",
+              "answer": [
+                "38"
+              ]
+            },
+            {
+              "number": 5,
+              "prompt": "Optional extra: ___ waiver",
+              "answer": [
+                "excess"
+              ]
+            },
+            {
+              "number": 6,
+              "prompt": "Cost of excess waiver per day: £___",
+              "answer": [
+                "9"
+              ]
+            },
+            {
+              "number": 7,
+              "prompt": "Total cost: £___",
+              "answer": [
+                "141"
+              ]
+            },
+            {
+              "number": 8,
+              "prompt": "Pick-up location: ___ Road",
+              "answer": [
+                "Harbour"
+              ]
+            },
+            {
+              "number": 9,
+              "prompt": "Earliest pick-up time: ___ in the morning",
+              "answer": [
+                "9",
+                "nine"
+              ]
+            },
+            {
+              "number": 10,
+              "prompt": "Contact number: ___",
+              "answer": [
+                "07823401559"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "listening-test-006-section-2",
+      "skill": "listening",
+      "sectionNumber": 2,
+      "testGroup": "6",
+      "title": "Coral Reef Conservation Volunteer Programme",
+      "audioFile": null,
+      "transcript": [
+        {
+          "speaker": "Coordinator",
+          "voiceId": "female-australian",
+          "text": "Good morning, everyone, and welcome to the Bluewater Reef Conservation Programme. Over the coming weeks, you'll be involved in five main types of activity, so let me briefly explain each. First, Reef Surveying — this involves diving along fixed transect lines to record fish species and coral health, and it does require an advanced diving qualification, since some survey sites are quite deep. Second, Coral Nursery Maintenance, where volunteers clean and monitor coral fragments growing on underwater frames, before they're eventually transplanted onto the damaged sections of the reef; this only requires a basic open-water diving qualification."
+        },
+        {
+          "speaker": "Coordinator",
+          "voiceId": "female-australian",
+          "text": "Third, Beach Clean-ups, which take place every Sunday morning and are open to all volunteers, including those who don't dive at all. Fourth, Community Education Sessions, where volunteers visit local schools to teach children about reef conservation; previous teaching experience is preferred for this activity, though not required. And finally, Data Entry and Reporting, where volunteers help process the survey data collected by the diving teams — this is entirely desk-based and is a good option on days when sea conditions are too rough for diving."
+        },
+        {
+          "speaker": "Coordinator",
+          "voiceId": "female-australian",
+          "text": "A few more details. Reef Surveying requires a minimum of fifty logged dives before you can take part. Coral Nursery Maintenance sessions run three times a week, on Tuesday, Thursday, and Saturday mornings. Beach Clean-ups usually last about two hours. For Community Education Sessions, please wear the programme's branded t-shirt, which will be provided in your welcome pack. And if you're interested in Data Entry, please speak to our programme coordinator, whose name is Marcus Webb."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "matching-features",
+          "instructions": "Match each description below with the correct activity, A–E.",
+          "matchOptions": [
+            "Reef Surveying",
+            "Coral Nursery Maintenance",
+            "Beach Clean-ups",
+            "Community Education Sessions",
+            "Data Entry and Reporting"
+          ],
+          "questions": [
+            {
+              "number": 11,
+              "statement": "Requires a minimum number of logged dives.",
+              "answer": "Reef Surveying"
+            },
+            {
+              "number": 12,
+              "statement": "Runs three mornings a week.",
+              "answer": "Coral Nursery Maintenance"
+            },
+            {
+              "number": 13,
+              "statement": "Is open to volunteers who do not dive at all.",
+              "answer": "Beach Clean-ups"
+            },
+            {
+              "number": 14,
+              "statement": "Involves visiting local schools.",
+              "answer": "Community Education Sessions"
+            },
+            {
+              "number": 15,
+              "statement": "Is a good option when sea conditions are too rough for diving.",
+              "answer": "Data Entry and Reporting"
+            }
+          ]
+        },
+        {
+          "type": "sentence-completion",
+          "instructions": "Complete the sentences below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 16,
+              "prompt": "Reef Surveying requires at least ___ logged dives.",
+              "answer": [
+                "50",
+                "fifty"
+              ]
+            },
+            {
+              "number": 17,
+              "prompt": "Coral Nursery Maintenance takes place on Tuesday, Thursday, and ___ mornings.",
+              "answer": [
+                "Saturday"
+              ]
+            },
+            {
+              "number": 18,
+              "prompt": "Beach Clean-ups usually last about ___ hours.",
+              "answer": [
+                "2",
+                "two"
+              ]
+            },
+            {
+              "number": 19,
+              "prompt": "Volunteers should wear a branded ___ for Community Education Sessions.",
+              "answer": [
+                "t-shirt"
+              ]
+            },
+            {
+              "number": 20,
+              "prompt": "The programme coordinator is called ___.",
+              "answer": [
+                "Marcus Webb"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "listening-test-006-section-3",
+      "skill": "listening",
+      "sectionNumber": 3,
+      "testGroup": "6",
+      "title": "Architecture Studio Critique",
+      "audioFile": null,
+      "transcript": [
+        {
+          "speaker": "Tutor",
+          "voiceId": "female-british",
+          "text": "Right, let's look at your group project. Overall, I think the concept is strong, but I have some concerns about the site plan."
+        },
+        {
+          "speaker": "Leo",
+          "voiceId": "male-american",
+          "text": "Which part specifically?"
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "female-british",
+          "text": "The building placement — you've positioned the main block right up against the northern boundary, which means most of the ground-floor units will get very little natural light."
+        },
+        {
+          "speaker": "Sofia",
+          "voiceId": "female-australian",
+          "text": "We were trying to maximise the garden space at the back."
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "female-british",
+          "text": "I understand the logic, but I'd suggest shifting the block about three metres south, which should solve the light problem without losing too much garden."
+        },
+        {
+          "speaker": "Leo",
+          "voiceId": "male-american",
+          "text": "We could try that for the next draft."
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "female-british",
+          "text": "Good. Now, structurally, your material choice — timber frame — is appropriate for this scale, but have you considered the fire regulations for a building of four storeys?"
+        },
+        {
+          "speaker": "Sofia",
+          "voiceId": "female-australian",
+          "text": "We hadn't looked into that in detail yet."
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "female-british",
+          "text": "You'll need to check the specific requirements — at four storeys, timber frame construction usually needs additional fire-resistant cladding, which will affect your budget."
+        },
+        {
+          "speaker": "Leo",
+          "voiceId": "male-american",
+          "text": "Understood, we'll research that this week."
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "female-british",
+          "text": "One more thing — your presentation drawings are excellent, genuinely some of the best in the group this year, but your written report needs more detail on the sustainability strategy specifically."
+        },
+        {
+          "speaker": "Sofia",
+          "voiceId": "female-australian",
+          "text": "We can expand that section."
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "female-british",
+          "text": "Good. When's your next submission due?"
+        },
+        {
+          "speaker": "Leo",
+          "voiceId": "male-american",
+          "text": "The final submission is the twentieth of next month, but we have an interim review on the sixth."
+        },
+        {
+          "speaker": "Tutor",
+          "voiceId": "female-british",
+          "text": "Right, let's aim to have the revised site plan ready by the interim review."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "table-completion",
+          "instructions": "Complete the table below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "wordLimit": 2,
+          "table": {
+            "headers": [
+              "Item",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Site plan issue",
+                {
+                  "qnum": 21,
+                  "before": "Building block positioned too close to the ",
+                  "after": " boundary"
+                }
+              ],
+              [
+                "Recommended fix",
+                {
+                  "qnum": 22,
+                  "before": "Shift the block about ",
+                  "after": " metres south"
+                }
+              ],
+              [
+                "Material",
+                {
+                  "qnum": 23,
+                  "before": "",
+                  "after": " frame"
+                }
+              ],
+              [
+                "Concern",
+                {
+                  "qnum": 24,
+                  "before": "",
+                  "after": " regulations at four storeys"
+                }
+              ],
+              [
+                "Interim review date",
+                {
+                  "qnum": 25,
+                  "before": "The "
+                }
+              ]
+            ]
+          },
+          "questions": [
+            {
+              "number": 21,
+              "answer": [
+                "northern"
+              ]
+            },
+            {
+              "number": 22,
+              "answer": [
+                "3",
+                "three"
+              ]
+            },
+            {
+              "number": 23,
+              "answer": [
+                "Timber"
+              ]
+            },
+            {
+              "number": 24,
+              "answer": [
+                "Fire"
+              ]
+            },
+            {
+              "number": 25,
+              "answer": [
+                "6th",
+                "sixth"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "multiple-choice",
+          "instructions": "Choose the correct letter, A, B, C, or D.",
+          "questions": [
+            {
+              "number": 26,
+              "statement": "What is the tutor's main concern about the site plan?",
+              "options": [
+                "The garden is too small",
+                "Ground-floor units will get little natural light",
+                "The building is too tall",
+                "There is no parking space"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 27,
+              "statement": "Why did the students position the building where they did?",
+              "options": [
+                "To reduce construction costs",
+                "To maximise garden space",
+                "Due to a planning restriction",
+                "To match a neighbouring building"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 28,
+              "statement": "What does the tutor say about timber frame construction at four storeys?",
+              "options": [
+                "It is not permitted under any circumstances",
+                "It usually needs additional fire-resistant cladding",
+                "It is cheaper than at lower heights",
+                "It requires no additional regulation"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 29,
+              "statement": "How does the tutor describe the presentation drawings?",
+              "options": [
+                "Needing significant improvement",
+                "Adequate but unremarkable",
+                "Some of the best in the group this year",
+                "Too detailed for the audience"
+              ],
+              "answer": 2
+            },
+            {
+              "number": 30,
+              "statement": "What does the written report need more detail on?",
+              "options": [
+                "The site plan",
+                "The sustainability strategy",
+                "The construction budget",
+                "The fire regulations"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "listening-test-006-section-4",
+      "skill": "listening",
+      "sectionNumber": 4,
+      "testGroup": "6",
+      "title": "The Sharing Economy: Opportunities and Challenges",
+      "audioFile": null,
+      "transcript": [
+        {
+          "speaker": "Lecturer",
+          "voiceId": "male-british",
+          "text": "Today's lecture examines the so-called sharing economy — a term used to describe economic activity facilitated by digital platforms that connect individuals wishing to rent out underused assets, from spare rooms to cars, with those wishing to use them temporarily. The model gained significant traction following the 2008 financial crisis, when many households were looking for additional sources of income, and smartphone technology made peer-to-peer transactions dramatically more convenient than in previous decades."
+        },
+        {
+          "speaker": "Lecturer",
+          "voiceId": "male-british",
+          "text": "Proponents argue the model offers genuine economic and environmental benefits: it can generate income for asset owners, reduce the need to purchase underused goods outright, such as tools or vehicles, and, in principle, reduce overall resource consumption by increasing the utilisation rate of existing assets, rather than requiring the production of new ones."
+        },
+        {
+          "speaker": "Lecturer",
+          "voiceId": "male-british",
+          "text": "Critics, however, raise several concerns. In many cities, the growth of short-term rental platforms has been linked to reduced availability of long-term rental housing, as landlords convert properties to more profitable short-term lettings, contributing to rising rents for local residents. Labour rights are another significant concern: many platform workers are classified as independent contractors rather than employees, meaning they typically lack access to benefits such as sick pay, paid holiday, and minimum wage protections that employees are otherwise entitled to."
+        },
+        {
+          "speaker": "Lecturer",
+          "voiceId": "male-british",
+          "text": "In response, a growing number of cities have introduced regulation specifically targeting these platforms. Some have imposed caps on the number of nights a property can be rented out short-term each year; others have introduced mandatory registration schemes requiring hosts to obtain a licence before listing a property. Several countries have also begun reclassifying certain platform workers as employees or as an intermediate category with some employee-like protections, following a series of legal challenges."
+        },
+        {
+          "speaker": "Lecturer",
+          "voiceId": "male-british",
+          "text": "Looking ahead, most economists expect the sector to continue growing, but increasingly within a more regulated framework than existed in its early, largely unregulated years. The central policy challenge, most researchers agree, is preserving the genuine efficiency benefits the model can offer, while addressing its demonstrated negative effects on housing affordability and labour protections."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "summary-completion",
+          "instructions": "Complete the summary below. Choose ONE WORD ONLY from the box for each answer.",
+          "wordLimit": 1,
+          "wordBank": [
+            "convenient",
+            "utilisation",
+            "housing",
+            "contractors",
+            "regulated"
+          ],
+          "summaryText": "The sharing economy grew rapidly after 2008, helped by smartphone technology that made peer-to-peer transactions more ___31___. Proponents argue it increases the ___32___ rate of existing assets. Critics link short-term rental platforms to reduced ___33___ availability and rising rents. Many platform workers are classified as independent ___34___ rather than employees. The sector is expected to keep growing, but within an increasingly ___35___ framework.",
+          "questions": [
+            {
+              "number": 31,
+              "answer": [
+                "convenient"
+              ]
+            },
+            {
+              "number": 32,
+              "answer": [
+                "utilisation"
+              ]
+            },
+            {
+              "number": 33,
+              "answer": [
+                "housing"
+              ]
+            },
+            {
+              "number": 34,
+              "answer": [
+                "contractors"
+              ]
+            },
+            {
+              "number": 35,
+              "answer": [
+                "regulated"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "short-answer",
+          "instructions": "Answer the questions below. Choose NO MORE THAN THREE WORDS for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 36,
+              "prompt": "What event is cited as a major factor in the rise of the sharing economy?",
+              "answer": [
+                "the 2008 financial crisis",
+                "2008 financial crisis"
+              ]
+            },
+            {
+              "number": 37,
+              "prompt": "What classification do many platform workers have, according to the lecture?",
+              "answer": [
+                "independent contractors"
+              ]
+            },
+            {
+              "number": 38,
+              "prompt": "Name one benefit platform workers typically lack, according to the lecture.",
+              "answer": [
+                "sick pay",
+                "paid holiday",
+                "minimum wage protections",
+                "minimum wage"
+              ]
+            },
+            {
+              "number": 39,
+              "prompt": "What have some cities introduced requiring hosts to obtain a licence?",
+              "answer": [
+                "mandatory registration schemes",
+                "registration schemes",
+                "a registration scheme"
+              ]
+            },
+            {
+              "number": 40,
+              "prompt": "According to most researchers, what is the central policy challenge?",
+              "answer": [
+                "preserving efficiency benefits while addressing negative effects",
+                "balancing benefits and negative effects"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

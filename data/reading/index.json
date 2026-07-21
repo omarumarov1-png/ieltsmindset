@@ -2819,6 +2819,427 @@
           ]
         }
       ]
+    },
+    {
+      "id": "reading-passage-019",
+      "skill": "reading",
+      "testType": "general",
+      "testGroup": "7",
+      "title": "A Guide to Public Library Services",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "MEMBERSHIP TIERS. Standard membership is free for all residents and allows borrowing of up to eight items at a time, for a loan period of three weeks. Premium membership costs twenty-four pounds a year and allows borrowing of up to twenty items, for a loan period of four weeks, plus free reservation of items currently on loan elsewhere. Both membership types include free access to the library's e-book and audiobook collection."
+        },
+        {
+          "label": "B",
+          "text": "OPENING HOURS NOTICE. From next month, the Central Library will extend its Saturday opening hours, now open from nine until six, an increase of two hours. Sunday opening hours remain unchanged, from eleven until four. The library will be closed on all public holidays, and will close early, at three o'clock, on Christmas Eve and New Year's Eve."
+        },
+        {
+          "label": "C",
+          "text": "UPCOMING EVENTS. Join us for our monthly Book Club, meeting on the second Tuesday of each month at six thirty in the Reading Room — new members always welcome, no booking required. Our Children's Story Time runs every Saturday morning at ten, suitable for ages three to seven. And don't miss our Author Talk with local novelist Grace Fenwick, taking place on the twenty-second — tickets are free but must be booked in advance at the front desk."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "true-false-not-given",
+          "instructions": "Do the following statements agree with the information given in the notices?",
+          "questions": [
+            {
+              "number": 1,
+              "statement": "Standard membership allows borrowing more items than Premium membership.",
+              "answer": "FALSE"
+            },
+            {
+              "number": 2,
+              "statement": "Both membership types include access to e-books and audiobooks.",
+              "answer": "TRUE"
+            },
+            {
+              "number": 3,
+              "statement": "The library's Sunday opening hours are changing.",
+              "answer": "FALSE"
+            },
+            {
+              "number": 4,
+              "statement": "The library closes early on New Year's Eve.",
+              "answer": "TRUE"
+            },
+            {
+              "number": 5,
+              "statement": "Tickets for the Book Club meeting must be booked in advance.",
+              "answer": "FALSE"
+            }
+          ]
+        },
+        {
+          "type": "matching-information",
+          "instructions": "Which notice contains the following information? Write the correct letter, A, B, or C.",
+          "matchOptions": [
+            "A",
+            "B",
+            "C"
+          ],
+          "questions": [
+            {
+              "number": 6,
+              "statement": "a benefit exclusive to one particular type of membership",
+              "answer": "A"
+            },
+            {
+              "number": 7,
+              "statement": "a change taking effect next month",
+              "answer": "B"
+            },
+            {
+              "number": 8,
+              "statement": "an event requiring advance booking",
+              "answer": "C"
+            },
+            {
+              "number": 9,
+              "statement": "an activity suitable for a specific age range",
+              "answer": "C"
+            }
+          ]
+        },
+        {
+          "type": "short-answer",
+          "instructions": "Answer the questions below. Choose NO MORE THAN THREE WORDS from the notices for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 10,
+              "prompt": "How much does Premium membership cost per year?",
+              "answer": [
+                "£24",
+                "24 pounds",
+                "twenty-four pounds"
+              ]
+            },
+            {
+              "number": 11,
+              "prompt": "What time does the Central Library close on Christmas Eve?",
+              "answer": [
+                "3 o'clock",
+                "three o'clock",
+                "3pm"
+              ]
+            },
+            {
+              "number": 12,
+              "prompt": "On which day of the month does the Book Club meet?",
+              "answer": [
+                "the second Tuesday",
+                "second Tuesday"
+              ]
+            },
+            {
+              "number": 13,
+              "prompt": "Who is the author giving the talk on the twenty-second?",
+              "answer": [
+                "Grace Fenwick"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-passage-020",
+      "skill": "reading",
+      "testType": "general",
+      "testGroup": "7",
+      "title": "Staff Handbook: Health and Safety at Work",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "All employees are required to complete a health and safety induction on their first day of employment, covering fire evacuation procedures, first aid provisions, and the location of emergency exits. Refresher training must be completed annually thereafter, and records of completed training are kept on file by the HR department for a minimum of five years."
+        },
+        {
+          "label": "B",
+          "text": "In the event of a fire alarm, all staff must leave the building immediately via the nearest marked exit, proceeding directly to the designated assembly point in the car park. Lifts must never be used during an evacuation. Staff should not stop to collect personal belongings, and must not re-enter the building until a senior fire warden confirms it is safe to do so."
+        },
+        {
+          "label": "C",
+          "text": "Any workplace accident or near-miss, regardless of severity, must be reported to a line manager within twenty-four hours and formally recorded in the accident log book kept at reception. This applies even to minor incidents that do not require first aid treatment, since recurring near-misses can indicate an underlying hazard that needs addressing."
+        },
+        {
+          "label": "D",
+          "text": "Employees working at a display screen, such as a computer monitor, for more than an hour continuously are entitled to a workstation assessment, which can be requested through the HR portal. The assessment covers chair and desk height, monitor position, and lighting, and aims to reduce the risk of repetitive strain injury and eye strain."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "true-false-not-given",
+          "instructions": "Do the following statements agree with the information given in the handbook?",
+          "questions": [
+            {
+              "number": 14,
+              "statement": "Refresher training only needs to be completed once, at the start of employment.",
+              "answer": "FALSE"
+            },
+            {
+              "number": 15,
+              "statement": "Training records are kept by HR for at least five years.",
+              "answer": "TRUE"
+            },
+            {
+              "number": 16,
+              "statement": "Lifts should be used during a fire evacuation if the stairs are busy.",
+              "answer": "FALSE"
+            },
+            {
+              "number": 17,
+              "statement": "Employees must report even minor accidents that don't require first aid.",
+              "answer": "TRUE"
+            },
+            {
+              "number": 18,
+              "statement": "A workstation assessment can only be requested by a line manager, not the employee.",
+              "answer": "FALSE"
+            }
+          ]
+        },
+        {
+          "type": "sentence-completion",
+          "instructions": "Complete the sentences below. Choose NO MORE THAN THREE WORDS from the handbook for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 19,
+              "prompt": "New employees must complete an induction covering fire procedures, first aid, and ___.",
+              "answer": [
+                "emergency exits"
+              ]
+            },
+            {
+              "number": 20,
+              "prompt": "During an evacuation, staff must go to the assembly point in the ___.",
+              "answer": [
+                "car park"
+              ]
+            },
+            {
+              "number": 21,
+              "prompt": "Workplace accidents must be reported to a line manager within ___ hours.",
+              "answer": [
+                "24",
+                "twenty-four"
+              ]
+            },
+            {
+              "number": 22,
+              "prompt": "Accidents must be recorded in the accident log book kept at ___.",
+              "answer": [
+                "reception"
+              ]
+            },
+            {
+              "number": 23,
+              "prompt": "A workstation assessment can be requested through the ___.",
+              "answer": [
+                "HR portal",
+                "the HR portal"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "multiple-choice",
+          "instructions": "Choose the correct letter, A, B, C, or D.",
+          "questions": [
+            {
+              "number": 24,
+              "statement": "Who must confirm it is safe to re-enter the building after an evacuation?",
+              "options": [
+                "Any member of staff",
+                "A senior fire warden",
+                "The HR department",
+                "The building's owner"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 25,
+              "statement": "Why must even minor near-misses be reported?",
+              "options": [
+                "It is a legal requirement with no other reason given",
+                "They can indicate an underlying hazard",
+                "They affect insurance premiums",
+                "They are used for staff performance reviews"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 26,
+              "statement": "Who is entitled to a workstation assessment?",
+              "options": [
+                "Only senior staff",
+                "Anyone using a display screen continuously for more than an hour",
+                "Only new employees",
+                "Only staff who report discomfort"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 27,
+              "statement": "What does the workstation assessment NOT cover, according to the passage?",
+              "options": [
+                "Chair height",
+                "Monitor position",
+                "Lighting",
+                "Internet speed"
+              ],
+              "answer": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-passage-021",
+      "skill": "reading",
+      "testType": "general",
+      "testGroup": "7",
+      "title": "The History and Revival of Urban Beekeeping",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "Keeping honeybees within cities, once a niche or even faintly eccentric pursuit, has grown markedly in popularity across many major cities over the past two decades, with rooftop hives now visible on buildings ranging from budget hotels to prestigious cultural institutions and city halls."
+        },
+        {
+          "label": "B",
+          "text": "Beekeeping in urban areas is not entirely new. Nineteenth-century Paris had a notable tradition of hives kept within the grounds of the Luxembourg Gardens, some of which remain productive to this day, while London had a small but continuous population of urban beekeepers throughout the twentieth century, even if the practice remained relatively obscure until recently."
+        },
+        {
+          "label": "C",
+          "text": "Somewhat counterintuitively, researchers have found urban environments can actually support healthy bee populations rather well. Cities typically offer a greater diversity of flowering plants across parks, gardens, and street trees than intensively farmed monoculture rural landscapes, and urban areas are generally several degrees warmer than surrounding countryside, extending the foraging season."
+        },
+        {
+          "label": "D",
+          "text": "The recent surge in popularity has, however, raised a genuine concern among some bee specialists. Several cities now host so many hives that local flower resources may be insufficient to adequately support all of the bee colonies present, potentially causing competition not only between managed honeybee colonies but with wild native bee and pollinator species, which some researchers argue deserve greater conservation priority."
+        },
+        {
+          "label": "E",
+          "text": "In response to overcrowding concerns, a small number of cities have begun regulating hive density, requiring registration of hives with local authorities, or in some cases capping the total number of hives permitted within a given area — a shift from the largely unregulated approach of a decade ago."
+        },
+        {
+          "label": "F",
+          "text": "Beyond honey production itself, advocates argue urban beekeeping delivers genuine educational value, connecting city residents, particularly children, with food production and ecology in a direct, hands-on way, and some studies suggest hosting hives can measurably improve pollination of nearby food-growing spaces, including private gardens and community allotments."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "matching-headings",
+          "instructions": "The passage has six paragraphs, A–F. Choose the correct heading for paragraphs B–E from the list of headings below.",
+          "headingOptions": [
+            "A concern that popularity may now be causing harm",
+            "Surprising advantages that cities offer bee colonies",
+            "A long but little-known urban tradition",
+            "New rules introduced in response to a problem",
+            "Educational and ecological side benefits",
+            "A decline in honey quality over recent decades",
+            "Why rural areas are better suited to beekeeping",
+            "A ban on hives within city centres"
+          ],
+          "questions": [
+            {
+              "number": 28,
+              "paragraphLabel": "B",
+              "answer": 2
+            },
+            {
+              "number": 29,
+              "paragraphLabel": "C",
+              "answer": 1
+            },
+            {
+              "number": 30,
+              "paragraphLabel": "D",
+              "answer": 0
+            },
+            {
+              "number": 31,
+              "paragraphLabel": "E",
+              "answer": 3
+            }
+          ]
+        },
+        {
+          "type": "yes-no-not-given",
+          "instructions": "Do the following statements agree with the claims of the writer?",
+          "questions": [
+            {
+              "number": 32,
+              "statement": "Urban beekeeping is a completely new phenomenon with no historical precedent.",
+              "answer": "NO"
+            },
+            {
+              "number": 33,
+              "statement": "Cities can offer bees a longer foraging season than surrounding rural areas.",
+              "answer": "YES"
+            },
+            {
+              "number": 34,
+              "statement": "All bee specialists agree that hive overcrowding is not a genuine concern.",
+              "answer": "NO"
+            },
+            {
+              "number": 35,
+              "statement": "Some cities have introduced caps on the total number of hives permitted.",
+              "answer": "YES"
+            },
+            {
+              "number": 36,
+              "statement": "Urban beekeeping has been shown to have no effect on the pollination of nearby gardens.",
+              "answer": "NO"
+            }
+          ]
+        },
+        {
+          "type": "short-answer",
+          "instructions": "Answer the questions below. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 37,
+              "prompt": "Where in nineteenth-century Paris did a notable beekeeping tradition develop?",
+              "answer": [
+                "the Luxembourg Gardens",
+                "Luxembourg Gardens"
+              ]
+            },
+            {
+              "number": 38,
+              "prompt": "What could managed honeybee colonies compete with, according to some researchers?",
+              "answer": [
+                "wild native bee",
+                "wild native bee and pollinator species",
+                "native pollinator species",
+                "wild pollinators"
+              ]
+            },
+            {
+              "number": 39,
+              "prompt": "What have some cities begun requiring hive owners to do, in response to overcrowding?",
+              "answer": [
+                "register their hives",
+                "registration of hives",
+                "register hives"
+              ]
+            },
+            {
+              "number": 40,
+              "prompt": "Besides private gardens, what other food-growing spaces are mentioned as benefiting from improved pollination?",
+              "answer": [
+                "community allotments",
+                "allotments"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

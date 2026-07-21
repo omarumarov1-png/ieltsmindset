@@ -122,7 +122,14 @@
     return { history: [], streak: 0, lastActiveDate: null };
   }
   function saveProgress() {
-    localStorage.setItem(PROGRESS_KEY, JSON.stringify(progress));
+    try {
+      localStorage.setItem(PROGRESS_KEY, JSON.stringify(progress));
+    } catch (e) {
+      // localStorage can throw (private browsing, quota exceeded, storage
+      // blocked by the browser/extensions) -- a user who just finished a
+      // full timed test should still see their results on screen even if
+      // they can't be persisted for next time.
+    }
   }
   function recordResult(entry) {
     progress.history.unshift(entry);

@@ -1,0 +1,414 @@
+{
+  "topics": [
+    {
+      "id": "grammar-present-simple-continuous",
+      "skill": "grammar",
+      "title": "Present Simple vs Present Continuous",
+      "level": "A2–B1",
+      "formBox": [
+        "Present Simple: I work / I don't work / Do I work?",
+        "Present Continuous: I am working / I am not working / Am I working?"
+      ],
+      "useNotes": [
+        {
+          "label": "Present Simple",
+          "points": [
+            "Habits and routines: She gets up at 7 o'clock every morning.",
+            "Permanent facts and general truths: Water boils at 100°C.",
+            "Stative verbs (feelings, opinions, senses): I love jazz. / This soup tastes delicious."
+          ]
+        },
+        {
+          "label": "Present Continuous",
+          "points": [
+            "Actions happening right now: She is reading a book at the moment.",
+            "Temporary situations: He is working from home this week.",
+            "Future arrangements: We are meeting the client on Friday."
+          ]
+        }
+      ],
+      "commonErrors": [
+        {
+          "wrong": "I am agree with you.",
+          "right": "I agree with you.",
+          "note": "AGREE is a stative verb — it has no continuous form."
+        },
+        {
+          "wrong": "She is having three brothers.",
+          "right": "She has three brothers.",
+          "note": "HAVE meaning 'possess' is stative; only dynamic HAVE (eat/experience) takes -ing."
+        },
+        {
+          "wrong": "Water is boiling at 100 degrees.",
+          "right": "Water boils at 100 degrees.",
+          "note": "General scientific facts use the present simple, not the continuous."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "sentence-completion",
+          "instructions": "Complete each sentence with the correct form (present simple or present continuous) of the verb in brackets.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "She usually ___ (work) from home on Fridays.",
+              "answer": [
+                "works"
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Look! It ___ (rain) again.",
+              "answer": [
+                "is raining",
+                "'s raining"
+              ]
+            },
+            {
+              "number": 3,
+              "prompt": "I ___ (not / understand) this exercise. Can you help me?",
+              "answer": [
+                "don't understand",
+                "do not understand"
+              ]
+            },
+            {
+              "number": 4,
+              "prompt": "We ___ (meet) Sarah for lunch tomorrow at 1pm.",
+              "answer": [
+                "are meeting",
+                "'re meeting"
+              ]
+            },
+            {
+              "number": 5,
+              "prompt": "The Earth ___ (orbit) the Sun.",
+              "answer": [
+                "orbits"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-past-simple-continuous",
+      "skill": "grammar",
+      "title": "Past Simple vs Past Continuous",
+      "level": "A2–B1",
+      "formBox": [
+        "Past Simple: I worked / I didn't work / Did I work?",
+        "Past Continuous: I was working / I wasn't working / Was I working?"
+      ],
+      "useNotes": [
+        {
+          "label": "Past Simple",
+          "points": [
+            "Completed actions at a specific past time: She left the office at 6pm yesterday.",
+            "A sequence of completed actions: He entered the room, sat down, and opened his laptop."
+          ]
+        },
+        {
+          "label": "Past Continuous",
+          "points": [
+            "An action in progress at a specific past moment: At 6pm yesterday, she was still working.",
+            "A background action interrupted by a shorter completed action: I was cooking dinner when the phone rang."
+          ]
+        }
+      ],
+      "commonErrors": [
+        {
+          "wrong": "When I arrived, she was leaving already.",
+          "right": "When I arrived, she had already left.",
+          "note": "For an action completed BEFORE another past action, use the past perfect, not the past continuous."
+        },
+        {
+          "wrong": "I was living in Paris for two years, from 2015 to 2017.",
+          "right": "I lived in Paris for two years, from 2015 to 2017.",
+          "note": "A completed period with a clear start and end uses the past simple, not the continuous."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "sentence-completion",
+          "instructions": "Complete each sentence with the correct form (past simple or past continuous) of the verb in brackets.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "While I ___ (walk) to work yesterday, I saw an old friend.",
+              "answer": [
+                "was walking"
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "She ___ (finish) her homework before dinner.",
+              "answer": [
+                "finished"
+              ]
+            },
+            {
+              "number": 3,
+              "prompt": "They ___ (watch) TV when the power suddenly went out.",
+              "answer": [
+                "were watching"
+              ]
+            },
+            {
+              "number": 4,
+              "prompt": "He ___ (call) me three times yesterday evening.",
+              "answer": [
+                "called"
+              ]
+            },
+            {
+              "number": 5,
+              "prompt": "I ___ (try) to call you at 9pm, but you didn't answer.",
+              "answer": [
+                "was trying"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-modals-obligation",
+      "skill": "grammar",
+      "title": "Modal Verbs of Obligation",
+      "level": "B1–B2",
+      "formBox": [
+        "Obligation: You must / have to finish this today.",
+        "No obligation: You don't have to come if you're busy.",
+        "Prohibition: You mustn't smoke here.",
+        "Advice: You should see a doctor."
+      ],
+      "useNotes": [
+        {
+          "label": "MUST",
+          "points": [
+            "Strong obligation, often from the speaker's own authority or feeling: I must remember to call my mother.",
+            "Formal rules and regulations: Passengers must fasten their seatbelts."
+          ]
+        },
+        {
+          "label": "HAVE TO",
+          "points": [
+            "Obligation imposed by an external rule or circumstance: I have to wear a uniform at work.",
+            "More common than MUST in everyday spoken English for external rules."
+          ]
+        },
+        {
+          "label": "MUSTN'T vs DON'T HAVE TO",
+          "points": [
+            "MUSTN'T = it is prohibited, you must not do it: You mustn't park here.",
+            "DON'T HAVE TO = there is no obligation, but you can if you want: You don't have to attend, it's optional."
+          ]
+        },
+        {
+          "label": "SHOULD",
+          "points": [
+            "Advice or a recommendation, not an obligation: You should get more sleep."
+          ]
+        }
+      ],
+      "commonErrors": [
+        {
+          "wrong": "You don't must smoke here.",
+          "right": "You mustn't smoke here.",
+          "note": "MUST has no 'don't must' form — use MUSTN'T for prohibition."
+        },
+        {
+          "wrong": "Students must to bring a pen.",
+          "right": "Students must bring a pen.",
+          "note": "Modal verbs are followed by the base form, without 'to'."
+        },
+        {
+          "wrong": "You mustn't come if you're busy — it's optional.",
+          "right": "You don't have to come if you're busy — it's optional.",
+          "note": "MUSTN'T means prohibited, not optional. For 'no obligation', use DON'T HAVE TO."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "multiple-choice",
+          "instructions": "Choose the correct letter, A, B, C, or D.",
+          "questions": [
+            {
+              "number": 1,
+              "statement": "Sign in a hospital: “All visitors ___ report to reception.”",
+              "options": [
+                "should",
+                "must",
+                "might",
+                "could"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 2,
+              "statement": "It's just a suggestion — you ___ come if you don't want to.",
+              "options": [
+                "mustn't",
+                "have to",
+                "don't have to",
+                "must"
+              ],
+              "answer": 2
+            },
+            {
+              "number": 3,
+              "statement": "You ___ smoke inside the building — it's strictly forbidden.",
+              "options": [
+                "mustn't",
+                "don't have to",
+                "shouldn't have to",
+                "haven't to"
+              ],
+              "answer": 0
+            },
+            {
+              "number": 4,
+              "statement": "I think you ___ apologise to her — it would be the right thing to do.",
+              "options": [
+                "must",
+                "should",
+                "mustn't",
+                "don't have to"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 5,
+              "statement": "Students ___ bring their own pen — the school provides one for everyone.",
+              "options": [
+                "must",
+                "have to",
+                "don't have to",
+                "mustn't"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-articles",
+      "skill": "grammar",
+      "title": "Articles: A / An / The",
+      "level": "A2–B1",
+      "formBox": [
+        "A / AN: used with singular countable nouns, first mention, non-specific.",
+        "THE: used when both speaker and listener know which specific thing is meant.",
+        "(no article): plural or uncountable nouns in general statements."
+      ],
+      "useNotes": [
+        {
+          "label": "A / AN",
+          "points": [
+            "First mention of something: I saw a dog in the park.",
+            "One of many, non-specific: She's a teacher.",
+            "AN before a vowel SOUND, not just a vowel letter: an hour, an MBA, an honest person."
+          ]
+        },
+        {
+          "label": "THE",
+          "points": [
+            "Second mention / already specific: I saw a dog. The dog was brown.",
+            "Unique things: the sun, the internet, the government.",
+            "Superlatives: the best, the tallest."
+          ]
+        },
+        {
+          "label": "No article",
+          "points": [
+            "General or plural/uncountable statements: Dogs make loyal pets. / Water is essential for life."
+          ]
+        }
+      ],
+      "commonErrors": [
+        {
+          "wrong": "She is a honest person.",
+          "right": "She is an honest person.",
+          "note": "AN is used before a vowel SOUND, not just a vowel letter — 'honest' starts with a silent H."
+        },
+        {
+          "wrong": "I love the music in general.",
+          "right": "I love music in general.",
+          "note": "General, uncountable statements take no article, not THE."
+        },
+        {
+          "wrong": "He is the best student in a class.",
+          "right": "He is the best student in the class.",
+          "note": "A specific, already-identified class needs THE, not A."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "multiple-choice",
+          "instructions": "Choose the correct letter, A, B, C, or D. D means no article is needed.",
+          "questions": [
+            {
+              "number": 1,
+              "statement": "I saw ___ elephant at the zoo yesterday.",
+              "options": [
+                "a",
+                "an",
+                "the",
+                "— (no article)"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 2,
+              "statement": "She works as ___ engineer at a tech company.",
+              "options": [
+                "a",
+                "an",
+                "the",
+                "— (no article)"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 3,
+              "statement": "___ Moon orbits the Earth.",
+              "options": [
+                "A",
+                "An",
+                "The",
+                "— (no article)"
+              ],
+              "answer": 2
+            },
+            {
+              "number": 4,
+              "statement": "He is ___ most talented musician in the band.",
+              "options": [
+                "a",
+                "an",
+                "the",
+                "— (no article)"
+              ],
+              "answer": 2
+            },
+            {
+              "number": 5,
+              "statement": "___ Honesty is the best policy, they say.",
+              "options": [
+                "A",
+                "An",
+                "The",
+                "— (no article)"
+              ],
+              "answer": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

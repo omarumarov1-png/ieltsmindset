@@ -55,6 +55,11 @@
     flashcardNext: "Далее →",
     flashcardOf: "из",
     startQuiz: "Перейти к проверке",
+    grammarTopics: "Темы грамматики",
+    grammarRules: "Правило",
+    grammarErrorsTitle: "Частые ошибки",
+    grammarWrongLabel: "Неверно",
+    grammarRightLabel: "Верно",
     questions: "Вопросы",
     exitTest: "Выйти",
     flagQuestion: "Отметить",
@@ -178,6 +183,7 @@
   let readingIndex = null;   // data/reading/index.json
   let listeningIndex = null; // data/listening/index.json
   let vocabularyIndex = null; // data/vocabulary/index.json
+  let grammarIndex = null;    // data/grammar/index.json
   let session = null;        // active practice/test session
   let flashcardState = null; // { setIdx, wordIdx } while viewing vocab study mode
   let timerInterval = null;
@@ -196,6 +202,9 @@
     try {
       vocabularyIndex = await fetchJson("data/vocabulary/index.json");
     } catch (e) { vocabularyIndex = { sets: [] }; }
+    try {
+      grammarIndex = await fetchJson("data/grammar/index.json");
+    } catch (e) { grammarIndex = { topics: [] }; }
     renderDashboard();
   }
 
@@ -292,11 +301,13 @@
             <button class="btn btn-primary btn-sm" data-go="vocabulary-open">${UI.vocabSets}</button>
           </div>
         </div>
-        <div class="skill-card locked">
-          <span class="soon-badge">${UI.comingSoon}</span>
+        <div class="skill-card">
           <span class="skill-icon">📐</span>
           <h3>${UI.skillGrammar}</h3>
           <p>${UI.skillGrammarDesc}</p>
+          <div class="skill-actions">
+            <button class="btn btn-primary btn-sm" data-go="grammar-open">${UI.grammarTopics}</button>
+          </div>
         </div>
         <div class="skill-card locked">
           <span class="soon-badge">${UI.comingSoon}</span>
@@ -322,6 +333,7 @@
         const [skill] = btn.dataset.go.split("-");
         setNav(skill);
         if (skill === "vocabulary") renderVocabHub();
+        else if (skill === "grammar") renderGrammarHub();
         else renderHub(skill);
       });
     });
@@ -555,6 +567,82 @@
     const set = vocabularyIndex.sets[setIdx];
     const content = { skill: "vocabulary", title: set.title, questionGroups: set.questionGroups };
     beginSession("vocabulary", "practice", [content]);
+  }
+
+  // ======================================================================
+  // Grammar
+  // ======================================================================
+  function renderGrammarHub() {
+    screenEl.classList.remove("full-bleed");
+    const topics = grammarIndex.topics || [];
+    screenEl.innerHTML = `
+      <div class="hub-header">
+        <h1>${UI.skillGrammar}</h1>
+        <p>${UI.skillGrammarDesc}</p>
+      </div>
+      <div class="section-title">${UI.grammarTopics} <span class="count">(${topics.length})</span></div>
+      <div class="content-list" id="contentList">
+        ${topics.length ? topics.map((t, i) => grammarTopicRowHtml(t, i)).join("") : `<div class="empty-state">Темы пока не добавлены.</div>`}
+      </div>
+    `;
+    screenEl.querySelectorAll("[data-grammar-idx]").forEach(row => {
+      row.addEventListener("click", () => renderGrammarStudy(Number(row.dataset.grammarIdx)));
+    });
+  }
+
+  function grammarTopicRowHtml(topic, idx) {
+    const qCount = (topic.questionGroups || []).reduce((s, g) => s + g.questions.length, 0);
+    return `
+      <div class="content-row" data-grammar-idx="${idx}">
+        <span class="c-badge">${topic.level}</span>
+        <span class="c-title">${topic.title}</span>
+        <span class="c-meta">${qCount} ${questionsWord(qCount)}</span>
+      </div>`;
+  }
+
+  function renderGrammarStudy(topicIdx) {
+    screenEl.classList.add("full-bleed");
+    const topic = grammarIndex.topics[topicIdx];
+    const useNotesHtml = (topic.useNotes || []).map(section => `
+      <div class="rule-section">
+        <h4>${section.label}</h4>
+        <ul>${section.points.map(p => `<li>${p}</li>`).join("")}</ul>
+      </div>`).join("");
+    const errorsHtml = (topic.commonErrors || []).map(e => `
+      <div class="error-pair">
+        <div class="error-wrong"><span class="error-tag">✗ ${UI.grammarWrongLabel}</span> ${e.wrong}</div>
+        <div class="error-right"><span class="error-tag">✓ ${UI.grammarRightLabel}</span> ${e.right}</div>
+        <div class="error-note">${e.note}</div>
+      </div>`).join("");
+    screenEl.innerHTML = `
+      <div class="test-shell">
+        <div class="test-topbar">
+          <span class="part-label">${topic.title}</span>
+          <span class="part-instructions">${UI.studyMode}</span>
+          <button class="btn btn-ghost btn-sm" id="exitBtn">${UI.exitTest}</button>
+        </div>
+        <div class="pane pane-quiz-single grammar-study-pane">
+          <div class="rule-box">
+            <h3>${UI.grammarRules}</h3>
+            ${(topic.formBox || []).map(f => `<div class="form-line">${f}</div>`).join("")}
+          </div>
+          ${useNotesHtml}
+          <div class="rule-section">
+            <h4>${UI.grammarErrorsTitle}</h4>
+            ${errorsHtml}
+          </div>
+          <button class="btn btn-primary" id="gQuizBtn" style="margin-top:12px; width:100%;">${UI.startQuiz}</button>
+        </div>
+      </div>
+    `;
+    document.getElementById("exitBtn").addEventListener("click", renderGrammarHub);
+    document.getElementById("gQuizBtn").addEventListener("click", () => startGrammarQuiz(topicIdx));
+  }
+
+  function startGrammarQuiz(topicIdx) {
+    const topic = grammarIndex.topics[topicIdx];
+    const content = { skill: "grammar", title: topic.title, questionGroups: topic.questionGroups };
+    beginSession("grammar", "practice", [content]);
   }
 
   // ======================================================================
@@ -997,6 +1085,7 @@
     const skill = session.skill;
     session = null;
     if (skill === "vocabulary") renderVocabHub();
+    else if (skill === "grammar") renderGrammarHub();
     else renderHub(document.querySelector(".nav-link.active")?.dataset.nav || "reading");
   }
 

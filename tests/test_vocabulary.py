@@ -41,14 +41,6 @@ with sync_playwright() as p:
     assert "locked" not in (vocab_card.get_attribute("class") or ""), "Vocabulary card should not be locked/coming-soon"
     assert "Скоро" not in vocab_card.inner_text(), "Vocabulary card should not say 'coming soon'"
 
-    grammar_card = None
-    for c in cards:
-        if "Грамматика" in c.inner_text():
-            grammar_card = c
-            break
-    assert grammar_card, "Grammar skill card not found on dashboard"
-    assert "locked" in (grammar_card.get_attribute("class") or ""), "Grammar should still be a coming-soon placeholder in this phase"
-
     step[0] = "open Vocabulary hub, confirm sets are listed"
     vocab_card.query_selector("button[data-go]").click()
     page.wait_for_timeout(400)

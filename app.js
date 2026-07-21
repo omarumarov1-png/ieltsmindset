@@ -277,11 +277,15 @@
     const icon = h.skill === "reading" ? "📖" : "🎧";
     const skillLabel = h.skill === "reading" ? UI.skillReading : UI.skillListening;
     const date = new Date(h.date).toLocaleDateString("ru-RU", { day: "numeric", month: "short" });
+    const modeLabel = h.mode === "test" ? UI.testMode : UI.practiceMode;
+    const detail = h.label ? ` — ${h.label}` : "";
+    const moduleTag = h.skill === "reading" && h.testType
+      ? ` <span class="module-tag">${h.testType === "general" ? UI.moduleGeneral : UI.moduleAcademic}</span>` : "";
     return `
       <div class="history-row">
         <div class="h-skill">${icon}</div>
         <div>
-          <div class="h-title">${skillLabel} · ${h.mode === "test" ? UI.testMode : UI.practiceMode}</div>
+          <div class="h-title">${skillLabel} · ${modeLabel}${detail}${moduleTag}</div>
           <div class="h-meta">${date} · ${h.correct}/${h.total} ${UI.correctAnswers.toLowerCase()}</div>
         </div>
         <div class="h-band">${h.band.toFixed(1)}</div>
@@ -867,10 +871,15 @@
       : LISTENING_BAND_TABLE;
     const band = rawToBand(correct, table);
     const elapsedMs = Date.now() - session.startedAt;
+    const testGroup = session.content[0]?.testGroup || "1";
+    const label = session.mode === "test"
+      ? `${UI.testShort} ${testGroup}`
+      : (session.content[0]?.title || "");
 
     const entry = {
       skill: session.skill, mode: session.mode, date: Date.now(),
       correct, total, band, elapsedMs, autoSubmitted,
+      testGroup, testType: isGeneralReading ? "general" : "academic", label,
     };
     recordResult(entry);
     renderResults(entry);

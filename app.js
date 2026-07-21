@@ -34,6 +34,11 @@
     testShort: "Тест",
     moduleAcademic: "Academic",
     moduleGeneral: "General Training",
+    quickExercises: "Быстрые упражнения",
+    quickExercisesDesc: "Один тип заданий, 5–8 вопросов, около 5 минут — без таймера, для точечной тренировки.",
+    quickMode: "Быстрое упражнение",
+    quickScoreLabel: "Верных ответов",
+    quickMinutes: "~5 мин",
     questions: "Вопросы",
     exitTest: "Выйти",
     flagQuestion: "Отметить",
@@ -137,8 +142,12 @@
     saveProgress();
   }
   function overallBand() {
-    if (!progress.history.length) return null;
-    const recent = progress.history.slice(0, 10);
+    // Quick drills (5-8 questions) don't get a meaningful band score -- the
+    // 0-40 conversion tables assume a full-length test -- so they're
+    // excluded from the rolling average here, not just hidden in the UI.
+    const fullLength = progress.history.filter(h => !h.isQuick);
+    if (!fullLength.length) return null;
+    const recent = fullLength.slice(0, 10);
     const avg = recent.reduce((s, h) => s + h.band, 0) / recent.length;
     return Math.round(avg * 2) / 2;
   }
@@ -285,10 +294,11 @@
     const icon = h.skill === "reading" ? "📖" : "🎧";
     const skillLabel = h.skill === "reading" ? UI.skillReading : UI.skillListening;
     const date = new Date(h.date).toLocaleDateString("ru-RU", { day: "numeric", month: "short" });
-    const modeLabel = h.mode === "test" ? UI.testMode : UI.practiceMode;
+    const modeLabel = h.isQuick ? UI.quickMode : (h.mode === "test" ? UI.testMode : UI.practiceMode);
     const detail = h.label ? ` — ${h.label}` : "";
-    const moduleTag = h.skill === "reading" && h.testType
+    const moduleTag = h.skill === "reading" && h.testType && !h.isQuick
       ? ` <span class="module-tag">${h.testType === "general" ? UI.moduleGeneral : UI.moduleAcademic}</span>` : "";
+    const scoreDisplay = h.isQuick ? `${h.percent}%` : h.band.toFixed(1);
     return `
       <div class="history-row">
         <div class="h-skill">${icon}</div>
@@ -296,7 +306,7 @@
           <div class="h-title">${skillLabel} · ${modeLabel}${detail}${moduleTag}</div>
           <div class="h-meta">${date} · ${h.correct}/${h.total} ${UI.correctAnswers.toLowerCase()}</div>
         </div>
-        <div class="h-band">${h.band.toFixed(1)}</div>
+        <div class="h-band">${scoreDisplay}</div>
       </div>`;
   }
 
@@ -307,7 +317,14 @@
     screenEl.classList.remove("full-bleed");
     const isReading = skill === "reading";
     const items = isReading ? (readingIndex.passages || []) : (listeningIndex.tests || []);
-    const testGroups = groupByTestGroup(items);
+    // Quick drills are excluded from full-test bundling entirely, and kept
+    // out of the regular practice list -- each entry below pairs an item
+    // with its index in the ORIGINAL `items` array (not a filtered-list
+    // index), since startPractice(skill, idx) looks up items[idx] directly.
+    const fullEntries = [];
+    const quickEntries = [];
+    items.forEach((it, i) => (it.kind === "quick" ? quickEntries : fullEntries).push({ it, i }));
+    const testGroups = groupByTestGroup(fullEntries.map(e => e.it));
 
     screenEl.innerHTML = `
       <div class="hub-header">
@@ -319,9 +336,15 @@
         ${testGroups.length ? testGroups.map((g, i) => testGroupRowHtml(g, i, isReading)).join("")
           : `<div class="empty-state">Полные тесты пока не собраны.</div>`}
       </div>
-      <div class="section-title">${isReading ? "Отдельные тексты" : "Отдельные записи"} · ${UI.practiceMode} <span class="count">(${items.length})</span></div>
+      <div class="section-title">${UI.quickExercises} <span class="count">(${quickEntries.length})</span></div>
+      <p class="section-desc">${UI.quickExercisesDesc}</p>
+      <div class="content-list" style="margin-bottom:28px;">
+        ${quickEntries.length ? quickEntries.map(e => quickRowHtml(e.it, e.i, isReading)).join("")
+          : `<div class="empty-state">Быстрые упражнения пока не добавлены.</div>`}
+      </div>
+      <div class="section-title">${isReading ? "Отдельные тексты" : "Отдельные записи"} · ${UI.practiceMode} <span class="count">(${fullEntries.length})</span></div>
       <div class="content-list" id="contentList">
-        ${items.length ? items.map((it, i) => contentRowHtml(it, i, isReading)).join("") : `<div class="empty-state">Материалы пока не добавлены.</div>`}
+        ${fullEntries.length ? fullEntries.map(e => contentRowHtml(e.it, e.i, isReading)).join("") : `<div class="empty-state">Материалы пока не добавлены.</div>`}
       </div>
     `;
 
@@ -338,7 +361,10 @@
 
   function groupByTestGroup(items) {
     const map = new Map();
-    items.forEach(it => {
+    // Defensive filter, not just a call-site convention: quick drills have
+    // no testGroup, and letting them fall back to the "1" bucket here once
+    // already caused a real 40-question full test to balloon to 71.
+    items.filter(it => it.kind !== "quick").forEach(it => {
       const g = it.testGroup || "1";
       if (!map.has(g)) map.set(g, []);
       map.get(g).push(it);
@@ -376,6 +402,33 @@
       </div>`;
   }
 
+  const QUICK_TYPE_LABELS = {
+    "true-false-not-given": "True/False/NG",
+    "yes-no-not-given": "Yes/No/NG",
+    "matching-headings": "Подбор заголовков",
+    "matching-information": "Подбор информации",
+    "matching-features": "Подбор соответствий",
+    "multiple-choice": "Выбор варианта",
+    "short-answer": "Краткие ответы",
+    "sentence-completion": "Заполнение пропусков",
+    "summary-completion": "Заполнение резюме",
+    "table-completion": "Заполнение таблицы",
+    "diagram-label-completion": "Подписи к схеме",
+  };
+
+  function quickRowHtml(item, idx, isReading) {
+    const qCount = (item.questionGroups || []).reduce((s, g) => s + g.questions.length, 0);
+    const primaryType = item.questionGroups?.[0]?.type;
+    const typeLabel = QUICK_TYPE_LABELS[primaryType] || (isReading ? UI.passage : UI.section);
+    return `
+      <div class="content-row" data-practice-idx="${idx}">
+        <span class="c-badge">${typeLabel}</span>
+        <span class="c-title">${item.title}</span>
+        <span class="c-meta">${qCount} ${questionsWord(qCount)}</span>
+        <span class="c-status">${UI.quickMinutes}</span>
+      </div>`;
+  }
+
   // ======================================================================
   // Session builders
   // ======================================================================
@@ -387,7 +440,8 @@
 
   function startFullTest(skill, testGroupId) {
     setNav(skill);
-    const items = skill === "reading" ? (readingIndex.passages || []) : (listeningIndex.tests || []);
+    const items = (skill === "reading" ? (readingIndex.passages || []) : (listeningIndex.tests || []))
+      .filter(it => it.kind !== "quick");
     const groupId = testGroupId || (items[0] && (items[0].testGroup || "1"));
     const content = items.filter(it => (it.testGroup || "1") === groupId);
     if (!content.length) { renderHub(skill); return; }
@@ -894,11 +948,17 @@
     const total = session.allQuestions.length;
     let correct = 0;
     session.allQuestions.forEach(q => { if (gradeQuestion(q)) correct++; });
+    const isQuick = session.content[0]?.kind === "quick";
     const isGeneralReading = session.skill === "reading" && session.content[0]?.testType === "general";
     const table = session.skill === "reading"
       ? (isGeneralReading ? READING_GENERAL_BAND_TABLE : READING_ACADEMIC_BAND_TABLE)
       : LISTENING_BAND_TABLE;
-    const band = rawToBand(correct, table);
+    // Band conversion tables assume a full ~40-question test; applying them
+    // to a 5-8 question quick drill would produce a misleadingly low number
+    // (e.g. a perfect 5/5 mapping to raw-score-5-of-40 on the table), so
+    // quick drills get a plain percentage instead of a band score.
+    const band = isQuick ? null : rawToBand(correct, table);
+    const percent = isQuick ? Math.round((correct / total) * 100) : null;
     const elapsedMs = Date.now() - session.startedAt;
     const testGroup = session.content[0]?.testGroup || "1";
     const label = session.mode === "test"
@@ -907,7 +967,7 @@
 
     const entry = {
       skill: session.skill, mode: session.mode, date: Date.now(),
-      correct, total, band, elapsedMs, autoSubmitted,
+      correct, total, band, percent, isQuick, elapsedMs, autoSubmitted,
       testGroup, testType: isGeneralReading ? "general" : "academic", label,
     };
     recordResult(entry);
@@ -917,12 +977,12 @@
   function renderResults(entry) {
     screenEl.classList.remove("full-bleed");
     const minutes = Math.round(entry.elapsedMs / 60000);
+    const scoreBlock = entry.isQuick
+      ? `<div class="results-band"><div class="num">${entry.percent}%</div><div class="lbl">${UI.quickScoreLabel}</div></div>`
+      : `<div class="results-band"><div class="num">${entry.band.toFixed(1)}</div><div class="lbl">${UI.yourBand}</div></div>`;
     screenEl.innerHTML = `
       <div class="results-hero">
-        <div class="results-band">
-          <div class="num">${entry.band.toFixed(1)}</div>
-          <div class="lbl">${UI.yourBand}</div>
-        </div>
+        ${scoreBlock}
         <div class="results-stats">
           <div class="results-stat"><div class="n">${entry.correct} / ${entry.total}</div><div class="l">${UI.correctAnswers}</div></div>
           <div class="results-stat"><div class="n">${minutes} мин</div><div class="l">${UI.timeTaken}</div></div>

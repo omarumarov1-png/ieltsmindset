@@ -37,7 +37,7 @@ def build_answer_map(page, skill, testgroup_id):
             const res = await fetch(url);
             const data = await res.json();
             const items = (skill === 'reading' ? data.passages : data.tests)
-                .filter(it => (it.testGroup || '1') === tg);
+                .filter(it => it.kind !== 'quick' && (it.testGroup || '1') === tg);
             const out = {};
             items.forEach(it => {
                 it.questionGroups.forEach(g => {

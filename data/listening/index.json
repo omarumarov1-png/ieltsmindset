@@ -3922,6 +3922,305 @@
           ]
         }
       ]
+    },
+    {
+      "id": "listening-quick-001",
+      "skill": "listening",
+      "kind": "quick",
+      "title": "Booking a Table at a Restaurant",
+      "audioFile": null,
+      "transcript": [
+        {
+          "speaker": "Host",
+          "voiceId": "female-british",
+          "text": "Good evening, Riverside Bistro, how can I help?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "male-american",
+          "text": "Hi, I'd like to book a table for tonight, please."
+        },
+        {
+          "speaker": "Host",
+          "voiceId": "female-british",
+          "text": "Of course, how many people?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "male-american",
+          "text": "Four of us."
+        },
+        {
+          "speaker": "Host",
+          "voiceId": "female-british",
+          "text": "And what time were you thinking?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "male-american",
+          "text": "Eight o'clock, if possible."
+        },
+        {
+          "speaker": "Host",
+          "voiceId": "female-british",
+          "text": "Let me check... yes, we have a table at eight. Could I take a name for the booking?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "male-american",
+          "text": "Yes, it's Turner."
+        },
+        {
+          "speaker": "Host",
+          "voiceId": "female-british",
+          "text": "Great, and a contact number, just in case?"
+        },
+        {
+          "speaker": "Caller",
+          "voiceId": "male-american",
+          "text": "Sure, it's 07611348290."
+        },
+        {
+          "speaker": "Host",
+          "voiceId": "female-british",
+          "text": "Perfect, table for four at eight o'clock under Turner. We look forward to seeing you."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "sentence-completion",
+          "instructions": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Restaurant name: ___ Bistro",
+              "answer": [
+                "Riverside"
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Number of people: ___",
+              "answer": [
+                "4",
+                "four"
+              ]
+            },
+            {
+              "number": 3,
+              "prompt": "Time: ___ o'clock",
+              "answer": [
+                "8",
+                "eight"
+              ]
+            },
+            {
+              "number": 4,
+              "prompt": "Name: ___",
+              "answer": [
+                "Turner"
+              ]
+            },
+            {
+              "number": 5,
+              "prompt": "Contact number: ___",
+              "answer": [
+                "07611348290"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "listening-quick-002",
+      "skill": "listening",
+      "kind": "quick",
+      "title": "Campus Facilities Overview",
+      "audioFile": null,
+      "transcript": [
+        {
+          "speaker": "Guide",
+          "voiceId": "male-australian",
+          "text": "Welcome to campus. Let me quickly point out a few key facilities. The Main Library is open twenty-four hours during exam periods. The Student Health Centre is located in Building C, and is free to use for all enrolled students. The Sports Centre requires a separate membership, which costs fifteen pounds a month. And the Careers Office, in Building A, offers free one-to-one appointments for CV help and interview practice."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "matching-features",
+          "instructions": "Match each description below with the correct facility, A–D.",
+          "matchOptions": [
+            "The Main Library",
+            "The Student Health Centre",
+            "The Sports Centre",
+            "The Careers Office"
+          ],
+          "questions": [
+            {
+              "number": 6,
+              "statement": "Is open twenty-four hours during exam periods.",
+              "answer": "The Main Library"
+            },
+            {
+              "number": 7,
+              "statement": "Requires a separate paid membership.",
+              "answer": "The Sports Centre"
+            },
+            {
+              "number": 8,
+              "statement": "Offers free one-to-one appointments.",
+              "answer": "The Careers Office"
+            },
+            {
+              "number": 9,
+              "statement": "Is free to use for all enrolled students, located in Building C.",
+              "answer": "The Student Health Centre"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "listening-quick-003",
+      "skill": "listening",
+      "kind": "quick",
+      "title": "Choosing a Hotel Room",
+      "audioFile": null,
+      "transcript": [
+        {
+          "speaker": "Receptionist",
+          "voiceId": "female-british",
+          "text": "We have two options left — a standard room at seventy pounds a night, or a deluxe room with a sea view at ninety-five pounds."
+        },
+        {
+          "speaker": "Guest",
+          "voiceId": "female-american",
+          "text": "Does the deluxe room include breakfast?"
+        },
+        {
+          "speaker": "Receptionist",
+          "voiceId": "female-british",
+          "text": "Yes, both rooms include breakfast, but the deluxe room also includes free parking, which the standard room doesn't."
+        },
+        {
+          "speaker": "Guest",
+          "voiceId": "female-american",
+          "text": "In that case, I'll take the deluxe room."
+        },
+        {
+          "speaker": "Receptionist",
+          "voiceId": "female-british",
+          "text": "Great choice. Just to confirm, checkout is at eleven, and check-in from two onwards."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "multiple-choice",
+          "instructions": "Choose the correct letter, A, B, C, or D.",
+          "questions": [
+            {
+              "number": 10,
+              "statement": "How much does the deluxe room cost per night?",
+              "options": [
+                "£70",
+                "£90",
+                "£95",
+                "£105"
+              ],
+              "answer": 2
+            },
+            {
+              "number": 11,
+              "statement": "What is included with both room types?",
+              "options": [
+                "Free parking",
+                "Breakfast",
+                "A sea view",
+                "Airport transfer"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 12,
+              "statement": "What additional benefit does the deluxe room include?",
+              "options": [
+                "A later checkout",
+                "Free parking",
+                "A free upgrade",
+                "Airport pickup"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 13,
+              "statement": "What time is check-in available from?",
+              "options": [
+                "10am",
+                "11am",
+                "12pm",
+                "2pm"
+              ],
+              "answer": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "listening-quick-004",
+      "skill": "listening",
+      "kind": "quick",
+      "title": "Weekend Weather Forecast",
+      "audioFile": null,
+      "transcript": [
+        {
+          "speaker": "Presenter",
+          "voiceId": "female-australian",
+          "text": "And now for the weekend weather. Saturday will start bright, with temperatures reaching a high of eighteen degrees by early afternoon, though skies will cloud over by evening, with a chance of light rain overnight. Sunday looks less settled, with scattered showers expected throughout the day and a top temperature of just fourteen degrees. If you're planning anything outdoors, Saturday morning is your best window."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "short-answer",
+          "instructions": "Answer the questions below. Choose NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 14,
+              "prompt": "What is the high temperature expected on Saturday?",
+              "answer": [
+                "18 degrees",
+                "eighteen degrees"
+              ]
+            },
+            {
+              "number": 15,
+              "prompt": "What is expected to happen to the skies by Saturday evening?",
+              "answer": [
+                "cloud over",
+                "clouds over",
+                "cloudy"
+              ]
+            },
+            {
+              "number": 16,
+              "prompt": "What is the top temperature expected on Sunday?",
+              "answer": [
+                "14 degrees",
+                "fourteen degrees"
+              ]
+            },
+            {
+              "number": 17,
+              "prompt": "According to the forecast, when is the best time for outdoor activities?",
+              "answer": [
+                "Saturday morning"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

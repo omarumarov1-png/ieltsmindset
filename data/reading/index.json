@@ -3240,6 +3240,340 @@
           ]
         }
       ]
+    },
+    {
+      "id": "reading-quick-001",
+      "skill": "reading",
+      "testType": "academic",
+      "kind": "quick",
+      "title": "The Discovery of Insulin",
+      "paragraphs": [
+        {
+          "text": "Insulin, the hormone that regulates blood sugar, was first successfully isolated in 1921 by Canadian researchers Frederick Banting and Charles Best, working in the laboratory of J.J.R. Macleod at the University of Toronto. Before this discovery, a diagnosis of type 1 diabetes was almost always fatal within a few years, as patients had no way to control their dangerously high blood sugar levels. Within months of the discovery, insulin extracted from animal pancreases was being used to treat patients, with dramatic results — children who had been near death recovered rapidly. Banting and Macleod were awarded the Nobel Prize in Physiology or Medicine in 1923, though Banting controversially shared his portion of the prize money with Best, who he felt had been unfairly excluded from the award itself."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "true-false-not-given",
+          "instructions": "Do the following statements agree with the information given in the text?",
+          "questions": [
+            {
+              "number": 1,
+              "statement": "Insulin was discovered by a researcher working alone, without any laboratory affiliation.",
+              "answer": "FALSE"
+            },
+            {
+              "number": 2,
+              "statement": "Before insulin was discovered, type 1 diabetes was almost always fatal.",
+              "answer": "TRUE"
+            },
+            {
+              "number": 3,
+              "statement": "It took several years after the discovery before insulin was first used to treat patients.",
+              "answer": "FALSE"
+            },
+            {
+              "number": 4,
+              "statement": "Banting and Macleod both received the Nobel Prize in 1923.",
+              "answer": "TRUE"
+            },
+            {
+              "number": 5,
+              "statement": "Best was officially named as a co-recipient of the Nobel Prize.",
+              "answer": "FALSE"
+            },
+            {
+              "number": 6,
+              "statement": "All patients treated with the new insulin extract recovered fully.",
+              "answer": "NOT GIVEN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-quick-002",
+      "skill": "reading",
+      "testType": "academic",
+      "kind": "quick",
+      "title": "Should Homework Be Abolished?",
+      "paragraphs": [
+        {
+          "text": "In my view, the debate over homework has become needlessly polarised. Critics who call for its complete abolition overlook the genuine value of independent practice in cementing classroom learning — a skill like solving equations or writing a coherent paragraph simply cannot be mastered through classroom instruction alone. That said, I have little patience for homework assigned purely out of habit, with no clear pedagogical purpose, or homework loads so heavy they leave no time for family life, sleep, or unstructured play, all of which matter enormously for a child's overall development. The real question, in other words, is not whether homework should exist, but how much, and to what specific end."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "yes-no-not-given",
+          "instructions": "Do the following statements agree with the views of the writer?",
+          "questions": [
+            {
+              "number": 7,
+              "statement": "The writer believes homework should be completely abolished.",
+              "answer": "NO"
+            },
+            {
+              "number": 8,
+              "statement": "The writer thinks independent practice has genuine value for learning.",
+              "answer": "YES"
+            },
+            {
+              "number": 9,
+              "statement": "The writer supports homework assigned without a clear purpose.",
+              "answer": "NO"
+            },
+            {
+              "number": 10,
+              "statement": "The writer believes unstructured play is unimportant for children.",
+              "answer": "NO"
+            },
+            {
+              "number": 11,
+              "statement": "The writer thinks the central question is how much homework, not whether it should exist.",
+              "answer": "YES"
+            },
+            {
+              "number": 12,
+              "statement": "The writer has personally surveyed parents about their views on homework.",
+              "answer": "NOT GIVEN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-quick-003",
+      "skill": "reading",
+      "testType": "academic",
+      "kind": "quick",
+      "title": "Three Approaches to Renewable Energy Storage",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "One widely used method of storing surplus renewable electricity is pumped hydro storage, in which water is pumped uphill into a reservoir when electricity is abundant, then released downhill through turbines to generate power again when demand is high. It remains the most established grid-scale storage technology in use today, though it requires specific geography — hills or mountains near a reliable water source — that many regions simply lack."
+        },
+        {
+          "label": "B",
+          "text": "Battery storage, particularly lithium-ion technology, has grown dramatically in recent years, driven largely by falling costs associated with the electric vehicle industry. Battery installations can be built almost anywhere and respond to demand within milliseconds, making them particularly well suited to smoothing short-term fluctuations in supply, though they remain considerably more expensive than pumped hydro for very large-scale, long-duration storage."
+        },
+        {
+          "label": "C",
+          "text": "A newer approach, green hydrogen, involves using surplus renewable electricity to split water into hydrogen and oxygen through electrolysis; the resulting hydrogen can then be stored for extended periods and later converted back into electricity, or used directly as a fuel in transport and industry. The technology is currently far less efficient than batteries, losing considerably more energy in the conversion process, but it offers the advantage of long-duration storage measured in weeks or months rather than hours."
+        },
+        {
+          "label": "D",
+          "text": "Choosing between these three approaches is rarely a simple either-or decision; most energy planners now expect future grids to rely on some combination of all three, deployed according to local geography, cost, and the specific storage duration required."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "matching-headings",
+          "instructions": "The passage has four paragraphs, A–D. Choose the correct heading for each paragraph from the list of headings below.",
+          "headingOptions": [
+            "A technology suited to storage lasting weeks rather than hours",
+            "Why no single storage method will likely dominate",
+            "A fast-responding but currently costlier option",
+            "The most established method, limited by geography",
+            "A decline in interest in renewable energy overall",
+            "The environmental risks of large-scale battery production"
+          ],
+          "questions": [
+            {
+              "number": 13,
+              "paragraphLabel": "A",
+              "answer": 3
+            },
+            {
+              "number": 14,
+              "paragraphLabel": "B",
+              "answer": 2
+            },
+            {
+              "number": 15,
+              "paragraphLabel": "C",
+              "answer": 0
+            },
+            {
+              "number": 16,
+              "paragraphLabel": "D",
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-quick-004",
+      "skill": "reading",
+      "testType": "academic",
+      "kind": "quick",
+      "title": "Pioneers of Modern Dance",
+      "paragraphs": [
+        {
+          "text": "Modern dance as a distinct artistic discipline emerged largely through the work of a small number of early twentieth-century pioneers. Isadora Duncan, often called the mother of modern dance, rejected the rigid formality of classical ballet in favour of freer, more naturalistic movement inspired by ancient Greek art. Martha Graham later developed a highly systematic technique built around the principle of 'contraction and release,' which became one of the most widely taught dance techniques in the world. Merce Cunningham, who had trained with Graham before breaking away to form his own company, pioneered the use of chance procedures — such as coin tosses — to determine choreographic sequences, deliberately removing his own subjective preferences from the creative process."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "matching-features",
+          "instructions": "Match each description below with the correct person, A–C.",
+          "matchOptions": [
+            "Isadora Duncan",
+            "Martha Graham",
+            "Merce Cunningham"
+          ],
+          "questions": [
+            {
+              "number": 17,
+              "statement": "Rejected classical ballet in favour of movement inspired by ancient Greek art.",
+              "answer": "Isadora Duncan"
+            },
+            {
+              "number": 18,
+              "statement": "Developed a technique built around contraction and release.",
+              "answer": "Martha Graham"
+            },
+            {
+              "number": 19,
+              "statement": "Used chance procedures to determine choreographic sequences.",
+              "answer": "Merce Cunningham"
+            },
+            {
+              "number": 20,
+              "statement": "Trained with another figure mentioned in the passage before forming an independent company.",
+              "answer": "Merce Cunningham"
+            },
+            {
+              "number": 21,
+              "statement": "Is often referred to as the mother of modern dance.",
+              "answer": "Isadora Duncan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-quick-005",
+      "skill": "reading",
+      "testType": "academic",
+      "kind": "quick",
+      "title": "Facts About the Great Barrier Reef",
+      "paragraphs": [
+        {
+          "text": "The Great Barrier Reef, located off the coast of Queensland, Australia, is the world's largest coral reef system, stretching approximately 2,300 kilometres and covering an area of roughly 344,000 square kilometres. It is composed of over 2,900 individual reefs and 900 islands, and is home to an estimated 1,500 species of fish and 400 species of coral. The reef became a UNESCO World Heritage Site in 1981, in recognition of its outstanding ecological significance. In recent decades, however, the reef has experienced repeated mass coral bleaching events, driven primarily by rising ocean temperatures linked to climate change, with particularly severe bleaching recorded in 2016, 2017, and 2020."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "short-answer",
+          "instructions": "Answer the questions below. Choose NO MORE THAN THREE WORDS AND/OR A NUMBER from the text for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 22,
+              "prompt": "Approximately how long is the Great Barrier Reef?",
+              "answer": [
+                "2,300 kilometres",
+                "2300 km",
+                "2,300 km"
+              ]
+            },
+            {
+              "number": 23,
+              "prompt": "How many individual reefs make up the system?",
+              "answer": [
+                "over 2,900",
+                "2,900",
+                "2900"
+              ]
+            },
+            {
+              "number": 24,
+              "prompt": "How many species of coral does the reef contain, according to the text?",
+              "answer": [
+                "400"
+              ]
+            },
+            {
+              "number": 25,
+              "prompt": "In what year did the reef become a UNESCO World Heritage Site?",
+              "answer": [
+                "1981"
+              ]
+            },
+            {
+              "number": 26,
+              "prompt": "What is identified as the primary driver of mass coral bleaching?",
+              "answer": [
+                "rising ocean temperatures",
+                "climate change"
+              ]
+            },
+            {
+              "number": 27,
+              "prompt": "Name one year in which particularly severe bleaching was recorded.",
+              "answer": [
+                "2016",
+                "2017",
+                "2020"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-quick-006",
+      "skill": "reading",
+      "testType": "academic",
+      "kind": "quick",
+      "title": "The Placebo Effect",
+      "paragraphs": [
+        {
+          "text": "The placebo effect refers to a measurable improvement in a patient's condition that occurs after receiving a treatment with no active therapeutic ingredient, such as a sugar pill, simply because the patient believes they are receiving genuine treatment. Researchers believe the effect is driven partly by genuine neurobiological changes, including the release of endorphins, the body's natural pain-relieving chemicals, triggered by expectation itself. The effect is strongest for subjective symptoms such as pain and fatigue, and considerably weaker or absent for conditions with objective, measurable markers, such as tumour size. Because of the placebo effect, modern clinical drug trials typically compare a new treatment not against no treatment at all, but against a placebo, to isolate the drug's genuine effect from the effect of mere expectation."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "summary-completion",
+          "instructions": "Complete the summary below. Choose ONE WORD ONLY from the box for each answer.",
+          "wordLimit": 1,
+          "wordBank": [
+            "belief",
+            "endorphins",
+            "subjective",
+            "placebo",
+            "expectation"
+          ],
+          "summaryText": "The placebo effect occurs when a patient's ___28___ that they are receiving treatment leads to real improvement. Part of the effect may be caused by the release of ___29___, the body's natural pain relievers. The effect is strongest for ___30___ symptoms like pain, and weaker for measurable ones. Clinical trials therefore compare new drugs against a ___31___ rather than no treatment at all.",
+          "questions": [
+            {
+              "number": 28,
+              "answer": [
+                "belief"
+              ]
+            },
+            {
+              "number": 29,
+              "answer": [
+                "endorphins"
+              ]
+            },
+            {
+              "number": 30,
+              "answer": [
+                "subjective"
+              ]
+            },
+            {
+              "number": 31,
+              "answer": [
+                "placebo"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

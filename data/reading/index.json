@@ -2338,6 +2338,487 @@
           ]
         }
       ]
+    },
+    {
+      "id": "reading-passage-016",
+      "skill": "reading",
+      "testType": "academic",
+      "testGroup": "6",
+      "title": "Bioluminescence in the Natural World",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "Bioluminescence, the production and emission of light by living organisms, occurs across a remarkably wide range of species, from bacteria and fungi to insects and, most abundantly, marine life. Researchers estimate the vast majority of documented bioluminescent species live in the ocean, particularly at depths where sunlight no longer penetrates."
+        },
+        {
+          "label": "B",
+          "text": "The light is produced through a chemical reaction involving a light-emitting molecule called luciferin and an enzyme called luciferase. When luciferin reacts with oxygen in the presence of luciferase, energy is released in the form of light rather than heat, making the reaction remarkably efficient compared with artificial light sources, which waste much of their energy as heat."
+        },
+        {
+          "label": "C",
+          "text": "The function of bioluminescence varies significantly between species. Some organisms use it primarily for predation, luring prey with a glowing lure, as in the case of the anglerfish. Others use it defensively, releasing a sudden flash to startle predators or a cloud of luminous material to distract them while the organism escapes, similar in function to an octopus's ink cloud."
+        },
+        {
+          "label": "D",
+          "text": "Some species use bioluminescence to communicate, most famously fireflies, whose distinctive, species-specific flash patterns allow individuals to identify and attract potential mates of the same species in the dark. Different firefly species have evolved recognisably different flash rhythms, reducing the likelihood of mating with the wrong species."
+        },
+        {
+          "label": "E",
+          "text": "Though far less common than in marine environments, bioluminescence does occur on land, most notably in certain species of fungi, which produce a faint greenish glow. The evolutionary function of fungal bioluminescence remains genuinely debated among researchers, though one hypothesis suggests the light may attract insects that help disperse the fungus's spores."
+        },
+        {
+          "label": "F",
+          "text": "Scientists have found practical applications for bioluminescent proteins beyond their natural context. The gene responsible for green fluorescent protein, originally isolated from a bioluminescent jellyfish, is now widely used in laboratories worldwide as a marker to visualise gene expression and protein activity within living cells — a technique that contributed to a Nobel Prize in Chemistry in 2008."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "true-false-not-given",
+          "instructions": "Do the following statements agree with the information given in the passage?",
+          "questions": [
+            {
+              "number": 1,
+              "statement": "Most documented bioluminescent species are found on land.",
+              "answer": "FALSE"
+            },
+            {
+              "number": 2,
+              "statement": "Bioluminescence is produced through a chemical reaction involving luciferin and luciferase.",
+              "answer": "TRUE"
+            },
+            {
+              "number": 3,
+              "statement": "Bioluminescent reactions waste more energy as heat than artificial light sources do.",
+              "answer": "FALSE"
+            },
+            {
+              "number": 4,
+              "statement": "Firefly flash patterns differ between species.",
+              "answer": "TRUE"
+            },
+            {
+              "number": 5,
+              "statement": "Scientists fully agree on why bioluminescence evolved in fungi.",
+              "answer": "FALSE"
+            }
+          ]
+        },
+        {
+          "type": "matching-headings",
+          "instructions": "The passage has six paragraphs, A–F. Choose the correct heading for paragraphs B–E from the list of headings below.",
+          "headingOptions": [
+            "A chemical process that wastes little energy as heat",
+            "Attracting prey and escaping predators",
+            "A discovery that earned international scientific recognition",
+            "Species-specific signals used to find a mate",
+            "An unresolved question about a land-based glow",
+            "The discovery of the first bioluminescent bacteria",
+            "Why bioluminescence is rare in freshwater lakes",
+            "A ban on collecting bioluminescent jellyfish"
+          ],
+          "questions": [
+            {
+              "number": 6,
+              "paragraphLabel": "B",
+              "answer": 0
+            },
+            {
+              "number": 7,
+              "paragraphLabel": "C",
+              "answer": 1
+            },
+            {
+              "number": 8,
+              "paragraphLabel": "D",
+              "answer": 3
+            },
+            {
+              "number": 9,
+              "paragraphLabel": "E",
+              "answer": 4
+            }
+          ]
+        },
+        {
+          "type": "short-answer",
+          "instructions": "Answer the questions below. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            {
+              "number": 10,
+              "prompt": "What two substances react to produce bioluminescent light?",
+              "answer": [
+                "luciferin and luciferase"
+              ]
+            },
+            {
+              "number": 11,
+              "prompt": "Which animal is given as an example of using a glowing lure to attract prey?",
+              "answer": [
+                "the anglerfish",
+                "anglerfish"
+              ]
+            },
+            {
+              "number": 12,
+              "prompt": "What might fungal bioluminescence help disperse, according to one hypothesis?",
+              "answer": [
+                "spores"
+              ]
+            },
+            {
+              "number": 13,
+              "prompt": "In what year did research involving a bioluminescent-derived protein contribute to a Nobel Prize?",
+              "answer": [
+                "2008"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-passage-017",
+      "skill": "reading",
+      "testType": "academic",
+      "testGroup": "6",
+      "title": "The Silk Road and the Exchange of Ideas",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "The term “Silk Road” was coined in the nineteenth century by the German geographer Ferdinand von Richthofen, describing a network of trade routes connecting China to the Mediterranean. The network was active in various forms for well over a millennium, from roughly 130 BCE, when the Han dynasty formally opened trade with Central Asia, until the fifteenth century CE, when sea routes gradually became more economically important."
+        },
+        {
+          "label": "B",
+          "text": "Beyond silk, from which the network takes its name, goods moving along the routes included, from the east: paper, gunpowder, porcelain, and tea; from the west: glassware, wool textiles, and gold and silver; and from Central Asia and India: spices, precious stones, and notably horses, highly valued by the Chinese military for their superior breeding compared with domestic Chinese horses."
+        },
+        {
+          "label": "C",
+          "text": "The routes facilitated far more than the exchange of goods; they also carried ideas, technologies, and religious beliefs. Buddhism spread from India into China and beyond via merchants and monks travelling the Silk Road. The technology of papermaking, invented in China, reached the Islamic world by the eighth century CE, following the Battle of Talas in 751, and from there reached Europe centuries later."
+        },
+        {
+          "label": "D",
+          "text": "The routes were never a single continuous road but rather a shifting network passing through oasis cities such as Samarkand, Bukhara, and Kashgar, which grew wealthy as trading hubs, providing food, water, and lodging for merchant caravans crossing otherwise inhospitable desert and mountain terrain."
+        },
+        {
+          "label": "E",
+          "text": "Silk Road trade gradually declined for several interconnected reasons. The rise of direct maritime trade routes around Africa, pioneered by European powers from the late fifteenth century, offered a faster and ultimately cheaper alternative. Political fragmentation and periodic conflict along the land routes also made overland trade increasingly unpredictable and risky for merchants."
+        },
+        {
+          "label": "F",
+          "text": "The term has since been revived in a modern political and economic context. China's Belt and Road Initiative, launched in 2013, explicitly invokes the historical Silk Road as inspiration for a contemporary programme of infrastructure investment connecting Asia, Africa, and Europe."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "multiple-choice",
+          "instructions": "Questions 14 requires TWO answers. Questions 15-17 have one correct answer. Choose the correct letters.",
+          "questions": [
+            {
+              "number": 14,
+              "statement": "Which TWO of the following goods, according to the passage, travelled from the WEST along the Silk Road?",
+              "options": [
+                "Silk",
+                "Glassware",
+                "Wool textiles",
+                "Spices",
+                "Tea"
+              ],
+              "answer": [
+                1,
+                2
+              ]
+            },
+            {
+              "number": 15,
+              "statement": "According to the passage, papermaking technology reached the Islamic world following which event?",
+              "options": [
+                "The founding of Samarkand",
+                "The Battle of Talas",
+                "The launch of the Belt and Road Initiative",
+                "The opening of maritime trade routes"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 16,
+              "statement": "Why were horses from Central Asia particularly valued by the Chinese military?",
+              "options": [
+                "They were cheaper than domestic horses",
+                "They were considered superior in breeding to domestic horses",
+                "They could not be bred in China at all",
+                "They were required for religious ceremonies"
+              ],
+              "answer": 1
+            },
+            {
+              "number": 17,
+              "statement": "What does the passage identify as a key factor in the decline of Silk Road trade?",
+              "options": [
+                "A ban on land trade by the Chinese government",
+                "The rise of maritime trade routes around Africa",
+                "The invention of paper",
+                "The founding of Samarkand"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "matching-features",
+          "instructions": "Match each description below with the correct term, A–E.",
+          "matchOptions": [
+            "Samarkand",
+            "Ferdinand von Richthofen",
+            "Buddhism",
+            "The Battle of Talas",
+            "The Belt and Road Initiative"
+          ],
+          "questions": [
+            {
+              "number": 18,
+              "statement": "Coined the term used to describe this network of trade routes.",
+              "answer": "Ferdinand von Richthofen"
+            },
+            {
+              "number": 19,
+              "statement": "A religious belief system that spread along the trade routes.",
+              "answer": "Buddhism"
+            },
+            {
+              "number": 20,
+              "statement": "An oasis city that grew wealthy as a trading hub.",
+              "answer": "Samarkand"
+            },
+            {
+              "number": 21,
+              "statement": "An event associated with the spread of papermaking technology.",
+              "answer": "The Battle of Talas"
+            },
+            {
+              "number": 22,
+              "statement": "A modern programme explicitly inspired by the historical trade network.",
+              "answer": "The Belt and Road Initiative"
+            }
+          ]
+        },
+        {
+          "type": "summary-completion",
+          "instructions": "Complete the summary below. Choose ONE WORD ONLY from the box for each answer.",
+          "wordLimit": 1,
+          "wordBank": [
+            "oases",
+            "maritime",
+            "fragmentation",
+            "monks",
+            "infrastructure"
+          ],
+          "summaryText": "The Silk Road passed through a network of ___23___ such as Samarkand and Bukhara, which grew wealthy as trading hubs. Buddhism spread partly through the travels of merchants and ___24___. Trade eventually declined due to the rise of ___25___ routes around Africa and political ___26___ along the land routes. In 2013, China launched a modern programme of ___27___ investment inspired by the historical network.",
+          "questions": [
+            {
+              "number": 23,
+              "answer": [
+                "oases"
+              ]
+            },
+            {
+              "number": 24,
+              "answer": [
+                "monks"
+              ]
+            },
+            {
+              "number": 25,
+              "answer": [
+                "maritime"
+              ]
+            },
+            {
+              "number": 26,
+              "answer": [
+                "fragmentation"
+              ]
+            },
+            {
+              "number": 27,
+              "answer": [
+                "infrastructure"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-passage-018",
+      "skill": "reading",
+      "testType": "academic",
+      "testGroup": "6",
+      "title": "Permafrost Thaw and the Global Carbon Cycle",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "Permafrost — ground that has remained frozen for at least two consecutive years — underlies approximately a quarter of the exposed land surface in the Northern Hemisphere, storing within it an estimated 1,500 billion tonnes of organic carbon, accumulated over thousands of years from the remains of plants and animals that never fully decomposed in the frozen ground."
+        },
+        {
+          "label": "B",
+          "text": "This figure is significant: researchers estimate permafrost currently holds roughly twice as much carbon as is present in the entire atmosphere. As global temperatures rise, permafrost is thawing at an accelerating rate across the Arctic, and previously frozen organic material has begun to decompose, releasing carbon dioxide and methane into the atmosphere."
+        },
+        {
+          "label": "C",
+          "text": "This creates what climate scientists term a feedback loop: rising global temperatures cause permafrost to thaw, which releases greenhouse gases, which in turn contributes to further warming and further thaw. Because methane traps significantly more heat than carbon dioxide over a short timeframe, the specific mix of gases released — which depends on whether decomposition occurs in oxygen-rich or oxygen-poor conditions — matters considerably for the pace of this feedback."
+        },
+        {
+          "label": "D",
+          "text": "Thawing permafrost also poses direct, immediate problems for Arctic communities and infrastructure. Roads, pipelines, and buildings constructed on permafrost can subside or crack as the previously stable frozen ground beneath them shifts, and some Siberian and Alaskan settlements have already been forced to relocate buildings or entire communities as the ground has become unstable."
+        },
+        {
+          "label": "E",
+          "text": "Much research has historically focused on gradual, top-down permafrost thaw, but scientists have increasingly documented cases of abrupt thaw, in which ground collapses suddenly, sometimes within a matter of months, when ice-rich permafrost melts and the ground surface subsides dramatically, forming distinctive craters and slumping landscapes. Abrupt thaw currently affects a much smaller land area than gradual thaw, but may account for a disproportionately large share of associated carbon release."
+        },
+        {
+          "label": "F",
+          "text": "Despite growing research attention, considerable uncertainty remains around exactly how much carbon will ultimately be released and over what timescale. Current major climate models are criticised by some permafrost specialists for inadequately representing abrupt thaw processes, meaning that overall projections of future permafrost-related emissions may be systematically too conservative."
+        }
+      ],
+      "questionGroups": [
+        {
+          "type": "yes-no-not-given",
+          "instructions": "Do the following statements agree with the claims of the writer?",
+          "questions": [
+            {
+              "number": 28,
+              "statement": "Permafrost stores less carbon than is currently present in the atmosphere.",
+              "answer": "NO"
+            },
+            {
+              "number": 29,
+              "statement": "The specific balance of gases released during permafrost thaw affects how quickly the feedback loop accelerates.",
+              "answer": "YES"
+            },
+            {
+              "number": 30,
+              "statement": "Some communities have had to relocate buildings due to thawing permafrost.",
+              "answer": "YES"
+            },
+            {
+              "number": 31,
+              "statement": "Abrupt thaw currently affects a larger land area than gradual thaw.",
+              "answer": "NO"
+            },
+            {
+              "number": 32,
+              "statement": "All current climate models account fully for abrupt permafrost thaw.",
+              "answer": "NO"
+            }
+          ]
+        },
+        {
+          "type": "table-completion",
+          "instructions": "Complete the table below. Choose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer.",
+          "wordLimit": 2,
+          "table": {
+            "headers": [
+              "Aspect",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Permafrost carbon stock",
+                {
+                  "qnum": 33,
+                  "before": "Approximately ",
+                  "after": " billion tonnes"
+                }
+              ],
+              [
+                "Extent",
+                {
+                  "qnum": 34,
+                  "before": "Underlies about a ",
+                  "after": " of Northern Hemisphere land"
+                }
+              ],
+              [
+                "Abrupt thaw",
+                {
+                  "qnum": 35,
+                  "before": "Ground can collapse within a matter of "
+                }
+              ],
+              [
+                "Climate models",
+                {
+                  "qnum": 36,
+                  "before": "Criticised for inadequately representing ",
+                  "after": " thaw"
+                }
+              ]
+            ]
+          },
+          "questions": [
+            {
+              "number": 33,
+              "answer": [
+                "1,500",
+                "1500"
+              ]
+            },
+            {
+              "number": 34,
+              "answer": [
+                "quarter"
+              ]
+            },
+            {
+              "number": 35,
+              "answer": [
+                "months"
+              ]
+            },
+            {
+              "number": 36,
+              "answer": [
+                "abrupt"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "matching-information",
+          "instructions": "Which paragraph contains the following information? Write the correct letter, A–F.",
+          "matchOptions": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "questions": [
+            {
+              "number": 37,
+              "statement": "a comparison between the amount of carbon stored in permafrost and in the atmosphere",
+              "answer": "B"
+            },
+            {
+              "number": 38,
+              "statement": "an explanation of how rising temperatures and gas release reinforce each other",
+              "answer": "C"
+            },
+            {
+              "number": 39,
+              "statement": "a description of sudden, localised ground collapse",
+              "answer": "E"
+            },
+            {
+              "number": 40,
+              "statement": "a criticism of how current models handle a particular type of thaw",
+              "answer": "F"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
